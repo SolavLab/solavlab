@@ -22,6 +22,16 @@
 # Order inside a year = order on the page.
 # ─────────────────────────────────────────────────────────────────────────────
 
+# ── 2026 ──
+
+- year: 2026
+  type: preprint
+  title: "An Adjustable Offloading Ankle-Foot Orthosis: Design and Proof-of-Concept Biomechanical Verification"
+  authors: "Saffuri E., Jordan L., Solav D."
+  venue: "bioRxiv"
+  doi: "10.64898/2026.05.17.725313"
+  image: "/assets/img/research/card-novel-ankle-foot-orthosis.jpg"
+
 # ── 2025 ──
 
 - year: 2025
@@ -50,6 +60,7 @@
   venue: "International Journal of Engineering Science"
   details: "206, 104163"
   doi: "10.1016/j.ijengsci.2024.104163"
+  preprint: "https://doi.org/10.31224/4690"
   image: "/assets/img/publications/parameter-certainty-quantification-in-nonlinear-models.jpg"
 
 - year: 2025
@@ -59,6 +70,7 @@
   venue: "Journal of the Mechanics and Physics of Solids"
   details: "208, 106417"
   doi: "10.1016/j.jmps.2025.106417"
+  preprint: "https://doi.org/10.31224/4872"
   image: "/assets/img/publications/indentation-based-anisotropic-material-parameter-identifiability.png"
 
 - year: 2026
@@ -80,6 +92,7 @@
   venue: "Journal of the Mechanical Behavior of Biomedical Materials"
   details: "155, 106572"
   doi: "10.1016/j.jmbbm.2024.106572"
+  preprint: "https://doi.org/10.2139/ssrn.4713097"
   image: "/assets/img/publications/identification-of-constitutive-materials-of-bi.jpg"
 
 - year: 2024
@@ -89,6 +102,7 @@
   venue: "Journal of NeuroEngineering and Rehabilitation"
   details: "21(1), 67"
   doi: "10.1186/s12984-024-01333-w"
+  preprint: "https://doi.org/10.31224/3376"
   image: "/assets/img/publications/walking-with-unilateral-ankle-foot-unloading.jpg"
 
 - year: 2024
@@ -172,6 +186,7 @@
   venue: "IEEE Transactions on Biomedical Engineering"
   details: "66(10), 2740–2752"
   doi: "10.1109/TBME.2019.2895283"
+  preprint: "https://doi.org/10.31224/osf.io/rejcn"
   image: "/assets/img/publications/a-framework-for-measuring-the-time.jpg"
 
 # ── 2018 ──
@@ -183,6 +198,7 @@
   venue: "IEEE Access"
   details: "6, 30520–30535"
   doi: "10.1109/ACCESS.2018.2843725"
+  preprint: "https://doi.org/10.31224/osf.io/fv47e"
   code: "https://github.com/MultiDIC/MultiDIC"
   image: "/assets/img/publications/multidic-an-open-source-toolbox-for.jpg"
 
@@ -195,6 +211,7 @@
   venue: "Journal of Biomechanics"
   details: "62, 110–116"
   doi: "10.1016/j.jbiomech.2017.01.026"
+  preprint: "https://doi.org/10.31224/osf.io/yfqxr"
   image: "/assets/img/publications/bone-orientation-and-position-estimation-errors.png"
 
 - year: 2017
@@ -204,6 +221,7 @@
   venue: "Annals of Biomedical Engineering"
   details: "45(8), 1963–1973"
   doi: "10.1007/s10439-017-1840-6"
+  preprint: "https://doi.org/10.31224/osf.io/umkz8"
   image: "/assets/img/publications/chest-wall-kinematics-using-triangular-cosserat.jpg"
 
 # ── 2016 ──
@@ -215,6 +233,7 @@
   venue: "International Journal of Engineering Science"
   details: "103, 11–18"
   doi: "10.1016/j.ijengsci.2016.02.001"
+  preprint: "https://doi.org/10.31224/osf.io/397zy"
   image: "/assets/img/publications/unphysical-properties-of-the-rotation-tensor.png"
 
 - year: 2016
@@ -234,6 +253,7 @@
   venue: "Annals of Biomedical Engineering"
   details: "44(4), 1181–1190"
   doi: "10.1007/s10439-015-1384-6"
+  preprint: "https://doi.org/10.31224/osf.io/b3az4"
   image: "/assets/img/publications/bone-pose-estimation-in-the-presence.jpg"
 
 # ── 2014 ──
@@ -245,4 +265,5 @@
   venue: "International Journal of Engineering Science"
   details: "85, 1–9"
   doi: "10.1016/j.ijengsci.2014.07.001"
+  preprint: "https://doi.org/10.31224/osf.io/spge4"
   image: "/assets/img/publications/soft-tissue-artifact-compensation-using-triangular.jpg"

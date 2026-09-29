@@ -6,10 +6,7 @@ eyebrow: Publications
   Full paper list from _data/publications.yml as one list, newest year first.
   Order within a year follows the order in the YAML file.
 {% endcomment %}
-<p class="pubs-intro">
-  Read all papers on
-  <a href="{{ site.social.scholar }}" target="_blank" rel="noopener">Google Scholar</a>.
-</p>
+<a class="scholar-cta" href="{{ site.social.scholar }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.84 3.61A7.02 7.02 0 0 1 12 10a7.02 7.02 0 0 1 7.16 3.11L24 9.5 12 0z"/></svg><span>Find all papers on Google Scholar</span></a>
 
 <ul class="pub-list">
 {% assign years = site.data.publications | map: "year" | uniq | sort | reverse %}
