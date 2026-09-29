@@ -2,11 +2,11 @@
 layout: post
 title: "Open positions for postdocs and graduate students"
 date: 2021-11-03 15:03:51 +0200
-image: "https://static.wixstatic.com/media/ad420a_50fc9c2b49384f57b3d941b0e989fab6~mv2.jpg"
+image: "/assets/img/news/open-positions.jpg"
 excerpt: "We are currently recruiting postdocs and graduate students!"
 ---
 
-![](https://static.wixstatic.com/media/ad420a_50fc9c2b49384f57b3d941b0e989fab6~mv2.jpg)
+![]({{ '/assets/img/news/open-positions.jpg' | relative_url }})
 
 > We are currently recruiting postdocs and graduate students!
 

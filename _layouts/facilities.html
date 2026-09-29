@@ -12,7 +12,7 @@ layout: default
   <div class="facilities-grid">
     {% for f in page.facilities %}
     <div class="facility-card">
-      <img class="facility-photo" src="{{ f.image }}" alt="{{ f.brand | default: f.title }}" loading="lazy" />
+      <img class="facility-photo" src="{{ f.image | relative_url }}" alt="{{ f.brand | default: f.title }}" loading="lazy" />
       <div class="facility-body">
         <h2 class="facility-title">{{ f.title }}{% if f.at_brml %} <span class="facility-at">(at <a href="https://www.brml-technion.com/" target="_blank" rel="noopener">BRML</a>)</span>{% endif %}</h2>
         <p class="facility-brand">{% if f.brand_url %}<a href="{{ f.brand_url }}" target="_blank" rel="noopener">{{ f.brand }}</a>{% else %}{{ f.brand }}{% endif %}</p>

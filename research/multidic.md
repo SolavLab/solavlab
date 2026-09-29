@@ -11,11 +11,11 @@ redirect_from: /multidic
 
 <div class="topic-links">
   <a class="topic-link" href="https://github.com/MultiDIC/MultiDIC" target="_blank" rel="noopener">
-    <img src="https://static.wixstatic.com/media/152d97_fa161c2b389a4c9fac7b8bc87532a0fb~mv2.png" alt="">
+    <img src="{{ '/assets/img/research/multidic.png' | relative_url }}" alt="">
     <span>Visit the MultiDIC GitHub repository</span>
   </a>
   <a class="topic-link" href="https://ieeexplore.ieee.org/document/8371235/" target="_blank" rel="noopener">
-    <img src="https://static.wixstatic.com/media/152d97_224a1d06ee834b4c969c1f57613487c3~mv2.png" alt="">
+    <img src="{{ '/assets/img/research/multidic-2.png' | relative_url }}" alt="">
     <span>Read the paper</span>
   </a>
 </div>

@@ -16,7 +16,7 @@
 <nav>
   <div class="nav-inner">
     <a class="nav-logo" href="{{ '/' | relative_url }}">
-      <img src="https://static.wixstatic.com/media/152d97_67278bf6da024e2d8a110ad0fd0b8076~mv2.png/v1/fill/w_508,h_312,al_c,q_90/logo.png" alt="SoBIG" />
+      <img src="{{ '/assets/img/site/sobig-logo.png' | relative_url }}" alt="SoBIG" />
     </a>
     <button class="nav-toggle" aria-label="Toggle menu" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')">
       <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
@@ -103,10 +103,10 @@
   <p>&copy; 2020{% assign _year = site.time | date: "%Y" %}{% if _year != "2020" %}&ndash;{{ _year }}{% endif %} Solav Biomechanical Interfaces Group</p>
   <div class="footer-logos">
     <a href="https://technion.ac.il" target="_blank" rel="noopener">
-      <img src="https://static.wixstatic.com/media/152d97_f523638a57bb4192808ed51a487b6513~mv2.png/v1/fill/w_81,h_92,al_c,q_85,enc_avif,quality_auto/Technion%20IIT%20English%203-lines%20centered%20reversed.png" alt="Technion IIT" />
+      <img src="{{ '/assets/img/site/technion-logo.png' | relative_url }}" alt="Technion IIT" />
     </a>
     <a href="https://meeng.technion.ac.il/" target="_blank" rel="noopener">
-      <img src="https://static.wixstatic.com/media/152d97_0e8e6a1612c74f4c96524cbb185c7b64~mv2.png/v1/fill/w_97,h_92,al_c,enc_avif,quality_auto/%D7%94%D7%A4%D7%A7%D7%95%D7%9C%D7%98%D7%94-%D7%A9%D7%A7%D7%95%D7%A3%20%D7%9E%D7%A2%D7%95%D7%93%D7%9B%D7%9F_edited.png" alt="Faculty of Mechanical Engineering" />
+      <img src="{{ '/assets/img/site/meeng-logo.png' | relative_url }}" alt="Faculty of Mechanical Engineering" />
     </a>
   </div>
 </footer>

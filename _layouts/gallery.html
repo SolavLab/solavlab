@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-{% assign wix = "https://static.wixstatic.com/media/" %}
 <div class="page-hero">
   <div class="page-hero-inner">
     {% if page.gallery_section != "landing" %}<p class="hero-eyebrow"><a href="{{ '/gallery/' | relative_url }}">Gallery</a></p>{% endif %}
@@ -15,17 +14,17 @@ layout: default
 
 {% when "landing" %}
   <div class="gallery-sections">
-    <a class="gallery-section-card" href="{{ '/gallery/photos/' | relative_url }}" style="background-image:url('https://static.wixstatic.com/media/nsplsh_6156357872704230627751~mv2_d_4751_3002_s_4_2.jpg/v1/fill/w_900,h_600,al_c,q_85/photos.jpg');"><h2>Photos</h2></a>
-    <a class="gallery-section-card" href="{{ '/gallery/links/' | relative_url }}" style="background-image:url('https://static.wixstatic.com/media/11062b_375f4f9ec7954c9884524a8488191998~mv2.jpg/v1/fill/w_900,h_600,al_c,q_85/links.jpg');"><h2>Links</h2></a>
-    <a class="gallery-section-card" href="{{ '/gallery/press/' | relative_url }}" style="background-image:url('https://static.wixstatic.com/media/11062b_4c72230019af4f55bfb3a0ce0bc8ae43~mv2.jpg/v1/fill/w_900,h_600,al_c,q_85/press.jpg');"><h2>Press</h2></a>
+    <a class="gallery-section-card" href="{{ '/gallery/photos/' | relative_url }}" style="background-image:url('{{ '/assets/img/gallery/tile-photos.jpg' | relative_url }}');"><h2>Photos</h2></a>
+    <a class="gallery-section-card" href="{{ '/gallery/links/' | relative_url }}" style="background-image:url('{{ '/assets/img/gallery/tile-links.jpg' | relative_url }}');"><h2>Links</h2></a>
+    <a class="gallery-section-card" href="{{ '/gallery/press/' | relative_url }}" style="background-image:url('{{ '/assets/img/gallery/tile-press.jpg' | relative_url }}');"><h2>Press</h2></a>
   </div>
 
 {% when "photos" %}
   <div class="photo-masonry">
     {% for p in page.photos %}
     <figure class="photo-item">
-      <a href="{{ wix }}{{ p.id }}" target="_blank" rel="noopener">
-        <img src="{{ wix }}{{ p.id }}/v1/fit/w_800,h_800,q_90,enc_avif,quality_auto/{{ p.id }}"
+      <a href="{{ p.file | relative_url }}" target="_blank" rel="noopener">
+        <img src="{{ p.file | relative_url }}"
              width="{{ p.width }}" height="{{ p.height }}"
              alt="{{ p.caption | default: 'SoBIG lab photo' }}" loading="lazy" />
       </a>
@@ -52,7 +51,7 @@ layout: default
   <div class="press-grid">
     {% for item in page.press %}
     <a class="press-card" href="{{ item.post | relative_url }}">
-      <img src="{{ item.image }}" alt="{{ item.title }}" loading="lazy" />
+      <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" loading="lazy" />
       <div class="press-card-body">
         <p class="press-card-title">{{ item.title }}</p>
         {% if item.date %}<p class="press-card-date">{{ item.date | date: "%b %-d, %Y" }}</p>{% endif %}

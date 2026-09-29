@@ -31,7 +31,7 @@
   venue: "Proceedings of the ACM Symposium on Computational Fabrication (SCF '25)"
   details: "1–15"
   doi: "10.1145/3745778.3766663"
-  image: "https://static.wixstatic.com/media/152d97_3708e17daf8c413d91c1304a5a2afeaa~mv2.jpg"
+  image: "/assets/img/publications/multilayered-spacer-midsoles-a-novel-method.jpg"
 
 - year: 2025
   type: journal
@@ -41,7 +41,7 @@
   details: "212, 105534"
   doi: "10.1016/j.mechmat.2025.105534"
   preprint: "https://doi.org/10.31224/4772"
-  image: "https://static.wixstatic.com/media/152d97_e61fd8a3e8e84b3bbe80c126c71bb177~mv2.jpg"
+  image: "/assets/img/publications/soft-orthotropic-hyperelastic-lattice-structures-numerical.jpg"
 
 - year: 2025
   type: journal
@@ -50,7 +50,7 @@
   venue: "International Journal of Engineering Science"
   details: "206, 104163"
   doi: "10.1016/j.ijengsci.2024.104163"
-  image: "https://static.wixstatic.com/media/152d97_01d4c2aa42964ec8877f767f8e32a450~mv2.jpg"
+  image: "/assets/img/publications/parameter-certainty-quantification-in-nonlinear-models.jpg"
 
 - year: 2025
   type: journal
@@ -59,7 +59,7 @@
   venue: "Journal of the Mechanics and Physics of Solids"
   details: "208, 106417"
   doi: "10.1016/j.jmps.2025.106417"
-  image: "https://static.wixstatic.com/media/152d97_d752a67d5dbc439c86081ec776c4e01d~mv2.png"
+  image: "/assets/img/publications/indentation-based-anisotropic-material-parameter-identifiability.png"
 
 - year: 2026
   type: journal
@@ -69,7 +69,7 @@
   details: "11, 7625–7638"
   doi: "10.1007/s40964-026-01759-9"
   preprint: "https://doi.org/10.31224/4689"
-  image: "https://static.wixstatic.com/media/152d97_cad2418f2f4544669de3ef75a5e23e76~mv2.png"
+  image: "/assets/img/publications/characterization-of-the-mechanical-properties-of.jpg"
 
 # ── 2024 ──
 
@@ -80,7 +80,7 @@
   venue: "Journal of the Mechanical Behavior of Biomedical Materials"
   details: "155, 106572"
   doi: "10.1016/j.jmbbm.2024.106572"
-  image: "https://static.wixstatic.com/media/152d97_b94dfcc52b3d47d7902595ac5666c4cc~mv2.jpg"
+  image: "/assets/img/publications/identification-of-constitutive-materials-of-bi.jpg"
 
 - year: 2024
   type: journal
@@ -89,7 +89,7 @@
   venue: "Journal of NeuroEngineering and Rehabilitation"
   details: "21(1), 67"
   doi: "10.1186/s12984-024-01333-w"
-  image: "https://static.wixstatic.com/media/152d97_1e407de273cd435f8db74346c494f64d~mv2.jpg"
+  image: "/assets/img/publications/walking-with-unilateral-ankle-foot-unloading.jpg"
 
 - year: 2024
   type: conference
@@ -98,7 +98,7 @@
   venue: "2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob)"
   details: "1709–1714"
   doi: "10.1109/BioRob60516.2024.10719761"
-  image: "https://static.wixstatic.com/media/152d97_780d27de30644c69b71232054da3e3d2~mv2.jpg"
+  image: "/assets/img/publications/impact-of-sole-designs-of-offloading.jpg"
 
 - year: 2024
   type: journal
@@ -107,7 +107,7 @@
   venue: "Virtual and Physical Prototyping"
   details: "19(1), e2336151"
   doi: "10.1080/17452759.2024.2336151"
-  image: "https://static.wixstatic.com/media/152d97_243b1eabf4f5478f91f47b454e3d8921~mv2.jpg"
+  image: "/assets/img/publications/custom-orthotic-insoles-with-gradual-variable.jpg"
 
 # ── 2023 ──
 
@@ -119,7 +119,7 @@
   details: "140, 105708"
   doi: "10.1016/j.jmbbm.2023.105708"
   preprint: "https://doi.org/10.31224/2697"
-  image: "https://static.wixstatic.com/media/152d97_6c6b21c444fe4ebe98224be6373153e5~mv2.jpg"
+  image: "/assets/img/publications/identifiability-of-soft-tissue-constitutive-parameters.jpg"
 
 # ── 2022 ──
 
@@ -131,7 +131,7 @@
   details: "7(74), 4279"
   doi: "10.21105/joss.04279"
   code: "https://github.com/SolavLab/DuoDIC"
-  image: "https://static.wixstatic.com/media/152d97_c3d48aa5d8e340bd9922846952efeec1~mv2.jpg"
+  image: "/assets/img/publications/duodic-3d-digital-image-correlation-in.jpg"
 
 # ── 2021 ──
 
@@ -142,7 +142,7 @@
   venue: "IEEE Transactions on Neural Systems and Rehabilitation Engineering"
   details: "29, 41–51"
   doi: "10.1109/TNSRE.2020.3033474"
-  image: "https://static.wixstatic.com/media/152d97_1d6f3c009d7f4e5bb3428ccdc09111d1~mv2.gif"
+  image: "/assets/img/publications/an-ankle-foot-prosthesis-for-rock.gif"
 
 - year: 2021
   type: patent
@@ -150,7 +150,7 @@
   authors: "Herr H.M., Moerman K.M., Solav D., Ranger B.J., Steinmeyer R., Ku S.L., Dagdeviren C., Carney M., et al."
   venue: "U.S. Patent Application No. 16/969,142 (US 2021/0145608 A1)"
   link: "https://patents.google.com/patent/US20210145608A1/en"
-  image: "https://static.wixstatic.com/media/152d97_877861551cbe4491a9c43b228be921a3~mv2.png"
+  image: "/assets/img/publications/quantitative-design-and-manufacturing-framework-for.jpg"
 
 # ── 2020 ──
 
@@ -161,7 +161,7 @@
   venue: "Nature Biomedical Engineering"
   details: "4, 954–972"
   doi: "10.1038/s41551-020-00612-w"
-  image: "https://static.wixstatic.com/media/152d97_d7d6b955bc1a4ca4ae7f33a3ee798cd2~mv2.png"
+  image: "/assets/img/publications/decoding-of-facial-strains-via-conformable.jpg"
 
 # ── 2019 ──
 
@@ -172,7 +172,7 @@
   venue: "IEEE Transactions on Biomedical Engineering"
   details: "66(10), 2740–2752"
   doi: "10.1109/TBME.2019.2895283"
-  image: "https://static.wixstatic.com/media/152d97_a0b5cb64751c4ecc8d9b733d0e7edb3b~mv2.jpeg"
+  image: "/assets/img/publications/a-framework-for-measuring-the-time.jpg"
 
 # ── 2018 ──
 
@@ -184,7 +184,7 @@
   details: "6, 30520–30535"
   doi: "10.1109/ACCESS.2018.2843725"
   code: "https://github.com/MultiDIC/MultiDIC"
-  image: "https://static.wixstatic.com/media/152d97_40a572dee6064a5eb52aa7efb8b9ef74~mv2.png"
+  image: "/assets/img/publications/multidic-an-open-source-toolbox-for.jpg"
 
 # ── 2017 ──
 
@@ -195,7 +195,7 @@
   venue: "Journal of Biomechanics"
   details: "62, 110–116"
   doi: "10.1016/j.jbiomech.2017.01.026"
-  image: "https://static.wixstatic.com/media/152d97_6598bc63f1d04c3ca1ee53dcd3b2f424~mv2.png"
+  image: "/assets/img/publications/bone-orientation-and-position-estimation-errors.png"
 
 - year: 2017
   type: journal
@@ -204,7 +204,7 @@
   venue: "Annals of Biomedical Engineering"
   details: "45(8), 1963–1973"
   doi: "10.1007/s10439-017-1840-6"
-  image: "https://static.wixstatic.com/media/152d97_f95cc9b1650d456384df9370b4ba3076~mv2.png"
+  image: "/assets/img/publications/chest-wall-kinematics-using-triangular-cosserat.jpg"
 
 # ── 2016 ──
 
@@ -215,7 +215,7 @@
   venue: "International Journal of Engineering Science"
   details: "103, 11–18"
   doi: "10.1016/j.ijengsci.2016.02.001"
-  image: "https://static.wixstatic.com/media/152d97_3bad2fe836434dc8af563cf0fa0fe302~mv2.png"
+  image: "/assets/img/publications/unphysical-properties-of-the-rotation-tensor.png"
 
 - year: 2016
   type: preprint
@@ -223,7 +223,7 @@
   authors: "Moerman K., Solav D., Sengeh D., Herr H."
   venue: "engrXiv"
   doi: "10.31224/osf.io/g8h9n"
-  image: "https://static.wixstatic.com/media/152d97_01cf99f5e1cb49788ebd7be159ff194f~mv2.jpg"
+  image: "/assets/img/publications/automated-and-data-driven-computational-design.jpg"
 
 # ── 2015 ──
 
@@ -234,7 +234,7 @@
   venue: "Annals of Biomedical Engineering"
   details: "44(4), 1181–1190"
   doi: "10.1007/s10439-015-1384-6"
-  image: "https://static.wixstatic.com/media/152d97_b3a5ec491cda4021ae6b94d1f44a3996~mv2.png"
+  image: "/assets/img/publications/bone-pose-estimation-in-the-presence.jpg"
 
 # ── 2014 ──
 
@@ -245,4 +245,4 @@
   venue: "International Journal of Engineering Science"
   details: "85, 1–9"
   doi: "10.1016/j.ijengsci.2014.07.001"
-  image: "https://static.wixstatic.com/media/152d97_6f33189f371c4e6a9e969bc027e49fcf~mv2.jpg"
+  image: "/assets/img/publications/soft-tissue-artifact-compensation-using-triangular.jpg"

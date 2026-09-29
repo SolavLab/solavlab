@@ -13,11 +13,11 @@ redirect_from: /novel-ankle-foot-orthosis
 <p>The anticipated benefits of this device include mitigating adverse effects associated with prolonged leg immobilization, such as muscle atrophy and bone density reduction in the affected leg, and secondary injuries due to overstraining the contralateral leg and upper body. The device is also expected to improve and shorten recovery through precise adjustment of partial loading.</p>
 
 <figure class="topic-figure">
-  <img src="https://static.wixstatic.com/media/152d97_a44259ca3b5d451e860f649cbe8241bd~mv2.jpg" alt="Design flowchart of the adjustable offloading AFO" loading="lazy">
+  <img src="{{ '/assets/img/news/new-orthosis-design-for-ankle-foot-offloading.jpg' | relative_url }}" alt="Design flowchart of the adjustable offloading AFO" loading="lazy">
 </figure>
 
 <figure class="topic-figure">
-  <video class="topic-video" src="https://video.wixstatic.com/video/152d97_1567fc8c1f5946d9a935a47bc26a1d34/1080p/mp4/file.mp4#t=1" controls preload="metadata" playsinline></video>
+  <video class="topic-video" src="{{ '/assets/img/research/afo-video.mp4' | relative_url }}" controls preload="metadata" playsinline></video>
 </figure>
 
 <h2 class="topic-subhead">Publication</h2>

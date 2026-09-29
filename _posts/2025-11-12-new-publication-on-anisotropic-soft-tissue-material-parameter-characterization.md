@@ -2,10 +2,10 @@
 layout: post
 title: "New publication on anisotropic soft tissue material parameter characterization"
 date: 2025-11-12 12:07:20 +0200
-image: "https://static.wixstatic.com/media/152d97_e6fd24e92acf4200844734e0b1f5c409~mv2.jpg"
+image: "/assets/img/news/new-publication-on-anisotropic-soft-tissue-material-parameter-characterization.jpg"
 excerpt: "Check out Amit Ashkenazi's new paper in Journal of the Mechanics and Physics of Solids on Indentation-based identifiability of soft tissue anisotropic hyperelastic material parameters. In this work, we investigate how simultaneous measurement of indentation force-depth and full-field surface deformation affect the identifiability of anisotropic constitutive parameters, and evaluate the results experimentally using a transversely isotropic composite soft tissue phantom."
 ---
 
 Check out Amit Ashkenazi's [new paper](https://doi.org/10.1016/j.jmps.2025.106417) in *Journal of the Mechanics and Physics of Solids* on Indentation-based identifiability of soft tissue anisotropic hyperelastic material parameters. In this work, we investigate how simultaneous measurement of indentation force-depth and full-field surface deformation affect the identifiability of anisotropic constitutive parameters, and evaluate the results experimentally using a transversely isotropic composite soft tissue phantom.
 
-![](https://static.wixstatic.com/media/152d97_e6fd24e92acf4200844734e0b1f5c409~mv2.jpg)
+![]({{ '/assets/img/news/new-publication-on-anisotropic-soft-tissue-material-parameter-characterization.jpg' | relative_url }})

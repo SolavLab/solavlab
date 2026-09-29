@@ -15,7 +15,7 @@
   description: "MATLAB Toolbox for Multi-View 3D Digital Image Correlation"
   github: "https://github.com/MultiDIC/MultiDIC"
   paper: "https://doi.org/10.1109/ACCESS.2018.2843725"
-  image: "https://static.wixstatic.com/media/152d97_5a3ed6b345f74f7c904bffadffcdf730~mv2.png"
+  image: "/assets/img/publications/code-multidic.jpg"
   image_link: "https://www.youtube.com/watch?v=DC9ifDJ7lvo"
   image_label: "Watch the video"
 
@@ -23,7 +23,7 @@
   description: "MATLAB Toolbox for 3D Digital Image Correlation"
   github: "https://github.com/SolavLab/DuoDIC"
   paper: "https://doi.org/10.21105/joss.04279"
-  image: "https://static.wixstatic.com/media/152d97_4a518cd786e64e3ebd137f9bc4a15417~mv2.jpg"
+  image: "/assets/img/publications/code-duodic.jpg"
   image_link: "https://github.com/SolavLab/DuoDIC#application-highlights"
   image_label: "Application highlights"
 
@@ -31,10 +31,10 @@
   description: "The Geometry and Image-Based Bioengineering add-On"
   github: "https://github.com/gibbonCode/GIBBON"
   paper: "https://doi.org/10.21105/joss.00506"
-  image: "https://static.wixstatic.com/media/152d97_53296494b2d44fa5aaf836c8992cadc8~mv2.jpg"
+  image: "/assets/img/publications/code-gibbon.jpg"
 
 - name: "indentify"
   description: "Identifiability of (hyperelastic) material parameters from indentation test"
   github: "https://github.com/SolavLab/indentify"
   paper: "https://doi.org/10.1016/j.jmbbm.2023.105708"
-  image: "https://static.wixstatic.com/media/152d97_6fc81473bd374182bec438c722735839~mv2.jpg"
+  image: "/assets/img/publications/code-indentify.jpg"

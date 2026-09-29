@@ -4,11 +4,11 @@ layout: publications-base
 {% comment %} Landing page — mirrors the Wix /publications page (image tiles for the sub-pages). {% endcomment %}
 <div class="pubs-tiles">
   <a class="pubs-tile" href="{{ '/publications/journal-papers/' | relative_url }}"
-     style="background-image: url('https://static.wixstatic.com/media/152d97_0ccae36c1e2740078bd9a2524cb44caf~mv2.png/v1/fill/w_1000,h_560,al_c,q_85/journals.png');">
+     style="background-image: url('{{ '/assets/img/publications/tile-papers.jpg' | relative_url }}');">
     <span>Journal and conference papers</span>
   </a>
   <a class="pubs-tile" href="{{ '/publications/code/' | relative_url }}"
-     style="background-image: url('https://static.wixstatic.com/media/11062b_7f58b671a3074769aefce731bb7fceb2~mv2_d_5760_3840_s_4_2.jpg/v1/fill/w_1000,h_560,al_c,q_85/code.jpg');">
+     style="background-image: url('{{ '/assets/img/publications/tile-code.jpg' | relative_url }}');">
     <span>Open-source codes</span>
   </a>
 </div>
