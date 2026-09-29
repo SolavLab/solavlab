@@ -37,7 +37,7 @@ Edit `_data/publications.yml` (coming soon).
 ### Images and videos
 All media live in `assets/img/`, one folder per section:
 `team/`, `research/`, `news/`, `publications/`, `facilities/`, `gallery/`, `site/` (logos, hero video).
-Refer to a file by its path, e.g. `photo: "/assets/img/team/zohar-oddes.jpg"` ? the layouts add the
+Refer to a file by its path, e.g. `photo: "/assets/img/team/zohar-oddes.jpg"`; the layouts add the
 `/solavlab` prefix automatically. Keep photos under ~1600px wide / 500 KB, lowercase-dash file names,
 and videos well under GitHub's 100 MB file limit.
 
@@ -46,6 +46,6 @@ Push to `main` → the GitHub Actions workflow (`.github/workflows/pages.yml`) b
 → live at https://solavlab.github.io/solavlab/ within a couple of minutes.
 
 ### Moving solavlab.com over (when the site is ready)
-2. Add a `CNAME` file containing `solavlab.com`.
-3. In `_config.yml`: `url: "https://www.solavlab.com"`, `baseurl: ""`.
-4. Set the custom domain in the repo's Settings → Pages, then update DNS at the registrar.
+1. Add a `CNAME` file containing `solavlab.com`.
+2. In `_config.yml`: `url: "https://www.solavlab.com"`, `baseurl: ""`.
+3. Set the custom domain in the repo's Settings → Pages, then update DNS at the registrar.
