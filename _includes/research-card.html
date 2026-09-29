@@ -1,9 +1,9 @@
-{% comment %} One research project card (pass p=<entry from _data/research.yml>). {% endcomment %}
+{% comment %} One research project card (pass p=<entry from _data/research.yml>; add hide_authors=true to show the title only). {% endcomment %}
 <a class="research-card" href="{{ include.p.url | relative_url }}">
   <div class="research-card-img" style="background-image: url('{{ include.p.image | relative_url }}');"></div>
   <div class="research-card-body">
     <h3 class="research-card-title">{{ include.p.title }}</h3>
-    <p class="research-card-desc">{{ include.p.authors }}</p>
+    {% unless include.hide_authors %}<p class="research-card-desc">{{ include.p.authors }}</p>{% endunless %}
     <span class="research-card-link">Learn more →</span>
   </div>
 </a>

@@ -34,7 +34,7 @@ layout: default
     </div>
     <div class="research-grid home-research-grid">
       {% assign highlights = site.data.research | where: "home", true %}
-      {% for p in highlights %}{% include research-card.html p=p %}{% endfor %}
+      {% for p in highlights %}{% include research-card.html p=p hide_authors=true %}{% endfor %}
     </div>
   </div>
 </div>
