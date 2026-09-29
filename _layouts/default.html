@@ -64,8 +64,8 @@
 
 {{ content }}
 
-<!-- ── CONTACT STRIP ── -->
-<div class="contact-strip">
+<!-- ── FOOTER (contact + copyright + logos) ── -->
+<footer class="contact-strip">
   <div class="contact-inner">
     <div class="contact-block">
       <h3>Location</h3>
@@ -96,18 +96,16 @@
       </div>
     </div>
   </div>
-</div>
-
-<!-- ── FOOTER ── -->
-<footer>
-  <p>&copy; 2020{% assign _year = site.time | date: "%Y" %}{% if _year != "2020" %}&ndash;{{ _year }}{% endif %} Solav Biomechanical Interfaces Group</p>
-  <div class="footer-logos">
-    <a href="https://technion.ac.il" target="_blank" rel="noopener">
-      <img src="{{ '/assets/img/site/technion-logo.png' | relative_url }}" alt="Technion IIT" />
-    </a>
-    <a href="https://meeng.technion.ac.il/" target="_blank" rel="noopener">
-      <img src="{{ '/assets/img/site/meeng-logo.png' | relative_url }}" alt="Faculty of Mechanical Engineering" />
-    </a>
+  <div class="footer-bottom">
+    <p>&copy; 2020{% assign _year = site.time | date: "%Y" %}{% if _year != "2020" %}&ndash;{{ _year }}{% endif %} Solav Biomechanical Interfaces Group</p>
+    <div class="footer-logos">
+      <a href="https://technion.ac.il" target="_blank" rel="noopener">
+        <img src="{{ '/assets/img/site/technion-logo.png' | relative_url }}" alt="Technion IIT" />
+      </a>
+      <a href="https://meeng.technion.ac.il/" target="_blank" rel="noopener">
+        <img src="{{ '/assets/img/site/meeng-logo.png' | relative_url }}" alt="Faculty of Mechanical Engineering" />
+      </a>
+    </div>
   </div>
 </footer>
 

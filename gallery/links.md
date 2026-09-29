@@ -9,11 +9,12 @@ intro: Below are some links we find helpful, inspiring, or funny...
 link_groups:
   - heading: Technion
     links:
-      - title: Computer Oriented Manufacturing Lab
-        # url: old site tcom.net.technion.ac.il is gone (410) — add the new address here if there is one
-        note: (3D printing, scanning, cutting and milling services)
+      - title: The Center of Research Facilities, Mechanical Engineering
+        url: "https://crf.web.technion.ac.il/"
       - title: Technion Additive Manufacturing Center (TAMC)
         url: "https://tamc.technion.ac.il/"
+      - title: Technion Research Infrastructure
+        url: "https://ri.technion.ac.il/"
 
   - heading: Associations and Conferences
     links:

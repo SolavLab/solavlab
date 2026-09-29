@@ -4,9 +4,29 @@ title: Photos
 permalink: /gallery/photos/
 redirect_from: /photos
 gallery_section: photos
-# All 24 images of the Wix Pro Gallery on https://www.solavlab.com/photos, in the Wix order.
+# Newest first. Add a photo: put it in assets/img/gallery/ and copy one block below.
 # `file` is the image in assets/img/gallery/; width/height are the original pixel size.
 photos:
+  - file: "/assets/img/gallery/2026-lab-meeting.jpg"
+    width: 1600
+    height: 901
+    caption: "Lab meeting (2026)"
+  - file: "/assets/img/gallery/2026-poster-session.jpg"
+    width: 1600
+    height: 901
+    caption: "Poster session (2026)"
+  - file: "/assets/img/gallery/2026-wcb-vancouver-group.jpg"
+    width: 1189
+    height: 793
+    caption: "World Congress of Biomechanics, Vancouver (July 2026)"
+  - file: "/assets/img/gallery/2026-wcb-eshraq-saffuri.jpg"
+    width: 1200
+    height: 1600
+    caption: "Eshraq Saffuri presenting at WCB 2026, Vancouver"
+  - file: "/assets/img/gallery/2026-wcb-ben-sarfati.jpg"
+    width: 901
+    height: 1600
+    caption: "Ben Sarfati presenting at WCB 2026, Vancouver"
   - file: "/assets/img/gallery/photo-01.jpg"
     width: 2699
     height: 2702
