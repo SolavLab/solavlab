@@ -9,6 +9,9 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
   <link rel="stylesheet" href="{{ '/assets/css/sobig.css' | relative_url }}" />
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/site/logo/sobig-icon.svg' | relative_url }}" />
+  <link rel="icon" type="image/png" sizes="512x512" href="{{ '/assets/img/site/logo/sobig-icon.png' | relative_url }}" />
+  <link rel="apple-touch-icon" href="{{ '/assets/img/site/logo/apple-touch-icon.png' | relative_url }}" />
 </head>
 <body>
 
@@ -16,7 +19,8 @@
 <nav>
   <div class="nav-inner">
     <a class="nav-logo" href="{{ '/' | relative_url }}">
-      <img src="{{ '/assets/img/site/sobig-logo.png' | relative_url }}" alt="SoBIG" />
+      <img class="logo-full" src="{{ '/assets/img/site/logo/sobig-logo.svg' | relative_url }}" alt="SoBIG, Solav Biomechanical Interfaces Group" width="341" height="62" />
+      <img class="logo-compact" src="{{ '/assets/img/site/logo/sobig-logo-compact.svg' | relative_url }}" alt="SoBIG" width="195" height="62" />
     </a>
     <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
       <svg class="icon-open" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>

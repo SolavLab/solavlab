@@ -53,10 +53,16 @@ nav {
 }
 
 .nav-logo img {
-  height: 62px;
+  height: 58px;
   width: auto;
   display: block;
 }
+.nav-logo .logo-compact { display: none; }
+@media (max-width: 1080px) {
+  .nav-logo .logo-full { display: none; }
+  .nav-logo .logo-compact { display: block; }
+}
+@media (max-width: 640px) { .nav-logo img { height: 44px; } }
 
 .nav-links {
   display: flex;

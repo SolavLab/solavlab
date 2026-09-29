@@ -41,6 +41,13 @@ Refer to a file by its path, e.g. `photo: "/assets/img/team/zohar-oddes.jpg"`; t
 `/solavlab` prefix automatically. Keep photos under ~1600px wide / 500 KB, lowercase-dash file names,
 and videos well under GitHub's 100 MB file limit.
 
+### Logo files
+`assets/img/site/logo/` holds the SoBIG logo (text converted to outlines, so no font is needed):
+- `sobig-logo.svg` / `.png`: full logo for light backgrounds; `sobig-logo-on-navy.*` for dark backgrounds
+- `sobig-logo-compact.*`: symbol + SoBIG only (small spaces, phone header)
+- `sobig-symbol.svg` / `.png`, `sobig-icon.svg` / `.png` (navy rounded square): favicon, social avatars
+Use the SVG files for print and posters; use PNG for Word / PowerPoint.
+
 ## Deploy
 Push to `main` → the GitHub Actions workflow (`.github/workflows/pages.yml`) builds and deploys
 → live at https://solavlab.github.io/solavlab/ within a couple of minutes.
