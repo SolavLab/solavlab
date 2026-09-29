@@ -31,6 +31,7 @@ current:
 
   - name: Zohar Oddes
     role: PhD Student
+    linkedin: "https://www.linkedin.com/in/zohar-oddes/"
     orcid: "https://orcid.org/0000-0002-0548-7300"
     degree: "BSc Mechanical Engineering, Technion (2020)"
     email: zohar.oddes@campus.technion.ac.il
@@ -60,32 +61,17 @@ current:
 
   - name: Brit Rottenberg
     role: MSc Student
+    linkedin: "https://www.linkedin.com/in/brit-rottenberg/"
     degree: "BSc Mechanical Engineering, Technion (2023)"
     email: britrot@campus.technion.ac.il
     photo: "/assets/img/team/brit-rottenberg.jpg"
 
   - name: Eldad Armoza
     role: MSc Student
+    linkedin: "https://www.linkedin.com/in/eldad-armoza-ba4340172/"
     degree: "BSc Mechanical Engineering, BGU (2021)"
     email: eldad.armoza@campus.technion.ac.il
     photo: "/assets/img/team/eldad-armoza.jpg"
-
-  - name: Idan Wolf
-    role: Undergraduate Research Assistant
-    linkedin: "https://www.linkedin.com/in/idan-wolf-profile/"
-    email: idan.wolf@campus.technion.ac.il
-    photo: "/assets/img/team/idan-wolf.jpg"
-
-  - name: Shelly Shitrit
-    role: Undergraduate Final Project
-    linkedin: "https://www.linkedin.com/in/shelly-shitrit-855b62219/"
-    email: shitrits@campus.technion.ac.il
-    photo: "/assets/img/team/shelly-shitrit.jpg"
-
-  - name: Nir Vindish
-    role: Undergraduate Final Project
-    email: nir.vindish@campus.technion.ac.il
-    photo: "/assets/img/team/nir-vindish.jpg"
 
   - name: Yahli Mendler
     role: Undergraduate R&D Assistant
@@ -95,6 +81,7 @@ current:
 
   - name: Chen Reich
     role: Graduate Research Assistant
+    linkedin: "https://www.linkedin.com/in/chenreich/"
     email: schenr@technion.ac.il
     photo: "/assets/img/team/chen-reich.jpg"
 
@@ -114,6 +101,21 @@ past:
     scholar: "https://scholar.google.com/citations?user=Q2uF8joAAAAJ"
     orcid: "https://orcid.org/0009-0005-4533-7373"
     photo: "/assets/img/team/amit-ashkenazi.jpg"
+
+  - name: Idan Wolf
+    role: Undergraduate Research Assistant (2026)
+    linkedin: "https://www.linkedin.com/in/idan-wolf-profile/"
+    photo: "/assets/img/team/idan-wolf.jpg"
+
+  - name: Shelly Shitrit
+    role: Undergraduate Final Project (2026)
+    linkedin: "https://www.linkedin.com/in/shelly-shitrit-855b62219/"
+    photo: "/assets/img/team/shelly-shitrit.jpg"
+
+  - name: Nir Vindish
+    role: Undergraduate Final Project (2026)
+    linkedin: "https://www.linkedin.com/in/nir-vindish-812461313/"
+    photo: "/assets/img/team/nir-vindish.jpg"
 
   - name: Adi Lazar Shultz
     role: Undergraduate Final Project (2025)
