@@ -25,9 +25,9 @@ title: Join Us
       </div>
       <ul class="research-areas" style="margin-top:16px;">
         <!-- Eligibility checked on the funders' websites, Sept 2026. EuroTechPostdoc2 ended (no future calls) and was removed. -->
-        <li><span><strong>Fulbright</strong>: for U.S. citizens (permanent residence is not sufficient) with a recent PhD, hosted at any Israeli university<br><a href="https://www.fulbright.org.il/program/2/838" target="_blank" rel="noopener" style="color:var(--sky); overflow-wrap:anywhere;">fulbright.org.il/program/2/838</a></span></li>
-        <li><span><strong>Azrieli International Postdoctoral Fellowship</strong>: for recent PhDs of any nationality who have not received an academic degree from an Israeli institution; Technion is a host university<br><a href="https://azrielifoundation.org/fellows/internationalpostdoctoral/" target="_blank" rel="noopener" style="color:var(--sky); overflow-wrap:anywhere;">azrielifoundation.org/fellows/internationalpostdoctoral</a></span></li>
-        <li><span><strong>Zuckerman STEM Leadership Program</strong>: for U.S. or Canadian citizens (or U.S. permanent residents) with a PhD from a leading U.S. or Canadian university; Technion is a host university<br><a href="https://zuckermanstem.org/ourprograms/postdoc-program/" target="_blank" rel="noopener" style="color:var(--sky); overflow-wrap:anywhere;">zuckermanstem.org/ourprograms/postdoc-program</a></span></li>
+        <li><span><strong>Fulbright</strong>: for U.S. citizens with a recent PhD<br><a href="https://www.fulbright.org.il/program/2/838" target="_blank" rel="noopener" style="color:var(--sky); overflow-wrap:anywhere;">fulbright.org.il/program/2/838</a></span></li>
+        <li><span><strong>Azrieli International Postdoctoral Fellowship</strong>: for recent PhDs of any nationality who have not received an academic degree from an Israeli institution<br><a href="https://azrielifoundation.org/fellows/internationalpostdoctoral/" target="_blank" rel="noopener" style="color:var(--sky); overflow-wrap:anywhere;">azrielifoundation.org/fellows/internationalpostdoctoral</a></span></li>
+        <li><span><strong>Zuckerman STEM Leadership Program</strong>: for U.S. or Canadian citizens (or U.S. permanent residents) with a PhD from a leading U.S. or Canadian university<br><a href="https://zuckermanstem.org/ourprograms/postdoc-program/" target="_blank" rel="noopener" style="color:var(--sky); overflow-wrap:anywhere;">zuckermanstem.org/ourprograms/postdoc-program</a></span></li>
       </ul>
     </div>
     <aside class="about-sidebar">
