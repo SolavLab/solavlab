@@ -17,7 +17,8 @@ redirect_from: /novel-ankle-foot-orthosis
 </figure>
 
 <figure class="topic-figure">
-  <video class="topic-video" src="{{ '/assets/img/research/afo-video.mp4' | relative_url }}" controls preload="metadata" playsinline></video>
+  <video aria-describedby="afo-video-desc" class="topic-video" src="{{ '/assets/img/research/afo-video.mp4' | relative_url }}" controls preload="metadata" playsinline></video>
+  <p id="afo-video-desc" class="video-desc">Video (1:15): the adjustable offloading ankle-foot orthosis in use during walking, at different offloading levels.</p>
 </figure>
 
 <h2 class="topic-subhead">Publication</h2>

@@ -10,4 +10,4 @@ Check out our [new paper](https://jneuroengrehab.biomedcentral.com/articles/10.1
 
 Congrats to the team for their great work!
 
-![]({{ '/assets/img/research/card-ankle-foot-offloading.jpg' | relative_url }})
+![Person walking with forearm crutches, a knee crutch and an ankle-foot orthosis]({{ '/assets/img/research/card-ankle-foot-offloading.jpg' | relative_url }})

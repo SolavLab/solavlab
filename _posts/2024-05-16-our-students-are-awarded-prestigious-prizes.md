@@ -10,6 +10,6 @@ excerpt: "- Eshraq Saffuri was awarded the Kulicke & Soffa Ind Prize and the Mir
 - Amit Ashkenazi was awarded the Irwin and Joan Jacobs Graduate Scholarship!
 - Zohar Oddes was awarded the David & Olga Pnueli Prize!
 
-![]({{ '/assets/img/news/our-students-are-awarded-prestigious-prizes.jpg' | relative_url }})
-![]({{ '/assets/img/news/our-students-are-awarded-prestigious-prizes-2.jpg' | relative_url }})
-![]({{ '/assets/img/news/our-first-two-msc-graduates.jpg' | relative_url }})
+![Portrait of Eshraq Saffuri]({{ '/assets/img/news/our-students-are-awarded-prestigious-prizes.jpg' | relative_url }})
+![Portrait of Amit Ashkenazi]({{ '/assets/img/news/our-students-are-awarded-prestigious-prizes-2.jpg' | relative_url }})
+![Portrait of Zohar Oddes]({{ '/assets/img/news/our-first-two-msc-graduates.jpg' | relative_url }})

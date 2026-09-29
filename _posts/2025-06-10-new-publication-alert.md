@@ -8,4 +8,4 @@ excerpt: "Check out Amit Ashkenazi's new paper on quantifying parameter certaint
 
 Check out Amit Ashkenazi's [new paper](https://doi.org/10.1016/j.ijengsci.2024.104163) on quantifying parameter certainty bounds in highly nonlinear models. In this work, we propose a method for predicting the certainty bounds using two methods and provide a few useful examples. Check out the article for details on the reliability of the methods, discover the strength of the Hessian-based certainty bounds, and why we need to report certainty bounds of our estimated parameters!
 
-![]({{ '/assets/img/publications/parameter-certainty-quantification-in-nonlinear-models.jpg' | relative_url }})
+![Objective function maps showing parameter certainty regions]({{ '/assets/img/publications/parameter-certainty-quantification-in-nonlinear-models.jpg' | relative_url }})

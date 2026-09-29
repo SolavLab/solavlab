@@ -9,3 +9,5 @@ excerpt: "Check out the new video in our research page to see the new AFO design
 Check out the new video in our [research page]({{ '/research/novel-ankle-foot-orthosis/' | relative_url }}) to see the new AFO design that allows natural walking with complete or partial offloading of the ankle and foot.
 
 <video src="{{ '/assets/img/research/afo-video.mp4' | relative_url }}" controls preload="metadata" style="width:100%;"></video>
+
+<p class="video-desc">Video (1:15): the adjustable offloading ankle-foot orthosis in use during walking, at different offloading levels.</p>

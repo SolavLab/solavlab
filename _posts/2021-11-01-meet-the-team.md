@@ -6,6 +6,6 @@ image: "/assets/img/news/meet-the-team.jpg"
 excerpt: "We are a diverse group of engineers, scientists, and clinicians. Meet us here."
 ---
 
-![]({{ '/assets/img/news/meet-the-team.jpg' | relative_url }})
+![Team members joining fists over a desk with laptops]({{ '/assets/img/news/meet-the-team.jpg' | relative_url }})
 
 > We are a diverse group of engineers, scientists, and clinicians. Meet us [here]({{ '/team/' | relative_url }}).

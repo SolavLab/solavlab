@@ -8,4 +8,4 @@ excerpt: "Congratulations to Dror Raf, who defended his thesis and graduated wit
 
 Congratulations to Dror Raf, who defended his thesis and graduated with an MSc in Mechanical Engineering!
 
-![]({{ '/assets/img/news/new-msc-graduate-dror-raf.jpg' | relative_url }})
+![Portrait of Dror Raf]({{ '/assets/img/news/new-msc-graduate-dror-raf.jpg' | relative_url }})

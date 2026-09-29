@@ -8,4 +8,4 @@ excerpt: "Our lab has received two prestigious grants from the Israel Science Fo
 
 Our lab has received two prestigious grants from the Israel Science Foundation: the personal research grant, to support our in-vivo soft tissue mechanical properties characterization project, and a new-faculty equipment grant, to support the purchase of new scientific equipment for our lab. New open positions for postdoc and PhD are now available. Please contact us for details.
 
-![]({{ '/assets/img/news/we-received-two-isf-grants.png' | relative_url }})
+![Israel Science Foundation logo]({{ '/assets/img/news/we-received-two-isf-grants.png' | relative_url }})

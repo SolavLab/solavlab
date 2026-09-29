@@ -6,7 +6,7 @@ image: "/assets/img/news/open-positions.jpg"
 excerpt: "We are currently recruiting postdocs and graduate students!"
 ---
 
-![]({{ '/assets/img/news/open-positions.jpg' | relative_url }})
+![Researcher in a lab coat]({{ '/assets/img/news/open-positions.jpg' | relative_url }})
 
 > We are currently recruiting postdocs and graduate students!
 

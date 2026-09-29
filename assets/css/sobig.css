@@ -6,8 +6,9 @@
   /* palette taken from the SoBIG logo */
   --navy: #0B3A5B;        /* deep blue: headers, footer, headings */
   --navy-mid: #124A70;
-  --sky: #0077B3;         /* logo blue: links, buttons */
+  --sky: #006BA3;         /* logo blue, deepened for 4.5:1 text contrast: links, buttons */
   --cyan: #00A8F0;        /* logo cyan: accents only (too light for small text) */
+  --cyan-text: #33BDF7;   /* cyan for text on navy (5.5:1) */
   --sky-light: #E6F3FA;
   --white: #ffffff;
   --off-white: #E9EFF4;
@@ -460,7 +461,7 @@ nav {
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--cyan);
+  color: var(--cyan-text);
   margin-bottom: 10px;
 }
 .contact-block p, .contact-block a {
@@ -950,3 +951,22 @@ nav {
   filter: none;
   box-shadow: 0 0 0 2px var(--cyan), 0 8px 22px rgba(11,58,91,0.18);
 }
+
+/* ── accessibility ── */
+.skip-link { position: absolute; left: 12px; top: -60px; z-index: 200; background: var(--navy); color: #fff; padding: 10px 16px; border-radius: var(--radius); font-weight: 600; text-decoration: none; }
+.skip-link:focus { top: 12px; }
+a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--cyan); outline-offset: 2px; border-radius: 3px; }
+.hero-pause { position: absolute; right: 18px; bottom: 18px; z-index: 3; width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.6); background: rgba(8,40,64,0.55); color: #fff; cursor: pointer; display: grid; place-items: center; }
+.hero-pause:hover { background: rgba(8,40,64,0.8); }
+.hero-pause svg { width: 16px; height: 16px; fill: currentColor; }
+.hero-pause .icon-play { display: none; }
+.hero.paused .hero-pause .icon-play { display: block; }
+.hero.paused .hero-pause .icon-pause { display: none; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
+.video-desc { font-size: 0.9rem; color: var(--text-light); margin-top: 8px; }
+.footer-bottom p a { color: inherit; text-decoration: underline; }
+.a11y-statement ul { margin: 0.4em 0 1em 1.4em; }
+.a11y-statement [dir="rtl"] ul { margin: 0.4em 1.4em 1em 0; }
+.a11y-date { font-size: 0.85rem; color: var(--text-light); }
+.a11y-statement a { color: var(--sky); }

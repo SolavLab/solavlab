@@ -8,4 +8,4 @@ excerpt: "Congratulations to Amit Ashkenazi, who defended his thesis and graduat
 
 Congratulations to Amit Ashkenazi, who defended his thesis and graduated with an MSc in Mechanical Engineering!
 
-![]({{ '/assets/img/news/our-students-are-awarded-prestigious-prizes-2.jpg' | relative_url }})
+![Portrait of Amit Ashkenazi]({{ '/assets/img/news/our-students-are-awarded-prestigious-prizes-2.jpg' | relative_url }})

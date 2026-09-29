@@ -8,5 +8,5 @@ excerpt: "Our first two MSc students Zohar Oddes and Yinon Tal have successfully
 
 Our first two MSc students Zohar Oddes and Yinon Tal have successfully defended their theses and received their MSc degrees. Congratulations!
 
-![]({{ '/assets/img/news/our-first-two-msc-graduates.jpg' | relative_url }})
-![]({{ '/assets/img/news/our-first-two-msc-graduates-2.jpg' | relative_url }})
+![Portrait of Zohar Oddes]({{ '/assets/img/news/our-first-two-msc-graduates.jpg' | relative_url }})
+![Portrait of Yinon Tal]({{ '/assets/img/news/our-first-two-msc-graduates-2.jpg' | relative_url }})

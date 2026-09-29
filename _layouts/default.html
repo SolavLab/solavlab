@@ -14,6 +14,7 @@
   <link rel="apple-touch-icon" href="{{ '/assets/img/site/logo/apple-touch-icon.png' | relative_url }}" />
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <!-- ── NAV ── -->
 <nav>
@@ -67,7 +68,9 @@
   </div>
 </nav>
 
+<main id="main" tabindex="-1">
 {{ content }}
+</main>
 
 <!-- ── FOOTER (contact + copyright + logos) ── -->
 <footer class="contact-strip">
@@ -102,7 +105,7 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <p>&copy; 2020{% assign _year = site.time | date: "%Y" %}{% if _year != "2020" %}&ndash;{{ _year }}{% endif %} Solav Biomechanical Interfaces Group</p>
+    <p>&copy; 2020{% assign _year = site.time | date: "%Y" %}{% if _year != "2020" %}&ndash;{{ _year }}{% endif %} Solav Biomechanical Interfaces Group &middot; <a href="{{ '/accessibility/' | relative_url }}">Accessibility statement</a></p>
     <div class="footer-logos">
       <a href="https://technion.ac.il" target="_blank" rel="noopener">
         <img src="{{ '/assets/img/site/technion-logo.png' | relative_url }}" alt="Technion IIT" />

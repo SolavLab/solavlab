@@ -6,6 +6,6 @@ image: "/assets/img/news/our-lab-was-awarded-a-tamc-grant.jpg"
 excerpt: "The Technion Additive Manufacturing Center (TAMC) has awarded our lab a $10k grant to support our new SLS 3D printer!"
 ---
 
-![]({{ '/assets/img/news/our-lab-was-awarded-a-tamc-grant.jpg' | relative_url }})
+![Logo of the Technion Center for Additive Manufacturing and 3D Printing]({{ '/assets/img/news/our-lab-was-awarded-a-tamc-grant.jpg' | relative_url }})
 
 #### The [Technion Additive Manufacturing Center (TAMC)](https://tamc.technion.ac.il/) has awarded our lab a $10k grant to support our new [SLS 3D printer]({{ '/facilities/' | relative_url }})!

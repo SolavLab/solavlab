@@ -14,4 +14,4 @@ Hebrew: [https://www.ynet.co.il/health/article/bjx8zlcja](https://www.ynet.co.il
 
 English: [https://www.ynetnews.com/article/skejn5vhp](https://www.ynetnews.com/article/skejn5vhp)
 
-![]({{ '/assets/img/news/back-on-her-feet.jpg' | relative_url }})
+![Leg scan, custom orthosis design, the printed orthosis, and the patient walking with it]({{ '/assets/img/news/back-on-her-feet.jpg' | relative_url }})

@@ -4,11 +4,23 @@ layout: default
 
 <!-- ── HERO ── -->
 <section class="hero">
-  <video class="hero-video" autoplay muted loop playsinline preload="auto"
+  <video class="hero-video" autoplay muted loop playsinline preload="auto" aria-hidden="true"
     poster="{{ '/assets/img/background_video.avif' | relative_url }}">
     <source src="{{ '/assets/img/site/hero-video.mp4' | relative_url }}" type="video/mp4" />
   </video>
-  <div class="hero-overlay"></div>
+<div class="hero-overlay"></div>
+<button class="hero-pause" type="button" aria-label="Pause background video">
+  <svg class="icon-pause" viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="2" width="3.5" height="12" rx="1"/><rect x="9.5" y="2" width="3.5" height="12" rx="1"/></svg>
+  <svg class="icon-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5v11l9-5.5z"/></svg>
+</button>
+<script>
+  (function () {
+    var hero = document.currentScript.closest(".hero"), v = hero.querySelector("video"), b = hero.querySelector(".hero-pause");
+    function set(paused) { hero.classList.toggle("paused", paused); b.setAttribute("aria-label", paused ? "Play background video" : "Pause background video"); paused ? v.pause() : v.play(); }
+    b.addEventListener("click", function () { set(!v.paused ? true : false); });
+    if (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) set(true);
+  })();
+</script>
   <div class="hero-content">
     <h1 class="hero-title">Solav Biomechanical<br>Interfaces Group</h1>
     <p class="hero-tagline">Towards enhanced comfort and health for prosthetics and orthotics users</p>
