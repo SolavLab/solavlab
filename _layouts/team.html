@@ -29,7 +29,6 @@ layout: default
       {% if member.dept %}<p class="team-card-degree">{{ member.dept }}</p>{% endif %}
       {% if member.office %}<p class="team-card-degree">{{ member.office }}</p>{% endif %}
       {% if member.phone %}<p class="team-card-degree"><a class="team-card-email" href="tel:{{ member.phone | remove: '-' | remove: ' ' }}">{{ member.phone }}</a></p>{% endif %}
-      {% if member.email %}{% include email.html address=member.email class="team-card-email" %}{% endif %}
       {% include team-social.html member=member %}
     </div>
     {% endfor %}
