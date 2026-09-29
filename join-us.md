@@ -16,18 +16,18 @@ title: Join Us
 
       <p class="section-label">Graduate students</p>
       <div class="about-body">
-        <p>Check out the <a href="https://graduate.technion.ac.il/" target="_blank" rel="noopener" style="color:var(--sky);">Technion graduate school page</a> and the <a href="https://meeng.technion.ac.il/graduate-programs/" target="_blank" rel="noopener" style="color:var(--sky);">Mechanical Engineering programs</a> and acceptance criteria.</p>
+        <p>Check out the <a href="https://graduate.technion.ac.il/" target="_blank" rel="noopener" style="color:var(--sky);">Technion graduate school page</a> and the <a href="https://meeng.technion.ac.il/en/graduate-degrees/graduate-programs/" target="_blank" rel="noopener" style="color:var(--sky);">Mechanical Engineering programs</a> and acceptance criteria.</p>
       </div>
 
       <p class="section-label" style="margin-top:40px;">International postdocs</p>
       <div class="about-body">
-        <p>Check out these four funding programs that can help you land in our lab. If interested, please contact me so we can work on your application together!</p>
+        <p>Check out these funding programs that can help you land in our lab. If interested, please contact me so we can work on your application together!</p>
       </div>
       <ul class="research-areas" style="margin-top:16px;">
-        <li><span><strong>Fulbright</strong>: for US citizens<br><a href="https://www.fulbright.org.il/program/2/850" target="_blank" rel="noopener" style="color:var(--sky); overflow-wrap:anywhere;">https://www.fulbright.org.il/program/2/850</a></span></li>
-        <li><span><strong>Azrieli</strong>: for EU, EFTA, UK or Canada citizens<br><a href="https://azrielifoundation.org/fellows/internationalpostdoctoral/" target="_blank" rel="noopener" style="color:var(--sky); overflow-wrap:anywhere;">https://azrielifoundation.org/fellows/internationalpostdoctoral/</a></span></li>
-        <li><span><strong>Zuckerman</strong>: for US/Canada citizens<br><a href="https://zuckermanstem.org/ourprograms/postdoc-program/" target="_blank" rel="noopener" style="color:var(--sky); overflow-wrap:anywhere;">https://zuckermanstem.org/ourprograms/postdoc-program/</a></span></li>
-        <li><span><strong>EuroTech</strong> (must be a collaboration with one of these 4 universities: Technical University of Denmark, L&rsquo;&Eacute;cole Polytechnique &agrave; Paris, Eindhoven University of Technology, Technical University of Munich)<br><a href="https://postdoc2.eurotech-universities.eu/information/applicants/" target="_blank" rel="noopener" style="color:var(--sky); overflow-wrap:anywhere;">https://postdoc2.eurotech-universities.eu/information/applicants/</a></span></li>
+        <!-- Eligibility checked on the funders' websites, Sept 2026. EuroTechPostdoc2 ended (no future calls) and was removed. -->
+        <li><span><strong>Fulbright</strong>: for U.S. citizens (permanent residence is not sufficient) with a recent PhD, hosted at any Israeli university<br><a href="https://www.fulbright.org.il/program/2/838" target="_blank" rel="noopener" style="color:var(--sky); overflow-wrap:anywhere;">fulbright.org.il/program/2/838</a></span></li>
+        <li><span><strong>Azrieli International Postdoctoral Fellowship</strong>: for recent PhDs of any nationality who have not received an academic degree from an Israeli institution; Technion is a host university<br><a href="https://azrielifoundation.org/fellows/internationalpostdoctoral/" target="_blank" rel="noopener" style="color:var(--sky); overflow-wrap:anywhere;">azrielifoundation.org/fellows/internationalpostdoctoral</a></span></li>
+        <li><span><strong>Zuckerman STEM Leadership Program</strong>: for U.S. or Canadian citizens (or U.S. permanent residents) with a PhD from a leading U.S. or Canadian university; Technion is a host university<br><a href="https://zuckermanstem.org/ourprograms/postdoc-program/" target="_blank" rel="noopener" style="color:var(--sky); overflow-wrap:anywhere;">zuckermanstem.org/ourprograms/postdoc-program</a></span></li>
       </ul>
     </div>
     <aside class="about-sidebar">
