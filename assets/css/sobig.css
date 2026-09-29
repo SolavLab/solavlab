@@ -101,6 +101,7 @@ nav {
   font-size: 0.82rem;
 }
 
+.sub-toggle { display: none; }
 .nav-toggle {
   display: none;
   background: none;
@@ -649,19 +650,40 @@ nav {
   .contact-inner { grid-template-columns: 1fr 1fr; }
   .nav-links { display: none; }
   .nav-links.open {
-    display: flex;
-    flex-direction: column;
+    display: block;
     position: absolute;
     top: 80px; left: 0; right: 0;
     background: var(--white);
-    padding: 12px;
-    gap: 2px;
+    padding: 4px 0 12px;
     border-bottom: 1px solid var(--border);
-    box-shadow: 0 8px 16px rgba(11,58,91,0.08);
+    box-shadow: 0 12px 24px rgba(11,58,91,0.12);
     max-height: calc(100vh - 80px); overflow-y: auto;
   }
-  .nav-links.open li ul { display: block; position: static; border: none; box-shadow: none; min-width: 0; padding: 0 0 4px 14px; background: transparent; }
-  .nav-links.open li ul li a { font-size: 0.8rem; padding: 6px 12px; color: var(--text-mid); }
+  .nav-links.open > li { display: flex; flex-wrap: wrap; align-items: center; border-bottom: 1px solid var(--border); }
+  .nav-links.open > li:last-child { border-bottom: none; }
+  .nav-links.open > li > a {
+    flex: 1; padding: 14px 24px; font-size: 1rem; border-radius: 0;
+    border-left: 3px solid transparent;
+  }
+  .nav-links.open > li > a.active { background: transparent; border-left-color: var(--cyan); color: var(--sky); }
+  .nav-links.open li ul {
+    display: none; position: static; width: 100%;
+    border: none; border-radius: 0; box-shadow: none; min-width: 0;
+    padding: 4px 0 10px; background: var(--off-white);
+  }
+  .nav-links.open li.expanded > ul { display: block; }
+  .nav-links.open li ul li a { font-size: 0.92rem; padding: 10px 24px 10px 40px; color: var(--text-mid); border-radius: 0; }
+  .nav-links.open li ul li a:hover { background: var(--sky-light); }
+  .sub-toggle {
+    display: flex; align-items: center; justify-content: center;
+    width: 52px; align-self: stretch; background: none; border: none;
+    border-left: 1px solid var(--border); color: var(--navy); cursor: pointer;
+  }
+  .sub-toggle svg { transition: transform 0.2s; }
+  li.expanded > .sub-toggle svg { transform: rotate(180deg); }
+  .nav-toggle .icon-close { display: none; }
+  nav.menu-open .nav-toggle .icon-open { display: none; }
+  nav.menu-open .nav-toggle .icon-close { display: block; }
   .nav-toggle { display: block; }
   .team-grid { grid-template-columns: repeat(2, 1fr); }
 }

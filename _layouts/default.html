@@ -18,8 +18,9 @@
     <a class="nav-logo" href="{{ '/' | relative_url }}">
       <img src="{{ '/assets/img/site/sobig-logo.png' | relative_url }}" alt="SoBIG" />
     </a>
-    <button class="nav-toggle" aria-label="Toggle menu" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')">
-      <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <svg class="icon-open" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      <svg class="icon-close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
     </button>
     <ul class="nav-links">
       <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
@@ -109,6 +110,28 @@
   </div>
 </footer>
 
+<script>
+  /* phone menu: open/close, and collapsible sub-menus */
+  (function () {
+    var nav = document.querySelector("nav"), links = nav.querySelector(".nav-links"), btn = nav.querySelector(".nav-toggle");
+    btn.addEventListener("click", function () {
+      var open = links.classList.toggle("open");
+      nav.classList.toggle("menu-open", open);
+      btn.setAttribute("aria-expanded", open);
+      btn.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    });
+    links.querySelectorAll(":scope > li").forEach(function (li) {
+      var sub = li.querySelector("ul");
+      if (!sub) return;
+      var t = document.createElement("button");
+      t.className = "sub-toggle"; t.setAttribute("aria-label", "Show sub-pages"); t.setAttribute("aria-expanded", "false");
+      t.innerHTML = '<svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>';
+      t.addEventListener("click", function () { var e = li.classList.toggle("expanded"); t.setAttribute("aria-expanded", e); });
+      li.insertBefore(t, sub);
+      if (li.querySelector(":scope > a.active")) li.classList.add("expanded");  /* current section starts open */
+    });
+  })();
+</script>
 <script>
   /* assemble spam-resistant email links (see _includes/email.html) */
   document.querySelectorAll("a.js-email").forEach(function (a) {
