@@ -46,6 +46,7 @@ current:
 
   - name: Keren Gispan
     role: PhD Student
+    linkedin: "https://www.linkedin.com/in/keren-mair-gispan-111353369/"
     email: keren.gispan@campus.technion.ac.il
     photo: "https://static.wixstatic.com/media/152d97_6f602aba1a89447f9497ffe0e5b262a6~mv2.png/v1/fill/w_300,h_300,al_c,q_85,enc_avif,quality_auto/kerenF%20Gispan.png"
 
@@ -106,12 +107,15 @@ past:
 
   - name: Amit Ashkenazi
     role: MSc student (2026)
+    linkedin: "https://www.linkedin.com/in/ashknzamit/"
     scholar: "https://scholar.google.com/citations?user=Q2uF8joAAAAJ"
     orcid: "https://orcid.org/0009-0005-4533-7373"
     photo: "https://static.wixstatic.com/media/152d97_00da67bee0414cb792f990d3d5ecbbd9~mv2.jpeg/v1/crop/x_7,y_0,w_328,h_441/fill/w_300,h_300,al_c,q_80,enc_avif,quality_auto/Amit.jpeg"
 
   - name: Adi Lazar Shultz
     role: Undergraduate Final Project (2025)
+    linkedin: "https://www.linkedin.com/in/adi-shultz/"
+    orcid: "https://orcid.org/0009-0003-8764-7711"
     photo: "https://static.wixstatic.com/media/152d97_dd2102e9e31b4ae0bef2014364ee7c33~mv2.png/v1/crop/x_6,y_0,w_1525,h_2048/fill/w_300,h_300,al_c,q_85,enc_avif,quality_auto/Adi%20Lazar.png"
 
   - name: Guy Vilkomirsky
@@ -120,6 +124,7 @@ past:
 
   - name: Ori Glazer
     role: Undergraduate Final Project (2025)
+    linkedin: "https://www.linkedin.com/in/ori-glazer/"
     photo: "https://static.wixstatic.com/media/152d97_6a9c2fee62b4436d82b20c960c014bdf~mv2.jpeg/v1/crop/x_102,y_0,w_596,h_800/fill/w_300,h_300,al_c,q_80,enc_avif,quality_auto/Ori%20Glazer.jpeg"
 
   - name: Dr. Nolwenn Fougeron
@@ -174,10 +179,12 @@ past:
 
   - name: Franck Marciano
     role: Lab Engineer (2022)
+    linkedin: "https://www.linkedin.com/in/franck-marciano/"
     photo: "https://static.wixstatic.com/media/152d97_662ba55ef8584d4bbe6c2006e3116055~mv2.png/v1/crop/x_112,y_0,w_462,h_621/fill/w_300,h_300,al_c,q_85,enc_avif,quality_auto/Franck.png"
 
   - name: Asaf Silverstein
     role: Undergraduate Research Assistant (2022)
+    orcid: "https://orcid.org/0009-0000-6566-0868"
     photo: "https://static.wixstatic.com/media/152d97_2664c4d59f0f48e4bd7f2ebec6dcc5b3~mv2.jpg/v1/fill/w_300,h_300,al_c,q_80,enc_avif,quality_auto/Asaf%20Silvertein.jpg"
 
   - name: Avital Dellariccia
