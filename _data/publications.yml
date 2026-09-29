@@ -1,0 +1,77 @@
+# ── PUBLICATIONS ─────────────────────────────────────────────────────────────
+# To add a paper: copy a block, fill in fields, save. Done.
+# doi: optional — used to generate a link button
+# pdf: optional — path to local PDF or external URL
+# code: optional — link to GitHub or Zenodo
+
+- year: 2023
+  title: "Identifiability of soft tissue constitutive parameters from in-vivo macro-indentation"
+  authors: "Oddes Z., and Solav D."
+  journal: "Journal of the Mechanical Behavior of Biomedical Materials"
+  volume: "140, 105708"
+  doi: "https://doi.org/10.1016/j.jmbbm.2023.105708"
+
+- year: 2022
+  title: "Material, design, and fabrication of custom prosthetic liners for lower-extremity amputees: A review"
+  authors: "Yang X., Zhao R., Solav D., Yang X., Lee D.R., Sparrman B., Fan Y., and Herr H."
+  journal: "Medicine in Novel Technology and Devices"
+  volume: "p.100197"
+  doi: "https://doi.org/10.1016/j.medntd.2022.100197"
+
+- year: 2022
+  title: "DuoDIC: 3D Digital Image Correlation in MATLAB"
+  authors: "Solav D. and Silverstein A."
+  journal: "Journal of Open Source Software"
+  volume: "7(74), 4279"
+  doi: "https://doi.org/10.21105/joss.04279"
+  code: "https://github.com/SolavLab/DuoDIC"
+
+- year: 2021
+  title: "An Ankle-Foot Prosthesis for Rock Climbing Augmentation"
+  authors: "Rogers E., Carney M., Yeon S., Solav D., and Herr H."
+  journal: "IEEE Transactions on Neural Systems and Rehabilitation Engineering"
+  volume: "29, 41–51"
+  doi: "https://doi.org/10.1109/TNSRE.2020.3037545"
+
+- year: 2020
+  title: "Decoding of facial strains via conformable piezoelectric interfaces"
+  authors: "Sun T.*, Tasnim F.*, McIntosh R., Amiri N., Solav D., Anbarani M., Sadat D., Zhang L., Gu Y., Karami M., Dagdeviren C."
+  journal: "Nature Biomedical Engineering"
+  volume: "4, 954–972"
+  doi: "https://doi.org/10.1038/s41551-020-00612-w"
+
+- year: 2019
+  title: "A Framework for Measuring the Time-varying Shape and Full-field Deformation of Residual Limbs using 3D Digital Image Correlation"
+  authors: "Solav D., Moerman K., Jaeger A., and Herr H."
+  journal: "IEEE Transactions on Biomedical Engineering"
+  volume: "66(10), 2740–2752"
+  doi: "https://doi.org/10.1109/TBME.2019.2895283"
+
+- year: 2018
+  title: "MultiDIC: a MATLAB Toolbox for Multi-View 3D Digital Image Correlation"
+  authors: "Solav D., Moerman K., Jaeger A., Genovese K., and Herr H."
+  journal: "IEEE Access"
+  volume: "6, 30520–30535"
+  doi: "https://doi.org/10.1109/ACCESS.2018.2843725"
+  code: "https://github.com/MultiDIC/MultiDIC"
+
+- year: 2017
+  title: "Bone Orientation and Position Estimation Errors Using Cosserat Point Elements and Least Squares methods: Application to Gait"
+  authors: "Solav D., Camomilla V., Cereatti A., Barré A., Aminian K., and Wolf A."
+  journal: "Journal of Biomechanics"
+  volume: "62, 110–116"
+  doi: "https://doi.org/10.1016/j.jbiomech.2017.04.021"
+
+- year: 2017
+  title: "Chest Wall Kinematics Using Triangular Cosserat Point Elements in Healthy and Neuromuscular Subjects"
+  authors: "Solav D., Meric H., Rubin M.B., Pradon D., Lofaso F., and Wolf A."
+  journal: "Annals of Biomedical Engineering"
+  volume: "45(8), 1963–1973"
+  doi: "https://doi.org/10.1007/s10439-017-1840-6"
+
+- year: 2016
+  title: "Unphysical Properties of the Rotation Tensor Estimated by Least Squares Optimization with Specific Application to Biomechanics"
+  authors: "Rubin M.B. and Solav D."
+  journal: "International Journal of Engineering Science"
+  volume: "103, 11–18"
+  doi: "https://doi.org/10.1016/j.ijengsci.2016.02.008"

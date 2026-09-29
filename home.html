@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <img class="hero-img"
+    src="https://static.wixstatic.com/media/11062b_b109368ac4264b688d21b3e361372fb1f000.jpg/v1/fill/w_1200,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_b109368ac4264b688d21b3e361372fb1f000.jpg"
+    alt="Lab environment" />
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Technion – Israel Institute of Technology</p>
+    <h1 class="hero-title">Solav Biomechanical<br>Interfaces Group</h1>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<div class="section">
+  <div class="about-grid">
+    <div>
+      <p class="section-label">The Lab</p>
+      <h2 class="section-title">Towards enhanced comfort and health for prosthetics and orthotics users</h2>
+      <div class="about-body">
+        <p>Our group studies the biomechanical interface between the human body and biomedical devices such as prosthetics and orthotics. Our main goal is to develop and optimize patient-specific devices in order to improve patient comfort, health, and function.</p>
+        <p>To achieve this, we analyze the biomechanical factors that affect human movement and function, and develop new imaging and measurement tools, computational algorithms, experimental procedures, and fabrication methods.</p>
+      </div>
+      <a class="btn" href="{{ '/research/' | relative_url }}">Explore our research</a>
+    </div>
+    <aside class="about-sidebar">
+      <p class="sidebar-heading">Research areas</p>
+      <ul class="research-areas">
+        <li>Musculoskeletal biomechanics</li>
+        <li>Prosthetics &amp; orthotics</li>
+        <li>Parameter identification</li>
+        <li>Digital Image Correlation (DuoDIC / MultiDIC)</li>
+        <li>Hyperelastic lattice structures</li>
+        <li>Ankle-foot offloading</li>
+        <li>Novel orthosis design</li>
+        <li>Breast finite-element analysis</li>
+      </ul>
+    </aside>
+  </div>
+</div>
+
+<hr class="divider" />
+
+<!-- ── NEWS ── -->
+<div class="news-section">
+  <div class="section">
+    <div class="news-header">
+      <div>
+        <p class="section-label">Latest</p>
+        <h2 class="section-title" style="margin-bottom:0">News</h2>
+      </div>
+      <a href="{{ '/news/' | relative_url }}">Read all news</a>
+    </div>
+    <div class="news-grid">
+      {% for post in site.posts limit:6 %}
+      <a class="news-card" href="{{ post.url | relative_url }}">
+        {% if post.image %}
+        <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy" />
+        {% endif %}
+        <div class="news-card-body">
+          <p class="news-card-title">{{ post.title }}</p>
+          <p class="news-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>

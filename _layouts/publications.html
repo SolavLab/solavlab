@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <p class="hero-eyebrow">SoBIG</p>
+    <h1>Publications</h1>
+  </div>
+</div>
+
+<div class="section">
+  <p style="margin-bottom:12px; font-size:0.88rem; color:var(--text-light);">
+    For a complete and up-to-date list, see
+    <a href="{{ site.social.scholar }}" target="_blank" rel="noopener" style="color:var(--sky);">Google Scholar</a> or
+    <a href="{{ site.social.orcid }}" target="_blank" rel="noopener" style="color:var(--sky);">ORCID</a>.
+  </p>
+
+  {% assign pubs_by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+
+  {% for year_group in pubs_by_year %}
+  <div class="pub-year-group">
+    <h2 class="pub-year-heading">{{ year_group.name }}</h2>
+    <ul class="pub-list">
+      {% for pub in year_group.items %}
+      <li class="pub-item">
+        <div class="pub-year">{{ pub.year }}</div>
+        <div>
+          <p class="pub-title">{{ pub.title }}</p>
+          <p class="pub-authors">{{ pub.authors }}</p>
+          <p class="pub-journal">{{ pub.journal }}{% if pub.volume %}, {{ pub.volume }}{% endif %}</p>
+          <div class="pub-links">
+            {% if pub.doi %}<a class="pub-link" href="{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+            {% if pub.pdf %}<a class="pub-link" href="{{ pub.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+            {% if pub.code %}<a class="pub-link" href="{{ pub.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
