@@ -27,4 +27,4 @@ Check out the following funding programs that can help you land in our lab. If i
 - **EuroTech** (must be a collaboration with one of these 4 universities: Technical University of Denmark, L’École Polytechnique à Paris, Eindhoven University of Technology, Technical University of Munich)
   [https://postdoc2.eurotech-universities.eu/information/applicants/](https://postdoc2.eurotech-universities.eu/information/applicants/)
 
-For all inquiries, please send an email to [danas@technion.ac.il](mailto:danas@technion.ac.il) with your CV and transcript.
+For all inquiries, please send an email to {% include email.html address="danas@technion.ac.il" %} with your CV and transcript.

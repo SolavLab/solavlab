@@ -10,8 +10,11 @@ baseurl: "/solavlab"                # at domain cutover: ""
 timezone: Asia/Jerusalem
 
 email: sobig@technion.ac.il
-phone: "+972-73-3785494/1643"      # as displayed on the Wix footer
-phone_link: "+972733785494"        # tel: target (Wix's tel: link was +972778875494, inconsistent with the displayed number)
+phones:                            # shown in the footer
+  - label: Office
+    number: "+972-73-378-5494"
+  - label: Lab
+    number: "+972-73-378-1643"
 address: "103 Lady Davis Bldg., Technion City, Haifa, 3200003, Israel"
 maps_link: "https://www.google.com/maps?q=32.7741731,35.0230694"
 

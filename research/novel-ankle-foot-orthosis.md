@@ -28,5 +28,5 @@ redirect_from: /novel-ankle-foot-orthosis
 <div class="topic-callout">
   <h2 class="topic-subhead">Interested in our device?</h2>
   <p>Please send us your details (name, affiliation, and your primary role or interest) and we will contact you!</p>
-  <a class="btn" href="mailto:{{ site.email }}?subject=Interest%20in%20the%20adjustable%20offloading%20AFO">Contact us</a>
+  {% include email.html address=site.email class="btn" text="Contact us" subject="Interest in the adjustable offloading AFO" %}
 </div>

@@ -1,0 +1,12 @@
+{% comment %}
+  Spam-resistant email link. The address is stored reversed in two pieces and
+  assembled by the script at the bottom of _layouts/default.html, so simple
+  harvesters that read the raw HTML don't find it. Without JavaScript it shows
+  as "name [at] domain".
+  Usage: {% include email.html address="name@example.com" %}
+  Optional: text="Contact us" (link text instead of the address), subject="...",
+            class="...", style="..."
+{% endcomment %}
+{%- assign email_parts = include.address | split: "@" -%}
+<a class="js-email{% if include.class %} {{ include.class }}{% endif %}"{% if include.style %} style="{{ include.style }}"{% endif %} href="#" data-u="{{ email_parts[0] | split: '' | reverse | join: '' }}" data-d="{{ email_parts[1] | split: '' | reverse | join: '' }}"{% if include.subject %} data-s="{{ include.subject }}"{% endif %}{% if include.text %} data-t="1"{% endif %}>{% if include.text %}{{ include.text }}{% else %}{{ email_parts[0] }} [at] {{ email_parts[1] }}{% endif %}</a>
+{%- comment -%} end {%- endcomment -%}

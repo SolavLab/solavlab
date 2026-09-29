@@ -73,11 +73,11 @@
     </div>
     <div class="contact-block">
       <h3>Mail</h3>
-      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p>{% include email.html address=site.email %}</p>
     </div>
     <div class="contact-block">
       <h3>Phone</h3>
-      <p><a href="tel:{{ site.phone_link }}">{{ site.phone }}</a></p>
+      <p class="contact-phones">{% for p in site.phones %}<span>{{ p.label }}: <a href="tel:{{ p.number | remove: "-" | remove: " " }}">{{ p.number }}</a></span>{% endfor %}</p>
     </div>
     <div class="contact-block contact-social">
       <div class="social-icons">
@@ -111,5 +111,18 @@
   </div>
 </footer>
 
+<script>
+  /* assemble spam-resistant email links (see _includes/email.html) */
+  document.querySelectorAll("a.js-email").forEach(function (a) {
+    var rev = function (s) { return s.split("").reverse().join(""); };
+    var user = rev(a.dataset.u), domain = rev(a.dataset.d);
+    a.href = "mailto:" + user + "@" + domain + (a.dataset.s ? "?subject=" + encodeURIComponent(a.dataset.s) : "");
+    if (!a.dataset.t) {
+      a.textContent = user + "@";
+      if (a.classList.contains("team-card-email")) a.appendChild(document.createElement("wbr"));  /* narrow cards: allow a break after @ */
+      a.appendChild(document.createTextNode(domain));
+    }
+  });
+</script>
 </body>
 </html>

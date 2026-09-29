@@ -432,6 +432,7 @@ nav {
 
 /* ── CONTACT STRIP ── */
 .contact-strip { background: var(--navy); color: rgba(255,255,255,0.85); }
+.contact-phones span { display: block; }
 .contact-inner {
   max-width: var(--max-w);
   margin: 0 auto;

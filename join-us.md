@@ -33,7 +33,7 @@ title: Join Us
     <aside class="about-sidebar">
       <p class="sidebar-heading">Contact</p>
       <div class="about-body" style="font-size:1rem;">
-        <p>For all inquiries, please send an email to <a href="mailto:danas@technion.ac.il" style="color:var(--sky);">danas@technion.ac.il</a> with your CV and transcript.</p>
+        <p>For all inquiries, please send an email to {% include email.html address="danas@technion.ac.il" style="color:var(--sky);" %} with your CV and transcript.</p>
       </div>
     </aside>
   </div>
