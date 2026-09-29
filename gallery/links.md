@@ -15,6 +15,9 @@ link_groups:
         url: "https://tamc.technion.ac.il/"
       - title: Technion Research Infrastructure
         url: "https://ri.technion.ac.il/"
+      - title: Advanced Manufacturing Technologies Lab, Workshop (Hebrew)
+        url: "https://kc.net.technion.ac.il/ms/"
+        note: (machining, CNC milling and turning, welding)
 
   - heading: Associations and Conferences
     links:
@@ -31,7 +34,7 @@ link_groups:
 
   - heading: Funny pages
     links:
-      - title: Imposter syndrome video
+      - title: Imposter syndrome video (Hebrew)
         url: "https://www.youtube.com/watch?v=czOSWGVixlM"
       - title: PhD Comics
         url: "https://phdcomics.com/"
