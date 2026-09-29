@@ -25,17 +25,21 @@ current:
 
   - name: Lee Jordan
     role: Lab Engineer
+    orcid: "https://orcid.org/0009-0005-6653-3103"
     email: leej@technion.ac.il
     photo: "https://static.wixstatic.com/media/152d97_dc9ba62a14f741c2b211b8194515fed7~mv2.jpeg/v1/crop/x_0,y_50,w_836,h_922/fill/w_300,h_300,al_c,q_80,enc_avif,quality_auto/Lee.jpeg"
 
   - name: Zohar Oddes
     role: PhD Student
+    orcid: "https://orcid.org/0000-0002-0548-7300"
     degree: "BSc Mechanical Engineering, Technion (2020)"
     email: zohar.oddes@campus.technion.ac.il
     photo: "https://static.wixstatic.com/media/152d97_1131497d94654a10ade9c2d9050745c6~mv2.jpg/v1/fill/w_300,h_300,al_c,q_80,enc_avif,quality_auto/Zohar%20Oddes.jpg"
 
   - name: Eshraq Saffuri
     role: PhD Student
+    linkedin: "https://www.linkedin.com/in/eshraq-saffuri-643398139/"
+    orcid: "https://orcid.org/0009-0005-3621-9076"
     degree: "BSc Mechanical Engineering, Tel-Aviv Uni. (2021)"
     email: eshraqs@campus.technion.ac.il
     photo: "https://static.wixstatic.com/media/152d97_f33f0e90770f450fbe983bd7556299e7~mv2.png/v1/crop/x_0,y_0,w_316,h_424/fill/w_300,h_300,al_c,q_85,enc_avif,quality_auto/Eshraq%20Saffuri.png"
@@ -47,6 +51,8 @@ current:
 
   - name: Benjamin Sarfati
     role: MSc Student
+    linkedin: "https://www.linkedin.com/in/benjamin-sarfati-6286a0230/"
+    orcid: "https://orcid.org/0009-0008-4259-7235"
     degree: "BSc Mechanical Engineering, Technion (2024)"
     email: bsarfati@campus.technion.ac.il
     photo: "https://static.wixstatic.com/media/152d97_9f7f2738453745b9b5ad4c93d9ddeeef~mv2.jpeg/v1/crop/x_24,y_0,w_461,h_508/fill/w_300,h_300,al_c,q_80,enc_avif,quality_auto/Ben%20Sarfati.jpeg"
@@ -94,10 +100,14 @@ past:
 
   - name: Dror Raf
     role: MSc student (2026)
+    scholar: "https://scholar.google.com/citations?user=Yvsq_BAAAAAJ"
+    orcid: "https://orcid.org/0009-0004-6764-4967"
     photo: "https://static.wixstatic.com/media/152d97_a772c780109a4744bb32f352234d7075~mv2.jpeg/v1/crop/x_30,y_0,w_176,h_236/fill/w_300,h_300,al_c,q_80,enc_avif,quality_auto/Dror.jpeg"
 
   - name: Amit Ashkenazi
     role: MSc student (2026)
+    scholar: "https://scholar.google.com/citations?user=Q2uF8joAAAAJ"
+    orcid: "https://orcid.org/0009-0005-4533-7373"
     photo: "https://static.wixstatic.com/media/152d97_00da67bee0414cb792f990d3d5ecbbd9~mv2.jpeg/v1/crop/x_7,y_0,w_328,h_441/fill/w_300,h_300,al_c,q_80,enc_avif,quality_auto/Amit.jpeg"
 
   - name: Adi Lazar Shultz
@@ -114,10 +124,14 @@ past:
 
   - name: Dr. Nolwenn Fougeron
     role: Postdoctoral Associate (2024)
+    linkedin: "https://www.linkedin.com/in/fnolwenn/"
+    scholar: "https://scholar.google.com/citations?user=bvDoKQcAAAAJ"
+    orcid: "https://orcid.org/0000-0002-2317-5351"
     photo: "https://static.wixstatic.com/media/152d97_26bc1bac3ffb45a9aa1e8dc37516bda0~mv2.jpg/v1/crop/x_4,y_0,w_965,h_1296/fill/w_300,h_300,al_c,q_80,enc_avif,quality_auto/Nolwenn_edited.jpg"
 
   - name: Yonatan Bason
     role: Undergraduate Final Project (2024)
+    linkedin: "https://www.linkedin.com/in/yonatan-bason-486ab7221/"
     photo: "https://static.wixstatic.com/media/152d97_6a1fa364cef34dc4914ae852cfa3c40d~mv2.jpeg/v1/crop/x_20,y_0,w_1003,h_1347/fill/w_300,h_300,al_c,q_80,enc_avif,quality_auto/Yonatan%20Bason.jpeg"
 
   - name: Danielle Fael
@@ -134,6 +148,7 @@ past:
 
   - name: Pollina Vitvitzkey
     role: Undergraduate Final Project (2023)
+    linkedin: "https://www.linkedin.com/in/pollina-vitvitzkey-077761119/"
     photo: "https://static.wixstatic.com/media/152d97_3abd38fd27ec41f49a7fa0c0c96030a8~mv2.png/v1/crop/x_0,y_74,w_943,h_1267/fill/w_300,h_300,al_c,q_85,enc_avif,quality_auto/Pollina.png"
 
   - name: Itamar Bareket
@@ -142,6 +157,7 @@ past:
 
   - name: Capucine Cohen
     role: Undergraduate Final Project (2023)
+    linkedin: "https://www.linkedin.com/in/ccoh/"
     photo: "https://static.wixstatic.com/media/152d97_6cd20a4ec0d54bac975964b86918ec07~mv2.jpg/v1/crop/x_89,y_0,w_651,h_874/fill/w_300,h_300,al_c,q_80,enc_avif,quality_auto/Capucine%20Cohen_edited.jpg"
 
   - name: David Goldblat
@@ -166,8 +182,11 @@ past:
 
   - name: Avital Dellariccia
     role: Undergraduate Final Project (2022)
+    linkedin: "https://www.linkedin.com/in/avital-dellariccia/"
+    scholar: "https://scholar.google.com/citations?user=CSqZXqQAAAAJ"
     photo: "https://static.wixstatic.com/media/152d97_d0a9f2fa4a3441589f912d02577605db~mv2.png/v1/fill/w_300,h_300,al_c,q_85,enc_avif,quality_auto/Avital%20Dellariccia.png"
 
   - name: Bessorah Rubinstein-Vered
     role: Undergraduate Final Project (2021)
+    linkedin: "https://www.linkedin.com/in/bessorah-rubenstein-vered-8a66ba167/"
     photo: "https://static.wixstatic.com/media/152d97_fba6e05e3d23456686cd2664b4c99dd3~mv2.jpg/v1/fill/w_300,h_300,al_c,q_80,enc_avif,quality_auto/Bessorah%20Rubinstein-Vered.jpg"
