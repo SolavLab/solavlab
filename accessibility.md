@@ -35,17 +35,10 @@ permalink: /accessibility/
       <li>Links to publishers, GitHub and other external websites lead to content we do not control.</li>
     </ul>
 
-    <h2 class="topic-subhead">Contact for accessibility</h2>
-    <p>If you find something on this site that is hard to use, or you need information in another format, please contact us and we will do our best to help:</p>
-    <ul>
-      <li>Accessibility contact: Prof. Dana Solav</li>
-      <li>Email: {% include email.html address=site.email %}</li>
-      <li>Phone: {% for p in site.phones %}{{ p.label }} <a href="tel:{{ p.number | remove: '-' }}">{{ p.number }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</li>
-  <li>Address: {{ site.address }}</li>
-</ul>
-<p>You can also contact the Technion Accessibility Coordinator:</p>
+<h2 class="topic-subhead">Contact for accessibility</h2>
+<p>If you find something on this site that is hard to use, or you need information in another format, please contact the Technion Accessibility Coordinator and we will do our best to help:</p>
 <ul>
-  <li>Dikla Nachman</li>
+  <li>Dikla Nachman, Technion Accessibility Coordinator</li>
   <li>Phone: <a href="tel:+972733781956">+972-73-378-1956</a></li>
   <li>Email: {% include email.html address="adminlogistic@technion.ac.il" %}</li>
 </ul>
@@ -75,17 +68,10 @@ permalink: /accessibility/
       <li>קישורים לאתרים חיצוניים (הוצאות לאור, GitHub ועוד) מובילים לתוכן שאינו בשליטתנו.</li>
     </ul>
 
-    <h3 class="topic-subhead">פנייה בנושא נגישות</h3>
-    <p>נתקלתם בקושי בשימוש באתר, או שאתם זקוקים למידע בפורמט אחר? נשמח לעזור:</p>
-    <ul>
-      <li>אחראית נגישות: פרופ׳ דנה סולב</li>
-      <li>דוא״ל: {% include email.html address=site.email %}</li>
-      <li>טלפון: {% for p in site.phones %}<span dir="ltr">{{ p.number }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</li>
-  <li>כתובת: בניין ליידי דייוויס 103, קריית הטכניון, חיפה 3200003</li>
-</ul>
-<p>ניתן לפנות גם לרכזת הנגישות של הטכניון:</p>
+<h3 class="topic-subhead">פנייה בנושא נגישות</h3>
+<p>נתקלתם בקושי בשימוש באתר, או שאתם זקוקים למידע בפורמט אחר? ניתן לפנות לרכזת הנגישות של הטכניון ונשמח לעזור:</p>
 <ul>
-  <li>דקלה נחמן</li>
+  <li>דקלה נחמן, רכזת הנגישות של הטכניון</li>
   <li>טלפון: <a href="tel:+972733781956" dir="ltr">073-378-1956</a></li>
   <li>דוא״ל: {% include email.html address="adminlogistic@technion.ac.il" %}</li>
 </ul>
