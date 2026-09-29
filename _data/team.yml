@@ -74,7 +74,7 @@ current:
     role: Undergraduate Research Assistant
     linkedin: "https://www.linkedin.com/in/idan-wolf-profile/"
     email: idan.wolf@campus.technion.ac.il
-    photo: "/assets/img/team/placeholder.png"
+    photo: "/assets/img/team/idan-wolf.jpg"
 
   - name: Shelly Shitrit
     role: Undergraduate Final Project
@@ -91,7 +91,7 @@ current:
     role: Undergraduate R&D Assistant
     linkedin: "https://www.linkedin.com/in/yahli-mendler-476b9b245/"
     email: yahli.m@campus.technion.ac.il
-    photo: "/assets/img/team/placeholder.png"
+    photo: "/assets/img/team/yahli-mendler.jpg"
 
   - name: Chen Reich
     role: Graduate Research Assistant
