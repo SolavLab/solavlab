@@ -22,31 +22,68 @@ layout: default
     <div class="about-body">
       <p>Our group studies the biomechanical interface between the human body and biomedical devices such as prosthetics and orthotics. Our main goal is to develop and optimize patient-specific devices in order to improve patient comfort, health, and function. To achieve this, we analyze the biomechanical factors that affect human movement and function, and develop new imaging and measurement tools, computational algorithms, experimental procedures, and fabrication methods.</p>
     </div>
-    <a class="btn" href="{{ '/research/' | relative_url }}">Read More</a>
   </div>
 </div>
 
-<hr class="divider" />
-
-<!-- ── NEWS ── -->
-<div class="news-section">
+<!-- ── RESEARCH HIGHLIGHTS (projects with home: true in _data/research.yml) ── -->
+<div class="home-band">
   <div class="section">
     <div class="news-header">
-      <h2 class="section-title" style="margin-bottom:0"><a href="{{ '/news/' | relative_url }}" style="color:inherit; text-decoration:none;">News</a></h2>
-      <a href="{{ '/news/' | relative_url }}">Read all news</a>
+      <h2 class="section-title" style="margin-bottom:0"><a href="{{ '/research/' | relative_url }}">Research</a></h2>
+      <a href="{{ '/research/' | relative_url }}">All research projects →</a>
     </div>
-    <div class="news-grid">
-      {% for post in site.posts limit:10 %}
-      <a class="news-card" href="{{ post.url | relative_url }}">
-        {% if post.image %}
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy" />
-        {% endif %}
-        <div class="news-card-body">
-          <p class="news-card-title">{{ post.title }}</p>
-          <p class="news-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-        </div>
+    <div class="research-grid home-research-grid">
+      {% assign highlights = site.data.research | where: "home", true %}
+      {% for p in highlights %}{% include research-card.html p=p %}{% endfor %}
+    </div>
+  </div>
+</div>
+
+<!-- ── LATEST NEWS ── -->
+<div class="section">
+  <div class="news-header">
+    <h2 class="section-title" style="margin-bottom:0"><a href="{{ '/news/' | relative_url }}">Latest News</a></h2>
+    <a href="{{ '/news/' | relative_url }}">All news →</a>
+  </div>
+  <div class="news-grid">
+    {% for post in site.posts limit:3 %}
+    <a class="news-card" href="{{ post.url | relative_url }}">
+      {% if post.image %}
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy" />
+      {% endif %}
+      <div class="news-card-body">
+        <p class="news-card-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <p class="news-card-title">{{ post.title }}</p>
+        <p class="news-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- ── TEAM PREVIEW ── -->
+<div class="home-band">
+  <div class="section">
+    <div class="news-header">
+      <h2 class="section-title" style="margin-bottom:0"><a href="{{ '/team/' | relative_url }}">Our Team</a></h2>
+      <a href="{{ '/team/' | relative_url }}">Meet the team →</a>
+    </div>
+    <div class="home-team">
+      {% for member in site.data.team.current %}
+      <a class="home-team-member" href="{{ '/team/' | relative_url }}" title="{{ member.name }}, {{ member.role }}">
+        <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" loading="lazy" />
+        <span>{{ member.name | remove: "Prof. " | remove: "Dr. " | split: " " | first }}</span>
       </a>
       {% endfor %}
+    </div>
+
+    <!-- ── OPEN POSITIONS ── -->
+    <div class="team-join home-join">
+      <div>
+        <p class="team-join-title">Open positions: we are recruiting postdocs and graduate students!</p>
+        <p class="team-join-text">Interested in biomechanics, medical devices and experimental or computational mechanics? We welcome MSc and PhD applicants and international postdocs.</p>
+      </div>
+      <a class="btn" href="{{ '/join-us/' | relative_url }}">Join us</a>
     </div>
   </div>
 </div>

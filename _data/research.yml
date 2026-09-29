@@ -1,0 +1,46 @@
+# -- RESEARCH PROJECTS -------------------------------------------------------
+# Shown as cards on /research/ (all) and on the home page (those with home: true).
+# Order here = order on the page.
+
+- title: "Soft-tissue material parameter identification using inverse FEA and 3D-DIC"
+  authors: "Zohar Oddes, Amit Ashkenazi, Nolwenn Fougeron & Dana Solav"
+  url: "/research/parameter-identification/"
+  image: "/assets/img/research/card-parameter-identification.jpg"
+  home: true
+
+- title: "Characterization of the mechanical properties of additively manufactured hyperelastic lattice structures"
+  authors: "Dror Raf, Itay Magen, Lee Jordan & Dana Solav"
+  url: "/research/lattice-structures/"
+  image: "/assets/img/publications/soft-orthotropic-hyperelastic-lattice-structures-numerical.jpg"
+  home: true
+
+- title: "Analysis of human gait using various devices for offloading the foot and ankle"
+  authors: "Eshraq Saffuri, Yinon Tal & Dana Solav (in collaboration with Eyal Izak and Einat Kodesh)"
+  url: "/research/ankle-foot-offloading/"
+  image: "/assets/img/research/card-ankle-foot-offloading.jpg"
+  home: true
+
+- title: "A novel AFO for improved rehabilitation through adjustable offloading"
+  authors: "Eshraq Saffuri, Itamar Bareket, Hadas Huber, Danielle Fael, Lee Jordan & Dana Solav"
+  url: "/research/novel-ankle-foot-orthosis/"
+  image: "/assets/img/research/card-novel-ankle-foot-orthosis.jpg"
+  home: true
+
+- title: "DuoDIC: an open-source stereo digital image correlation toolbox"
+  authors: "Asaf Silverstein & Dana Solav"
+  url: "/research/duodic/"
+  image: "/assets/img/research/card-duodic.jpg"
+  home: false
+
+- title: "MultiDIC: an open-source multi-view stereo digital image correlation toolbox"
+  authors: "Dana Solav"
+  url: "/research/multidic/"
+  image: "/assets/img/research/card-multidic.jpg"
+  home: false
+
+- title: "Analysis of the stress distribution in female breasts as a function of their size"
+  authors: "Bessorah Rubenstein Vered & Dana Solav"
+  url: "/research/breast-fea/"
+  image: "/assets/img/research/card-breast-fea.png"
+  home: false
+
