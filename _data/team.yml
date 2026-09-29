@@ -185,7 +185,8 @@ past:
     role: Undergraduate Final Project (2023)
     photo: "/assets/img/team/placeholder.png"   # replace with ayelet-elbaz.jpg when available
 
-    role: MSc student (2023)
+  - name: Yinon Tal
+    role: MSc student (2023)
     photo: "/assets/img/team/yinon-tal.jpg"
 
   - name: Franck Marciano
