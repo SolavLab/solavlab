@@ -27,12 +27,6 @@
   image_link: "https://github.com/SolavLab/DuoDIC#application-highlights"
   image_label: "Application highlights"
 
-- name: "GIBBON"
-  description: "The Geometry and Image-Based Bioengineering add-On"
-  github: "https://github.com/gibbonCode/GIBBON"
-  paper: "https://doi.org/10.21105/joss.00506"
-  image: "/assets/img/publications/code-gibbon.jpg"
-
 - name: "indentify"
   description: "Identifiability of (hyperelastic) material parameters from indentation test"
   github: "https://github.com/SolavLab/indentify"
@@ -44,3 +38,9 @@
   github: "https://github.com/SolavLab/certainty"
   paper: "https://doi.org/10.1016/j.ijengsci.2024.104163"
   image: "/assets/img/publications/parameter-certainty-quantification-in-nonlinear-models.jpg"
+
+- name: "GIBBON"
+  description: "The Geometry and Image-Based Bioengineering add-On"
+  github: "https://github.com/gibbonCode/GIBBON"
+  paper: "https://doi.org/10.21105/joss.00506"
+  image: "/assets/img/publications/code-gibbon.jpg"
