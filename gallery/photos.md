@@ -50,7 +50,7 @@ photos:
   - file: "/assets/img/gallery/photo-06.jpg"
     width: 4898
     height: 3265
-    caption: "SoBIG poster session, Faculty of Mechanical Engineering"
+    caption: "Research Day, Faculty of Mechanical Engineering"
   - file: "/assets/img/gallery/photo-07.jpg"
     width: 3072
     height: 4080
@@ -58,15 +58,15 @@ photos:
   - file: "/assets/img/gallery/photo-08.jpg"
     width: 4898
     height: 3265
-    caption: "SoBIG poster session, Faculty of Mechanical Engineering"
+    caption: "Research Day, Faculty of Mechanical Engineering"
   - file: "/assets/img/gallery/photo-09.jpg"
     width: 3265
     height: 4898
-    caption: "SoBIG poster session, Faculty of Mechanical Engineering"
+    caption: "Research Day, Faculty of Mechanical Engineering"
   - file: "/assets/img/gallery/photo-10.jpg"
     width: 4899
     height: 3266
-    caption: "SoBIG poster session, Faculty of Mechanical Engineering"
+    caption: "Research Day, Faculty of Mechanical Engineering"
   - file: "/assets/img/gallery/photo-11.jpg"
     width: 3072
     height: 4080
