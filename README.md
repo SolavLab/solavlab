@@ -45,6 +45,7 @@ and videos well under GitHub's 100 MB file limit.
 `assets/img/site/logo/` holds the SoBIG logo (text converted to outlines, so no font is needed):
 - `sobig-logo.svg` / `.png`: full logo for light backgrounds; `sobig-logo-on-navy.*` for dark backgrounds
 - `sobig-logo-compact.*`: symbol + SoBIG only (small spaces, phone header)
+- `*-large-text.*`: same layouts with SoBIG as tall as the symbol (posters, slides, banners)
 - `sobig-symbol.svg` / `.png`, `sobig-icon.svg` / `.png` (navy rounded square): favicon, social avatars
 Use the SVG files for print and posters; use PNG for Word / PowerPoint.
 
