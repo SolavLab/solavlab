@@ -80,7 +80,7 @@ current:
     role: Undergraduate Final Project
     linkedin: "https://www.linkedin.com/in/shelly-shitrit-855b62219/"
     email: shitrits@campus.technion.ac.il
-    photo: "/assets/img/team/placeholder.png"
+    photo: "/assets/img/team/shelly-shitrit.jpg"
 
   - name: Nir Vindish
     role: Undergraduate Final Project
@@ -89,6 +89,7 @@ current:
 
   - name: Yahli Mendler
     role: Undergraduate R&D Assistant
+    linkedin: "https://www.linkedin.com/in/yahli-mendler-476b9b245/"
     email: yahli.m@campus.technion.ac.il
     photo: "/assets/img/team/placeholder.png"
 
