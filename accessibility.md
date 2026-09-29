@@ -41,8 +41,14 @@ permalink: /accessibility/
       <li>Accessibility contact: Prof. Dana Solav</li>
       <li>Email: {% include email.html address=site.email %}</li>
       <li>Phone: {% for p in site.phones %}{{ p.label }} <a href="tel:{{ p.number | remove: '-' }}">{{ p.number }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</li>
-      <li>Address: {{ site.address }}</li>
-    </ul>
+  <li>Address: {{ site.address }}</li>
+</ul>
+<p>You can also contact the Technion Accessibility Coordinator:</p>
+<ul>
+  <li>Dikla Nachman</li>
+  <li>Phone: <a href="tel:+972733781956">+972-73-378-1956</a></li>
+  <li>Email: {% include email.html address="adminlogistic@technion.ac.il" %}</li>
+</ul>
     <p class="a11y-date">This statement was last reviewed in September 2026.</p>
   </div>
 
@@ -75,8 +81,14 @@ permalink: /accessibility/
       <li>אחראית נגישות: פרופ׳ דנה סולב</li>
       <li>דוא״ל: {% include email.html address=site.email %}</li>
       <li>טלפון: {% for p in site.phones %}<span dir="ltr">{{ p.number }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</li>
-      <li>כתובת: בניין ליידי דייוויס 103, קריית הטכניון, חיפה 3200003</li>
-    </ul>
+  <li>כתובת: בניין ליידי דייוויס 103, קריית הטכניון, חיפה 3200003</li>
+</ul>
+<p>ניתן לפנות גם לרכזת הנגישות של הטכניון:</p>
+<ul>
+  <li>דקלה נחמן</li>
+  <li>טלפון: <a href="tel:+972733781956" dir="ltr">073-378-1956</a></li>
+  <li>דוא״ל: {% include email.html address="adminlogistic@technion.ac.il" %}</li>
+</ul>
     <p class="a11y-date">ההצהרה עודכנה לאחרונה בספטמבר 2026.</p>
   </div>
 </div>
