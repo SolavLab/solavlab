@@ -839,3 +839,14 @@ footer p { font-size: 0.78rem; color: rgba(255,255,255,0.35); }
 
 @media (max-width: 860px) { .gallery-sections { grid-template-columns: 1fr; } }
 /* ── end gallery/home/facilities ── */
+
+/* ── team page: open positions callout ── */
+.team-join {
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  margin-bottom: 56px; padding: 24px 28px;
+  background: var(--sky-light); border-left: 3px solid var(--sky); border-radius: 0 var(--radius) var(--radius) 0;
+}
+.team-join-title { font-family: var(--font-serif); font-size: 1.2rem; font-weight: 600; color: var(--navy); margin-bottom: 6px; }
+.team-join-text { font-size: 0.95rem; color: var(--text-mid); }
+.team-join .btn { color: #fff; flex-shrink: 0; }
+@media (max-width: 640px) { .team-join { flex-direction: column; align-items: flex-start; } }
