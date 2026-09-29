@@ -439,7 +439,7 @@ nav {
 .contact-inner {
   max-width: var(--max-w);
   margin: 0 auto;
-  padding: 48px 24px;
+  padding: 28px 24px 22px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
@@ -479,7 +479,7 @@ nav {
 
 /* ── FOOTER ── */
 .footer-bottom {
-  max-width: var(--max-w); margin: 0 auto; padding: 22px 24px 28px;
+  max-width: var(--max-w); margin: 0 auto; padding: 16px 24px 22px;
   border-top: 1px solid rgba(255,255,255,0.14);
   display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;
 }
