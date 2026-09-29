@@ -72,11 +72,13 @@ current:
 
   - name: Idan Wolf
     role: Undergraduate Research Assistant
+    linkedin: "https://www.linkedin.com/in/idan-wolf-profile/"
     email: idan.wolf@campus.technion.ac.il
     photo: "/assets/img/team/placeholder.png"
 
   - name: Shelly Shitrit
     role: Undergraduate Final Project
+    linkedin: "https://www.linkedin.com/in/shelly-shitrit-855b62219/"
     email: shitrits@campus.technion.ac.il
     photo: "/assets/img/team/placeholder.png"
 
