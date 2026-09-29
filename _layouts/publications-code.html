@@ -1,0 +1,35 @@
+---
+layout: publications-base
+eyebrow: Publications
+---
+{% comment %} Open-source code list from _data/code.yml. {% endcomment %}
+<div class="code-grid">
+  {% for c in site.data.code %}
+    {% if c.image contains "static.wixstatic.com" %}
+      {% assign ext = c.image | split: "." | last %}
+      {% assign img_src = c.image | append: "/v1/fit/w_816,h_612,al_c,q_85,enc_auto/img." | append: ext %}
+    {% elsif c.image contains "://" %}
+      {% assign img_src = c.image %}
+    {% else %}
+      {% assign img_src = c.image | relative_url %}
+    {% endif %}
+    {% if c.image_link %}{% assign img_href = c.image_link %}{% else %}{% assign img_href = c.github %}{% endif %}
+  <div class="code-card">
+    {% if c.image %}
+    <a class="code-card-img" href="{{ img_href }}" target="_blank" rel="noopener"{% if c.image_label %} title="{{ c.image_label }}"{% endif %}>
+      <img src="{{ img_src }}" alt="{{ c.name }}" loading="lazy">
+    </a>
+    {% endif %}
+    <div class="code-card-body">
+      <h2 class="code-card-name"><a href="{{ c.github }}" target="_blank" rel="noopener">{{ c.name }}</a></h2>
+      <p class="code-card-desc">{{ c.description }}</p>
+      <div class="pub-links">
+        {% if c.paper %}<a class="pub-link" href="{{ c.paper }}" target="_blank" rel="noopener">Paper</a>{% endif %}
+        <a class="pub-link" href="{{ c.github }}" target="_blank" rel="noopener">GitHub</a>
+        {% if c.image_link and c.image_label %}<a class="pub-link" href="{{ c.image_link }}" target="_blank" rel="noopener">{{ c.image_label }}</a>{% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{{ content }}

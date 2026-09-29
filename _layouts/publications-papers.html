@@ -1,0 +1,54 @@
+---
+layout: publications-base
+eyebrow: Publications
+---
+{% comment %}
+  Full paper list from _data/publications.yml as one list, newest year first.
+  Order within a year follows the order in the YAML file.
+{% endcomment %}
+<p class="pubs-intro">
+  Read all papers on
+  <a href="{{ site.social.scholar }}" target="_blank" rel="noopener">Google Scholar</a>.
+</p>
+
+<ul class="pub-list">
+{% assign years = site.data.publications | map: "year" | uniq | sort | reverse %}
+{% for y in years %}
+    {% assign pubs = site.data.publications | where: "year", y %}
+    {% for pub in pubs %}
+      {% if pub.doi %}{% assign main_url = pub.doi | prepend: "https://doi.org/" %}{% else %}{% assign main_url = pub.link %}{% endif %}
+      {% if pub.image %}
+        {% if pub.image contains "static.wixstatic.com" %}
+          {% assign ext = pub.image | split: "." | last %}
+          {% if ext == "gif" %}{% assign img_src = pub.image %}{% else %}{% assign img_src = pub.image | append: "/v1/fill/w_656,h_366,al_c,q_85,enc_auto/thumb." | append: ext %}{% endif %}
+        {% elsif pub.image contains "://" %}
+          {% assign img_src = pub.image %}
+        {% else %}
+          {% assign img_src = pub.image | relative_url %}
+        {% endif %}
+      {% endif %}
+    <li class="paper">
+      <div>
+        <p class="pub-title paper-title">
+          {% if main_url %}<a href="{{ main_url }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+          {% if pub.type and pub.type != "journal" %}<span class="paper-type">{{ pub.type }}</span>{% endif %}
+        </p>
+        <p class="pub-authors">{{ pub.authors }}</p>
+        <p class="pub-journal">{{ pub.venue }}{% if pub.details %}, {{ pub.details }}{% endif %}{% if pub.year %} ({{ pub.year }}){% endif %}</p>
+        <div class="pub-links">
+          {% if pub.doi %}<a class="pub-link" href="{{ main_url }}" target="_blank" rel="noopener">DOI: {{ pub.doi }}</a>{% elsif pub.link %}<a class="pub-link" href="{{ pub.link }}" target="_blank" rel="noopener">{% if pub.type == "patent" %}Patent{% else %}Link{% endif %}</a>{% endif %}
+          {% if pub.preprint %}<a class="pub-link" href="{{ pub.preprint }}" target="_blank" rel="noopener">Preprint</a>{% endif %}
+          {% if pub.pdf %}<a class="pub-link" href="{% if pub.pdf contains '://' %}{{ pub.pdf }}{% else %}{{ pub.pdf | relative_url }}{% endif %}" target="_blank" rel="noopener">PDF</a>{% endif %}
+          {% if pub.code %}<a class="pub-link" href="{{ pub.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+        </div>
+      </div>
+      {% if pub.image %}
+      <a class="paper-img" href="{{ main_url }}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+        <img src="{{ img_src }}" alt="" loading="lazy">
+      </a>
+      {% endif %}
+    </li>
+    {% endfor %}
+{% endfor %}
+</ul>
+{{ content }}

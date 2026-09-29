@@ -7,7 +7,7 @@
   <meta name="description" content="{{ page.description | default: site.description }}" />
   <meta property="og:title" content="{{ page.title | default: site.title }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
 </head>
 <body>
@@ -16,7 +16,7 @@
 <nav>
   <div class="nav-inner">
     <a class="nav-logo" href="{{ '/' | relative_url }}">
-      <img src="https://static.wixstatic.com/media/152d97_67278bf6da024e2d8a110ad0fd0b8076~mv2.png/v1/fill/w_254,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo%20solav%20new.png" alt="SoBIG" />
+      <img src="https://static.wixstatic.com/media/152d97_67278bf6da024e2d8a110ad0fd0b8076~mv2.png/v1/fill/w_508,h_312,al_c,q_90/logo.png" alt="SoBIG" />
     </a>
     <button class="nav-toggle" aria-label="Toggle menu" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')">
       <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
@@ -45,7 +45,7 @@
       <li>
         <a href="{{ '/publications/' | relative_url }}" {% if page.url contains 'publications' %}class="active"{% endif %}>Publications</a>
         <ul>
-          <li><a href="{{ '/publications/journal-papers/' | relative_url }}">Journal papers</a></li>
+          <li><a href="{{ '/publications/journal-papers/' | relative_url }}">Journal and conference papers</a></li>
           <li><a href="{{ '/publications/code/' | relative_url }}">Open source codes</a></li>
         </ul>
       </li>
@@ -72,14 +72,14 @@
       <p><a href="{{ site.maps_link }}" target="_blank" rel="noopener">{{ site.address }}</a></p>
     </div>
     <div class="contact-block">
-      <h3>Contact</h3>
-      <p>
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
-        <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
-      </p>
+      <h3>Mail</h3>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     </div>
     <div class="contact-block">
-      <h3>Connect</h3>
+      <h3>Phone</h3>
+      <p><a href="tel:{{ site.phone_link }}">{{ site.phone }}</a></p>
+    </div>
+    <div class="contact-block contact-social">
       <div class="social-icons">
         <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">
           <svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.07c.67-1.27 2.3-2.6 4.73-2.6C21.85 7.6 23 10.6 23 15v9h-5v-7.9c0-1.9-.03-4.33-2.64-4.33-2.64 0-3.04 2.06-3.04 4.19V24h-5V8z"/></svg>
@@ -100,7 +100,7 @@
 
 <!-- ── FOOTER ── -->
 <footer>
-  <p>© 2020–2026 Solav Biomechanical Interfaces Group. Faculty of Mechanical Engineering, Technion.</p>
+  <p>&copy; 2020{% assign _year = site.time | date: "%Y" %}{% if _year != "2020" %}&ndash;{{ _year }}{% endif %} Solav Biomechanical Interfaces Group</p>
   <div class="footer-logos">
     <a href="https://technion.ac.il" target="_blank" rel="noopener">
       <img src="https://static.wixstatic.com/media/152d97_f523638a57bb4192808ed51a487b6513~mv2.png/v1/fill/w_81,h_92,al_c,q_85,enc_avif,quality_auto/Technion%20IIT%20English%203-lines%20centered%20reversed.png" alt="Technion IIT" />

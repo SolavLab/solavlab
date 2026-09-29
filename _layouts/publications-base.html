@@ -1,0 +1,77 @@
+---
+layout: default
+---
+{% comment %}
+  Shared wrapper for the Publications section (landing, journal papers, code).
+  Page-specific styles live here so they don't touch assets/css/style.css.
+{% endcomment %}
+<style>
+  .pubs-intro { margin-bottom: 28px; font-size: 0.9rem; color: var(--text-light); }
+  .pubs-intro a { color: var(--sky); }
+
+  /* landing tiles */
+  .pubs-tiles { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+  .pubs-tile {
+    position: relative; overflow: hidden;
+    display: flex; align-items: flex-end; min-height: 280px; padding: 28px;
+    background-color: var(--navy); background-size: cover; background-position: center;
+    border-radius: 8px; text-decoration: none;
+    box-shadow: 0 2px 10px rgba(26,39,68,0.10);
+    transition: box-shadow 0.25s, transform 0.25s;
+  }
+  .pubs-tile::before {
+    content: ""; position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(20,30,55,0.88) 0%, rgba(20,30,55,0.35) 55%, rgba(20,30,55,0.1) 100%);
+    transition: background 0.25s;
+  }
+  .pubs-tile span {
+    position: relative;
+    font-family: var(--font-serif); font-size: 1.6rem; font-weight: 600; line-height: 1.25; color: #fff;
+  }
+  .pubs-tile span::after { content: " →"; opacity: 0.8; }
+  .pubs-tile:hover { box-shadow: 0 10px 28px rgba(26,39,68,0.22); transform: translateY(-3px); }
+  .pubs-tile:hover::before { background: linear-gradient(to top, rgba(20,30,55,0.92) 0%, rgba(74,127,191,0.45) 100%); }
+
+  /* paper list */
+  .pub-list { list-style: none; padding: 0; margin: 0; }
+  .paper { display: grid; grid-template-columns: 1fr 240px; gap: 28px; padding: 24px 0; border-bottom: 1px solid var(--border); align-items: start; }
+  .paper-img { display: block; width: 240px; aspect-ratio: 328 / 183; border-radius: var(--radius); overflow: hidden; background: var(--white); border: 1px solid var(--border); }
+  .paper-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .paper-title a { color: inherit; text-decoration: none; }
+  .paper-title a:hover { color: var(--sky); }
+  .paper-type {
+    display: inline-block; margin-left: 6px; padding: 1px 8px; border-radius: 20px;
+    font-family: var(--font-sans); font-size: 0.68rem; font-weight: 600; letter-spacing: 0.04em;
+    text-transform: uppercase; vertical-align: middle; background: var(--sky-light); color: var(--sky);
+  }
+
+  /* code cards */
+  .code-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; }
+  .code-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; }
+  .code-card-img { display: block; aspect-ratio: 4 / 3; background: var(--off-white); }
+  .code-card-img img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .code-card-body { padding: 20px 24px 24px; }
+  .code-card-name { font-family: var(--font-serif); font-size: 1.2rem; font-weight: 600; color: var(--navy); margin-bottom: 6px; }
+  .code-card-name a { color: inherit; text-decoration: none; }
+  .code-card-name a:hover { color: var(--sky); }
+  .code-card-desc { font-size: 0.88rem; color: var(--text-mid); margin-bottom: 14px; }
+
+  @media (max-width: 860px) {
+    .pubs-tiles { grid-template-columns: 1fr; }
+    .pubs-tile { min-height: 200px; }
+    .paper { grid-template-columns: 1fr; gap: 14px; }
+    .paper-img { width: 100%; max-width: 360px; grid-row: 1; }
+    .code-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="page-hero">
+  <div class="page-hero-inner">
+    {% if page.eyebrow %}<p class="hero-eyebrow">{{ page.eyebrow }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+  </div>
+</div>
+
+<div class="section">
+{{ content }}
+</div>

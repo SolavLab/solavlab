@@ -1,77 +1,248 @@
 # ── PUBLICATIONS ─────────────────────────────────────────────────────────────
-# To add a paper: copy a block, fill in fields, save. Done.
-# doi: optional — used to generate a link button
-# pdf: optional — path to local PDF or external URL
-# code: optional — link to GitHub or Zenodo
+# Shown on /publications/journal-papers/ (grouped by year, newest first).
+#
+# To add a paper: copy one block (from "- year:" to the next blank line),
+# paste it at the top of the right year, fill in the fields, save. Done.
+#
+#   year:     publication year (the page groups papers by this)
+#   type:     journal | conference | preprint | patent
+#             (anything other than "journal" gets a small label on the page)
+#   title:    paper title
+#   authors:  author list, exactly as you want it shown
+#   venue:    journal / proceedings / archive name
+#   details:  optional — volume(issue), pages or article number
+#   doi:      optional — just the DOI, e.g. "10.1016/j.jmbbm.2023.105708"
+#             (the page turns it into a https://doi.org/ link)
+#   link:     optional — any other web link (used when there is no DOI)
+#   preprint: optional — link to a free preprint
+#   code:     optional — link to GitHub / Zenodo
+#   pdf:      optional — path to a local PDF (e.g. /assets/pdf/x.pdf) or URL
+#   image:    optional — thumbnail picture (URL or /assets/img/... path)
+#
+# Order inside a year = order on the page.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── 2025 ──
+
+- year: 2025
+  type: conference
+  title: "Multilayered Spacer Midsoles: A Novel Method for 3D Printing Midsoles for Performance Running Shoes"
+  authors: "Gispan K., Solav D., Sterman Y."
+  venue: "Proceedings of the ACM Symposium on Computational Fabrication (SCF '25)"
+  details: "1–15"
+  doi: "10.1145/3745778.3766663"
+  image: "https://static.wixstatic.com/media/152d97_3708e17daf8c413d91c1304a5a2afeaa~mv2.jpg"
+
+- year: 2025
+  type: journal
+  title: "Soft orthotropic hyperelastic lattice structures: numerical homogenization and experimental validation"
+  authors: "Raf D., Magen I., Ashkenazi A., Jordan L., Solav D."
+  venue: "Mechanics of Materials"
+  details: "212, 105534"
+  doi: "10.1016/j.mechmat.2025.105534"
+  preprint: "https://doi.org/10.31224/4772"
+  image: "https://static.wixstatic.com/media/152d97_e61fd8a3e8e84b3bbe80c126c71bb177~mv2.jpg"
+
+- year: 2025
+  type: journal
+  title: "Parameter certainty quantification in nonlinear models"
+  authors: "Ashkenazi A., Solav D."
+  venue: "International Journal of Engineering Science"
+  details: "206, 104163"
+  doi: "10.1016/j.ijengsci.2024.104163"
+  image: "https://static.wixstatic.com/media/152d97_01d4c2aa42964ec8877f767f8e32a450~mv2.jpg"
+
+- year: 2025
+  type: journal
+  title: "Indentation-based anisotropic material parameter identifiability: Validation on a synthetic soft tissue phantom"
+  authors: "Ashkenazi A., Shultz A., Jordan L., Solav D."
+  venue: "Journal of the Mechanics and Physics of Solids"
+  details: "208, 106417"
+  doi: "10.1016/j.jmps.2025.106417"
+  image: "https://static.wixstatic.com/media/152d97_d752a67d5dbc439c86081ec776c4e01d~mv2.png"
+
+- year: 2026
+  type: journal
+  title: "Characterization of the mechanical properties of TPU fabricated by SLS in different printing orientations"
+  authors: "Raf D., Magen I., Jordan L., Solav D."
+  venue: "Progress in Additive Manufacturing"
+  details: "11, 7625–7638"
+  doi: "10.1007/s40964-026-01759-9"
+  preprint: "https://doi.org/10.31224/4689"
+  image: "https://static.wixstatic.com/media/152d97_cad2418f2f4544669de3ef75a5e23e76~mv2.png"
+
+# ── 2024 ──
+
+- year: 2024
+  type: journal
+  title: "Identification of constitutive materials of bi-layer soft tissues from multimodal indentations"
+  authors: "Fougeron N., Oddes Z., Ashkenazi A., Solav D."
+  venue: "Journal of the Mechanical Behavior of Biomedical Materials"
+  details: "155, 106572"
+  doi: "10.1016/j.jmbbm.2024.106572"
+  image: "https://static.wixstatic.com/media/152d97_b94dfcc52b3d47d7902595ac5666c4cc~mv2.jpg"
+
+- year: 2024
+  type: journal
+  title: "Walking with unilateral ankle-foot unloading: a comparative biomechanical analysis of three assistive devices"
+  authors: "Saffuri E., Izak E., Tal Y., Kodesh E., Epstein Y., Solav D."
+  venue: "Journal of NeuroEngineering and Rehabilitation"
+  details: "21(1), 67"
+  doi: "10.1186/s12984-024-01333-w"
+  image: "https://static.wixstatic.com/media/152d97_1e407de273cd435f8db74346c494f64d~mv2.jpg"
+
+- year: 2024
+  type: conference
+  title: "Impact of Sole Designs of Offloading AFO on Gait Dynamics: A Predictive Neuromechanical Simulation Study"
+  authors: "Ton V., Solav D., Song S."
+  venue: "2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob)"
+  details: "1709–1714"
+  doi: "10.1109/BioRob60516.2024.10719761"
+  image: "https://static.wixstatic.com/media/152d97_780d27de30644c69b71232054da3e3d2~mv2.jpg"
+
+- year: 2024
+  type: journal
+  title: "Custom orthotic insoles with gradual variable stiffness using 3D printed spacer technique"
+  authors: "Sterman Y., Solav D., Rosen N., Saffuri E., Shmilov Zaritsky L."
+  venue: "Virtual and Physical Prototyping"
+  details: "19(1), e2336151"
+  doi: "10.1080/17452759.2024.2336151"
+  image: "https://static.wixstatic.com/media/152d97_243b1eabf4f5478f91f47b454e3d8921~mv2.jpg"
+
+# ── 2023 ──
 
 - year: 2023
+  type: journal
   title: "Identifiability of soft tissue constitutive parameters from in-vivo macro-indentation"
-  authors: "Oddes Z., and Solav D."
-  journal: "Journal of the Mechanical Behavior of Biomedical Materials"
-  volume: "140, 105708"
-  doi: "https://doi.org/10.1016/j.jmbbm.2023.105708"
+  authors: "Oddes Z., Solav D."
+  venue: "Journal of the Mechanical Behavior of Biomedical Materials"
+  details: "140, 105708"
+  doi: "10.1016/j.jmbbm.2023.105708"
+  preprint: "https://doi.org/10.31224/2697"
+  image: "https://static.wixstatic.com/media/152d97_6c6b21c444fe4ebe98224be6373153e5~mv2.jpg"
+
+# ── 2022 ──
 
 - year: 2022
-  title: "Material, design, and fabrication of custom prosthetic liners for lower-extremity amputees: A review"
-  authors: "Yang X., Zhao R., Solav D., Yang X., Lee D.R., Sparrman B., Fan Y., and Herr H."
-  journal: "Medicine in Novel Technology and Devices"
-  volume: "p.100197"
-  doi: "https://doi.org/10.1016/j.medntd.2022.100197"
-
-- year: 2022
+  type: journal
   title: "DuoDIC: 3D Digital Image Correlation in MATLAB"
-  authors: "Solav D. and Silverstein A."
-  journal: "Journal of Open Source Software"
-  volume: "7(74), 4279"
-  doi: "https://doi.org/10.21105/joss.04279"
+  authors: "Solav D., Silverstein A."
+  venue: "Journal of Open Source Software"
+  details: "7(74), 4279"
+  doi: "10.21105/joss.04279"
   code: "https://github.com/SolavLab/DuoDIC"
+  image: "https://static.wixstatic.com/media/152d97_c3d48aa5d8e340bd9922846952efeec1~mv2.jpg"
+
+# ── 2021 ──
 
 - year: 2021
+  type: journal
   title: "An Ankle-Foot Prosthesis for Rock Climbing Augmentation"
-  authors: "Rogers E., Carney M., Yeon S., Solav D., and Herr H."
-  journal: "IEEE Transactions on Neural Systems and Rehabilitation Engineering"
-  volume: "29, 41–51"
-  doi: "https://doi.org/10.1109/TNSRE.2020.3037545"
+  authors: "Rogers E., Carney M., Yeon S., Clites T., Solav D., Herr H."
+  venue: "IEEE Transactions on Neural Systems and Rehabilitation Engineering"
+  details: "29, 41–51"
+  doi: "10.1109/TNSRE.2020.3033474"
+  image: "https://static.wixstatic.com/media/152d97_1d6f3c009d7f4e5bb3428ccdc09111d1~mv2.gif"
+
+- year: 2021
+  type: patent
+  title: "Quantitative Design and Manufacturing Framework for a Biomechanical Interface Contacting a Biological Body Segment"
+  authors: "Herr H.M., Moerman K.M., Solav D., Ranger B.J., Steinmeyer R., Ku S.L., Dagdeviren C., Carney M., et al."
+  venue: "U.S. Patent Application No. 16/969,142 (US 2021/0145608 A1)"
+  link: "https://patents.google.com/patent/US20210145608A1/en"
+  image: "https://static.wixstatic.com/media/152d97_877861551cbe4491a9c43b228be921a3~mv2.png"
+
+# ── 2020 ──
 
 - year: 2020
+  type: journal
   title: "Decoding of facial strains via conformable piezoelectric interfaces"
   authors: "Sun T.*, Tasnim F.*, McIntosh R., Amiri N., Solav D., Anbarani M., Sadat D., Zhang L., Gu Y., Karami M., Dagdeviren C."
-  journal: "Nature Biomedical Engineering"
-  volume: "4, 954–972"
-  doi: "https://doi.org/10.1038/s41551-020-00612-w"
+  venue: "Nature Biomedical Engineering"
+  details: "4, 954–972"
+  doi: "10.1038/s41551-020-00612-w"
+  image: "https://static.wixstatic.com/media/152d97_d7d6b955bc1a4ca4ae7f33a3ee798cd2~mv2.png"
+
+# ── 2019 ──
 
 - year: 2019
+  type: journal
   title: "A Framework for Measuring the Time-varying Shape and Full-field Deformation of Residual Limbs using 3D Digital Image Correlation"
-  authors: "Solav D., Moerman K., Jaeger A., and Herr H."
-  journal: "IEEE Transactions on Biomedical Engineering"
-  volume: "66(10), 2740–2752"
-  doi: "https://doi.org/10.1109/TBME.2019.2895283"
+  authors: "Solav D., Moerman K., Jaeger A., Herr H."
+  venue: "IEEE Transactions on Biomedical Engineering"
+  details: "66(10), 2740–2752"
+  doi: "10.1109/TBME.2019.2895283"
+  image: "https://static.wixstatic.com/media/152d97_a0b5cb64751c4ecc8d9b733d0e7edb3b~mv2.jpeg"
+
+# ── 2018 ──
 
 - year: 2018
-  title: "MultiDIC: a MATLAB Toolbox for Multi-View 3D Digital Image Correlation"
-  authors: "Solav D., Moerman K., Jaeger A., Genovese K., and Herr H."
-  journal: "IEEE Access"
-  volume: "6, 30520–30535"
-  doi: "https://doi.org/10.1109/ACCESS.2018.2843725"
+  type: journal
+  title: "MultiDIC: An Open-Source Toolbox for Multi-View 3D Digital Image Correlation"
+  authors: "Solav D., Moerman K., Jaeger A., Genovese K., Herr H."
+  venue: "IEEE Access"
+  details: "6, 30520–30535"
+  doi: "10.1109/ACCESS.2018.2843725"
   code: "https://github.com/MultiDIC/MultiDIC"
+  image: "https://static.wixstatic.com/media/152d97_40a572dee6064a5eb52aa7efb8b9ef74~mv2.png"
+
+# ── 2017 ──
 
 - year: 2017
-  title: "Bone Orientation and Position Estimation Errors Using Cosserat Point Elements and Least Squares methods: Application to Gait"
-  authors: "Solav D., Camomilla V., Cereatti A., Barré A., Aminian K., and Wolf A."
-  journal: "Journal of Biomechanics"
-  volume: "62, 110–116"
-  doi: "https://doi.org/10.1016/j.jbiomech.2017.04.021"
+  type: journal
+  title: "Bone orientation and position estimation errors using Cosserat point elements and least squares methods: application to gait"
+  authors: "Solav D., Camomilla V., Cereatti A., Barré A., Aminian K., Wolf A."
+  venue: "Journal of Biomechanics"
+  details: "62, 110–116"
+  doi: "10.1016/j.jbiomech.2017.01.026"
+  image: "https://static.wixstatic.com/media/152d97_6598bc63f1d04c3ca1ee53dcd3b2f424~mv2.png"
 
 - year: 2017
+  type: journal
   title: "Chest Wall Kinematics Using Triangular Cosserat Point Elements in Healthy and Neuromuscular Subjects"
-  authors: "Solav D., Meric H., Rubin M.B., Pradon D., Lofaso F., and Wolf A."
-  journal: "Annals of Biomedical Engineering"
-  volume: "45(8), 1963–1973"
-  doi: "https://doi.org/10.1007/s10439-017-1840-6"
+  authors: "Solav D., Meric H., Rubin M.B., Pradon D., Lofaso F., Wolf A."
+  venue: "Annals of Biomedical Engineering"
+  details: "45(8), 1963–1973"
+  doi: "10.1007/s10439-017-1840-6"
+  image: "https://static.wixstatic.com/media/152d97_f95cc9b1650d456384df9370b4ba3076~mv2.png"
+
+# ── 2016 ──
 
 - year: 2016
+  type: journal
   title: "Unphysical Properties of the Rotation Tensor Estimated by Least Squares Optimization with Specific Application to Biomechanics"
-  authors: "Rubin M.B. and Solav D."
-  journal: "International Journal of Engineering Science"
-  volume: "103, 11–18"
-  doi: "https://doi.org/10.1016/j.ijengsci.2016.02.008"
+  authors: "Rubin M.B., Solav D."
+  venue: "International Journal of Engineering Science"
+  details: "103, 11–18"
+  doi: "10.1016/j.ijengsci.2016.02.001"
+  image: "https://static.wixstatic.com/media/152d97_3bad2fe836434dc8af563cf0fa0fe302~mv2.png"
+
+- year: 2016
+  type: preprint
+  title: "Automated and Data-driven Computational Design of Patient-specific Biomechanical Interfaces"
+  authors: "Moerman K., Solav D., Sengeh D., Herr H."
+  venue: "engrXiv"
+  doi: "10.31224/osf.io/g8h9n"
+  image: "https://static.wixstatic.com/media/152d97_01cf99f5e1cb49788ebd7be159ff194f~mv2.jpg"
+
+# ── 2015 ──
+
+- year: 2015
+  type: journal
+  title: "Bone Pose estimation in the presence of Soft Tissue Artifact using Triangular Cosserat Point Elements"
+  authors: "Solav D., Rubin M.B., Cereatti A., Camomilla V., Wolf A."
+  venue: "Annals of Biomedical Engineering"
+  details: "44(4), 1181–1190"
+  doi: "10.1007/s10439-015-1384-6"
+  image: "https://static.wixstatic.com/media/152d97_b3a5ec491cda4021ae6b94d1f44a3996~mv2.png"
+
+# ── 2014 ──
+
+- year: 2014
+  type: journal
+  title: "Soft Tissue Artifact compensation using Triangular Cosserat Point Elements (TCPEs)"
+  authors: "Solav D., Rubin M.B., Wolf A."
+  venue: "International Journal of Engineering Science"
+  details: "85, 1–9"
+  doi: "10.1016/j.ijengsci.2014.07.001"
+  image: "https://static.wixstatic.com/media/152d97_6f33189f371c4e6a9e969bc027e49fcf~mv2.jpg"

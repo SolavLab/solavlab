@@ -1,16 +1,19 @@
 title: SoBIG
 tagline: Solav Biomechanical Interfaces Group
 description: >
-  SoBIG is a research group at Technion studying human musculoskeletal
-  biomechanics and developing innovative medical devices for prosthetic
-  and orthotic users.
-url: "https://www.solavlab.com"
-baseurl: ""
+  Solav Biomechanical Interfaces Group (SoBIG) is a research group at Technion
+  (Haifa, Israel) that studies human musculoskeletal biomechanics and develops
+  innovative medical devices and research tools to improve the comfort and
+  function of prosthetic and orthotic users.
+url: "https://solavlab.github.io"   # at domain cutover: "https://www.solavlab.com"
+baseurl: "/solavlab"                # at domain cutover: ""
+timezone: Asia/Jerusalem
 
 email: sobig@technion.ac.il
-phone: "+972-73-378-5494"
-address: "103 Lady Davis Bldg., Technion City, Haifa 3200003, Israel"
-maps_link: "https://goo.gl/maps/yNZnYossAYzP5axc7"
+phone: "+972-73-3785494/1643"      # as displayed on the Wix footer
+phone_link: "+972733785494"        # tel: target (Wix's tel: link was +972778875494, inconsistent with the displayed number)
+address: "103 Lady Davis Bldg., Technion City, Haifa, 3200003, Israel"
+maps_link: "https://www.google.com/maps?q=32.7741731,35.0230694"
 
 social:
   linkedin: "https://www.linkedin.com/in/dana-solav-31878b41/"
@@ -21,6 +24,10 @@ social:
 # Build settings
 markdown: kramdown
 permalink: /:title/
+
+collections:
+  posts:
+    permalink: /post/:title/   # same URLs as the old Wix blog
 
 # Default layouts
 defaults:
@@ -37,6 +44,7 @@ defaults:
 
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Exclude from build
 exclude:

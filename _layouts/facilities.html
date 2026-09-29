@@ -4,71 +4,25 @@ layout: default
 
 <div class="page-hero">
   <div class="page-hero-inner">
-    <p class="hero-eyebrow">SoBIG</p>
-    <h1>Facilities</h1>
+    <h1>Lab Facilities</h1>
   </div>
 </div>
 
 <div class="section">
-  <div class="about-body" style="max-width:72ch; margin-bottom:56px;">
-    <p>Our lab is located in the Dan Kahn Building (room 308) at Technion's Faculty of Mechanical Engineering. We are equipped with state-of-the-art experimental and computational tools for biomechanical research.</p>
-  </div>
-
   <div class="facilities-grid">
-
+    {% for f in page.facilities %}
     <div class="facility-card">
-      <div class="facility-img" style="background-image:url('https://static.wixstatic.com/media/11062b_b109368ac4264b688d21b3e361372fb1f000.jpg/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/11062b_b109368ac4264b688d21b3e361372fb1f000.jpg');"></div>
+      <img class="facility-photo" src="{{ f.image }}" alt="{{ f.brand | default: f.title }}" loading="lazy" />
       <div class="facility-body">
-        <h2 class="facility-title">Motion Capture System</h2>
-        <p class="facility-desc">High-speed optical motion capture system for measuring 3D human movement kinematics during walking, running, and other functional activities.</p>
+        <h2 class="facility-title">{{ f.title }}{% if f.at_brml %} <span class="facility-at">(at <a href="https://www.brml-technion.com/" target="_blank" rel="noopener">BRML</a>)</span>{% endif %}</h2>
+        <p class="facility-brand">{% if f.brand_url %}<a href="{{ f.brand_url }}" target="_blank" rel="noopener">{{ f.brand }}</a>{% else %}{{ f.brand }}{% endif %}</p>
+        <ul class="facility-features">
+          {% for item in f.features %}<li>{{ item }}</li>{% endfor %}
+        </ul>
       </div>
     </div>
-
-    <div class="facility-card">
-      <div class="facility-img" style="background-image:url('https://static.wixstatic.com/media/11062b_b109368ac4264b688d21b3e361372fb1f000.jpg/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/11062b_b109368ac4264b688d21b3e361372fb1f000.jpg');"></div>
-      <div class="facility-body">
-        <h2 class="facility-title">3D Digital Image Correlation</h2>
-        <p class="facility-desc">Multi-camera stereo DIC setup for full-field 3D surface deformation and strain measurement of soft tissues and devices under loading.</p>
-      </div>
-    </div>
-
-    <div class="facility-card">
-      <div class="facility-img" style="background-image:url('https://static.wixstatic.com/media/11062b_b109368ac4264b688d21b3e361372fb1f000.jpg/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/11062b_b109368ac4264b688d21b3e361372fb1f000.jpg');"></div>
-      <div class="facility-body">
-        <h2 class="facility-title">Mechanical Testing</h2>
-        <p class="facility-desc">Universal testing machines and custom fixtures for mechanical characterization of soft biological tissues and flexible materials under various loading conditions.</p>
-      </div>
-    </div>
-
-    <div class="facility-card">
-      <div class="facility-img" style="background-image:url('https://static.wixstatic.com/media/11062b_b109368ac4264b688d21b3e361372fb1f000.jpg/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/11062b_b109368ac4264b688d21b3e361372fb1f000.jpg');"></div>
-      <div class="facility-body">
-        <h2 class="facility-title">Indentation System</h2>
-        <p class="facility-desc">Custom-built robotic indentation system for in-vivo mechanical characterization of soft tissues, combined with imaging for multi-modal measurement.</p>
-      </div>
-    </div>
-
-    <div class="facility-card">
-      <div class="facility-img" style="background-image:url('https://static.wixstatic.com/media/11062b_b109368ac4264b688d21b3e361372fb1f000.jpg/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/11062b_b109368ac4264b688d21b3e361372fb1f000.jpg');"></div>
-      <div class="facility-body">
-        <h2 class="facility-title">3D Printing & Fabrication</h2>
-        <p class="facility-desc">Additive manufacturing equipment for rapid prototyping of patient-specific orthotic and prosthetic devices, including flexible and rigid materials.</p>
-      </div>
-    </div>
-
-    <div class="facility-card">
-      <div class="facility-img" style="background-image:url('https://static.wixstatic.com/media/11062b_b109368ac4264b688d21b3e361372fb1f000.jpg/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/11062b_b109368ac4264b688d21b3e361372fb1f000.jpg');"></div>
-      <div class="facility-body">
-        <h2 class="facility-title">Computational Cluster</h2>
-        <p class="facility-desc">High-performance computing resources for finite element simulations, parameter optimization, and large-scale biomechanical modeling.</p>
-      </div>
-    </div>
-
-  </div>
-
-  <div style="margin-top:48px; padding:28px; background:var(--sky-light); border-left:3px solid var(--sky); border-radius: 0 3px 3px 0;">
-    <p style="font-size:0.88rem; color:var(--text-mid);">
-      <strong>Note:</strong> Please update the facility descriptions and photos above to match your actual equipment. Drop your facility images into <code>assets/img/facilities/</code> and update the <code>background-image</code> URLs in <code>_layouts/facilities.html</code>.
-    </p>
+    {% endfor %}
   </div>
 </div>
+
+{{ content }}

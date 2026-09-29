@@ -10,36 +10,19 @@ layout: default
   </video>
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <p class="hero-eyebrow">Technion – Israel Institute of Technology</p>
     <h1 class="hero-title">Solav Biomechanical<br>Interfaces Group</h1>
+    <p class="hero-tagline">Towards enhanced comfort and health for prosthetics and orthotics users</p>
   </div>
 </section>
 
 <!-- ── ABOUT ── -->
 <div class="section">
-  <div class="about-grid">
-    <div>
-      <p class="section-label">The Lab</p>
-      <h2 class="section-title">Towards enhanced comfort and health for prosthetics and orthotics users</h2>
-      <div class="about-body">
-        <p>Our group studies the biomechanical interface between the human body and biomedical devices such as prosthetics and orthotics. Our main goal is to develop and optimize patient-specific devices in order to improve patient comfort, health, and function.</p>
-        <p>To achieve this, we analyze the biomechanical factors that affect human movement and function, and develop new imaging and measurement tools, computational algorithms, experimental procedures, and fabrication methods.</p>
-      </div>
-      <a class="btn" href="{{ '/research/' | relative_url }}">Explore our research</a>
+  <div class="home-about">
+    <h2 class="section-title">The Lab</h2>
+    <div class="about-body">
+      <p>Our group studies the biomechanical interface between the human body and biomedical devices such as prosthetics and orthotics. Our main goal is to develop and optimize patient-specific devices in order to improve patient comfort, health, and function. To achieve this, we analyze the biomechanical factors that affect human movement and function, and develop new imaging and measurement tools, computational algorithms, experimental procedures, and fabrication methods.</p>
     </div>
-    <aside class="about-sidebar">
-      <p class="sidebar-heading">Research areas</p>
-      <ul class="research-areas">
-        <li>Musculoskeletal biomechanics</li>
-        <li>Prosthetics &amp; orthotics</li>
-        <li>Parameter identification</li>
-        <li>Digital Image Correlation (DuoDIC / MultiDIC)</li>
-        <li>Hyperelastic lattice structures</li>
-        <li>Ankle-foot offloading</li>
-        <li>Novel orthosis design</li>
-        <li>Breast finite-element analysis</li>
-      </ul>
-    </aside>
+    <a class="btn" href="{{ '/research/' | relative_url }}">Read More</a>
   </div>
 </div>
 
@@ -49,17 +32,14 @@ layout: default
 <div class="news-section">
   <div class="section">
     <div class="news-header">
-      <div>
-        <p class="section-label">Latest</p>
-        <h2 class="section-title" style="margin-bottom:0">News</h2>
-      </div>
+      <h2 class="section-title" style="margin-bottom:0"><a href="{{ '/news/' | relative_url }}" style="color:inherit; text-decoration:none;">News</a></h2>
       <a href="{{ '/news/' | relative_url }}">Read all news</a>
     </div>
     <div class="news-grid">
-      {% for post in site.posts limit:6 %}
+      {% for post in site.posts limit:10 %}
       <a class="news-card" href="{{ post.url | relative_url }}">
         {% if post.image %}
-        <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy" />
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy" />
         {% endif %}
         <div class="news-card-body">
           <p class="news-card-title">{{ post.title }}</p>

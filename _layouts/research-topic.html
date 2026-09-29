@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="page-hero topic-hero">
+  <div class="page-hero-inner">
+    <p class="hero-eyebrow"><a href="{{ '/research/' | relative_url }}">Research</a></p>
+    <h1>{% if page.title_link %}<a href="{{ page.title_link }}" target="_blank" rel="noopener">{{ page.title }}</a>{% else %}{{ page.title }}{% endif %}</h1>
+    {% if page.authors %}<p class="topic-authors">{{ page.authors }}</p>{% endif %}
+  </div>
+</div>
+
+<div class="section topic-section">
+  <div class="topic-body">
+    {{ content }}
+  </div>
+  <p class="topic-back"><a href="{{ '/research/' | relative_url }}">← All research projects</a></p>
+</div>

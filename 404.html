@@ -1,25 +1,18 @@
 ---
 permalink: /404.html
-layout: page
+layout: default
+title: Page not found
+sitemap: false
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <h1>Page not found</h1>
+  </div>
+</div>
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div class="section notfound">
+  <p class="notfound-code">404</p>
+  <p class="about-body">The page you are looking for could not be found. It may have moved when the site was updated.</p>
+  <a class="btn" href="{{ '/' | relative_url }}">Back to the home page</a>
 </div>

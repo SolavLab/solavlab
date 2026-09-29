@@ -1,87 +1,81 @@
 ---
 layout: default
 ---
-
+{%- assign m = 'https://static.wixstatic.com/media/' -%}
 <div class="page-hero">
   <div class="page-hero-inner">
-    <p class="hero-eyebrow">SoBIG</p>
     <h1>Research</h1>
   </div>
 </div>
 
 <div class="section">
   <div class="about-body" style="max-width: 72ch; margin-bottom: 56px;">
-    <p>Our research bridges biomechanics, medical imaging, computational modeling, and device fabrication. We develop tools and methods that bring us closer to patient-specific prosthetics and orthotics that truly fit — mechanically and biologically.</p>
+    <p>Our group studies the biomechanical interface between the human body and biomedical devices such as prosthetics and orthotics. Our main goal is to develop and optimize patient-specific devices in order to improve patient comfort, health, and function. To achieve this, we analyze the biomechanical factors that affect human movement and function, and develop new imaging and measurement tools, computational algorithms, experimental procedures, and fabrication methods.</p>
   </div>
+
+  <h2 class="section-title">Research projects</h2>
 
   <div class="research-grid">
 
     <a class="research-card" href="{{ '/research/parameter-identification/' | relative_url }}">
-      <div class="research-card-img" style="background-image: url('https://static.wixstatic.com/media/152d97_e6fd24e92acf4200844734e0b1f5c409~mv2.jpg/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/152d97_e6fd24e92acf4200844734e0b1f5c409~mv2.jpg');"></div>
+      <div class="research-card-img" style="background-image: url('{{ m }}152d97_e6092a45c85a4b14a210124684ef95b8~mv2.png');"></div>
       <div class="research-card-body">
-        <p class="research-card-num">01</p>
-        <h2 class="research-card-title">Parameter Identification</h2>
-        <p class="research-card-desc">Characterizing the mechanical properties of soft biological tissues using indentation experiments and inverse finite-element methods.</p>
-        <span class="research-card-link">Learn more →</span>
-      </div>
-    </a>
-
-    <a class="research-card" href="{{ '/research/ankle-foot-offloading/' | relative_url }}">
-      <div class="research-card-img" style="background-image: url('https://static.wixstatic.com/media/152d97_1567fc8c1f5946d9a935a47bc26a1d34f000.jpg/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/152d97_1567fc8c1f5946d9a935a47bc26a1d34f000.jpg');"></div>
-      <div class="research-card-body">
-        <p class="research-card-num">02</p>
-        <h2 class="research-card-title">Ankle-Foot Offloading Gait</h2>
-        <p class="research-card-desc">Analyzing and optimizing gait biomechanics for patients who require partial or complete offloading of the ankle and foot.</p>
-        <span class="research-card-link">Learn more →</span>
-      </div>
-    </a>
-
-    <a class="research-card" href="{{ '/research/novel-ankle-foot-orthosis/' | relative_url }}">
-      <div class="research-card-img" style="background-image: url('https://static.wixstatic.com/media/152d97_1567fc8c1f5946d9a935a47bc26a1d34f000.jpg/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/152d97_1567fc8c1f5946d9a935a47bc26a1d34f000.jpg');"></div>
-      <div class="research-card-body">
-        <p class="research-card-num">03</p>
-        <h2 class="research-card-title">Novel Ankle-Foot Orthosis</h2>
-        <p class="research-card-desc">Designing a new AFO that allows natural walking with complete or partial offloading, improving patient comfort and mobility.</p>
+        <h3 class="research-card-title">Soft-tissue material parameter identification using inverse FEA and 3D-DIC</h3>
+        <p class="research-card-desc">Zohar Oddes, Amit Ashkenazi, Nolwenn Fougeron &amp; Dana Solav</p>
         <span class="research-card-link">Learn more →</span>
       </div>
     </a>
 
     <a class="research-card" href="{{ '/research/lattice-structures/' | relative_url }}">
-      <div class="research-card-img" style="background-image: url('https://static.wixstatic.com/media/152d97_e61fd8a3e8e84b3bbe80c126c71bb177~mv2.jpg/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/152d97_e61fd8a3e8e84b3bbe80c126c71bb177~mv2.jpg');"></div>
+      <div class="research-card-img" style="background-image: url('{{ m }}152d97_e61fd8a3e8e84b3bbe80c126c71bb177~mv2.jpg');"></div>
       <div class="research-card-body">
-        <p class="research-card-num">04</p>
-        <h2 class="research-card-title">Hyperelastic Lattice Structures</h2>
-        <p class="research-card-desc">Developing numerical homogenization methods for soft orthotropic hyperelastic lattice structures used in patient-specific devices.</p>
+        <h3 class="research-card-title">Characterization of the mechanical properties of additively manufactured hyperelastic lattice structures</h3>
+        <p class="research-card-desc">Dror Raf, Itay Magen, Lee Jordan &amp; Dana Solav</p>
+        <span class="research-card-link">Learn more →</span>
+      </div>
+    </a>
+
+    <a class="research-card" href="{{ '/research/ankle-foot-offloading/' | relative_url }}">
+      <div class="research-card-img" style="background-image: url('{{ m }}152d97_4786a4d387fe4e8e90779d0143ab0ddb~mv2.jpg');"></div>
+      <div class="research-card-body">
+        <h3 class="research-card-title">Analysis of human gait using various devices for offloading the foot and ankle</h3>
+        <p class="research-card-desc">Eshraq Saffuri, Yinon Tal &amp; Dana Solav (in collaboration with Eyal Izak and Einat Kodesh)</p>
+        <span class="research-card-link">Learn more →</span>
+      </div>
+    </a>
+
+    <a class="research-card" href="{{ '/research/novel-ankle-foot-orthosis/' | relative_url }}">
+      <div class="research-card-img" style="background-image: url('{{ m }}152d97_a3a11d2bc90e40ac8a758bff28f07d36~mv2.png');"></div>
+      <div class="research-card-body">
+        <h3 class="research-card-title">A novel AFO for improved rehabilitation through adjustable offloading</h3>
+        <p class="research-card-desc">Eshraq Saffuri, Itamar Bareket, Hadas Huber, Danielle Fael, Lee Jordan &amp; Dana Solav</p>
         <span class="research-card-link">Learn more →</span>
       </div>
     </a>
 
     <a class="research-card" href="{{ '/research/duodic/' | relative_url }}">
-      <div class="research-card-img" style="background-image: url('https://static.wixstatic.com/media/152d97_f523638a57bb4192808ed51a487b6513~mv2.png/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/Technion%20IIT%20English%203-lines%20centered%20reversed.png');"></div>
+      <div class="research-card-img" style="background-image: url('{{ m }}152d97_5ad2fe822b1b45869dbaae7fd6e96908~mv2.png');"></div>
       <div class="research-card-body">
-        <p class="research-card-num">05</p>
-        <h2 class="research-card-title">DuoDIC</h2>
-        <p class="research-card-desc">A MATLAB toolbox for 3D full-field surface deformation measurement using two-camera stereo digital image correlation.</p>
+        <h3 class="research-card-title">DuoDIC: an open-source stereo digital image correlation toolbox</h3>
+        <p class="research-card-desc">Asaf Silverstein &amp; Dana Solav</p>
         <span class="research-card-link">Learn more →</span>
       </div>
     </a>
 
     <a class="research-card" href="{{ '/research/multidic/' | relative_url }}">
-      <div class="research-card-img" style="background-image: url('https://static.wixstatic.com/media/152d97_f523638a57bb4192808ed51a487b6513~mv2.png/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/Technion%20IIT%20English%203-lines%20centered%20reversed.png');"></div>
+      <div class="research-card-img" style="background-image: url('{{ m }}152d97_abfb817ed4fd4f498494dc6a93616f3b~mv2.jpg');"></div>
       <div class="research-card-body">
-        <p class="research-card-num">06</p>
-        <h2 class="research-card-title">MultiDIC</h2>
-        <p class="research-card-desc">An open-source MATLAB toolbox for multi-camera 3D digital image correlation, enabling full 360° surface strain measurement.</p>
+        <h3 class="research-card-title">MultiDIC: an open-source multi-view stereo digital image correlation toolbox</h3>
+        <p class="research-card-desc">Dana Solav</p>
         <span class="research-card-link">Learn more →</span>
       </div>
     </a>
 
     <a class="research-card" href="{{ '/research/breast-fea/' | relative_url }}">
-      <div class="research-card-img" style="background-image: url('https://static.wixstatic.com/media/152d97_01d4c2aa42964ec8877f767f8e32a450~mv2.jpg/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/152d97_01d4c2aa42964ec8877f767f8e32a450~mv2.jpg');"></div>
+      <div class="research-card-img" style="background-image: url('{{ m }}152d97_a65b0a053e724a05bc371e75a5435c17~mv2.png');"></div>
       <div class="research-card-body">
-        <p class="research-card-num">07</p>
-        <h2 class="research-card-title">Breast FEA</h2>
-        <p class="research-card-desc">Patient-specific finite-element modeling of breast tissue mechanics for surgical planning and medical device optimization.</p>
+        <h3 class="research-card-title">Analysis of the stress distribution in female breasts as a function of their size</h3>
+        <p class="research-card-desc">Bessorah Rubenstein Vered &amp; Dana Solav</p>
         <span class="research-card-link">Learn more →</span>
       </div>
     </a>

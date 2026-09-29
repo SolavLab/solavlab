@@ -6,14 +6,26 @@ layout: default
   <div class="page-hero-inner">
     <p class="hero-eyebrow">News</p>
     <h1>{{ page.title }}</h1>
-    <p style="color: rgba(255,255,255,0.5); font-size: 0.85rem; margin-top: 10px;">{{ page.date | date: "%B %-d, %Y" }}</p>
+    <p style="color: rgba(255,255,255,0.5); font-size: 0.85rem; margin-top: 10px;"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time></p>
   </div>
 </div>
 
+{%- comment -%}
+  As on the old Wix blog, the cover image (page.image) is used for the News
+  listing and social previews only; the post body carries its own images,
+  so the cover is not repeated here.
+{%- endcomment -%}
+<style>
+  .post-content h3, .post-content h4 { color: var(--navy); margin: 1.2em 0 0.5em; line-height: 1.45; }
+  .post-content h4 { font-size: 1.1rem; }
+  .post-content ul, .post-content ol { margin: 0 0 1em 1.4em; }
+  .post-content li { margin-bottom: 0.5em; }
+  .post-content blockquote { border-left: 3px solid var(--sky); margin: 1.5em 0; padding: 0.2em 0 0.2em 1.2em; font-style: italic; }
+  .post-content video { display: block; width: 100%; border-radius: var(--radius); margin: 1.5em 0; }
+  .post-content a { color: var(--sky); overflow-wrap: anywhere; }
+</style>
+
 <div class="section">
-  {% if page.image %}
-  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width:100%; max-height:400px; object-fit:cover; border-radius:3px; margin-bottom:40px;" />
-  {% endif %}
   <div class="post-content">
     {{ content }}
   </div>
