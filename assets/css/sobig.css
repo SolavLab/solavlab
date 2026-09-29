@@ -99,7 +99,10 @@ nav {
   padding: 6px 0;
   box-shadow: 0 8px 24px rgba(11,58,91,0.12);
 }
-.nav-links li:hover ul { display: block; }
+.nav-links li:hover ul,
+.nav-links li:focus-within ul { display: block; z-index: 110; }
+/* invisible bridge over the 6px gap so the menu stays open while the mouse moves down */
+.nav-links li ul::before { content: ""; position: absolute; left: 0; right: 0; top: -12px; height: 12px; }
 .nav-links li ul li a {
   padding: 8px 16px;
   border-radius: 0;
@@ -680,6 +683,7 @@ nav {
     padding: 4px 0 10px; background: var(--off-white);
   }
   .nav-links.open li.expanded > ul { display: block; }
+  .nav-links.open li ul::before { display: none; }
   .nav-links.open li ul li a { font-size: 1.05rem; padding: 12px 28px 12px 46px; color: var(--text-mid); border-radius: 0; }
   .nav-links.open li ul li a:hover { background: var(--sky-light); }
   .sub-toggle {
