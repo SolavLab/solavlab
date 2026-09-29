@@ -38,3 +38,9 @@
   github: "https://github.com/SolavLab/indentify"
   paper: "https://doi.org/10.1016/j.jmbbm.2023.105708"
   image: "/assets/img/publications/code-indentify.jpg"
+
+- name: "certainty"
+  description: "Quantifying the certainty of best-fit parameters in n-parameter nonlinear models (MATLAB)"
+  github: "https://github.com/SolavLab/certainty"
+  paper: "https://doi.org/10.1016/j.ijengsci.2024.104163"
+  image: "/assets/img/publications/parameter-certainty-quantification-in-nonlinear-models.jpg"

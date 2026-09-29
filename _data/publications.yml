@@ -60,6 +60,7 @@
   venue: "International Journal of Engineering Science"
   details: "206, 104163"
   doi: "10.1016/j.ijengsci.2024.104163"
+  code: "https://github.com/SolavLab/certainty"
   preprint: "https://doi.org/10.31224/4690"
   image: "/assets/img/publications/parameter-certainty-quantification-in-nonlinear-models.jpg"
 
