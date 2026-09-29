@@ -352,7 +352,9 @@ nav {
   font-size: 0.75rem;
   color: var(--text-light);
   text-decoration: none;
-  word-break: break-all;
+  overflow-wrap: anywhere;
+  display: inline-block;
+  max-width: 100%;
 }
 .team-card-email:hover { color: var(--sky); }
 .past-members { margin-top: 24px; }
@@ -661,6 +663,7 @@ footer p { font-size: 0.78rem; color: rgba(255,255,255,0.35); }
   .team-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 560px) {
+  .team-card-email { font-size: 0.7rem; }
   .news-grid { grid-template-columns: 1fr; }
   .research-grid { grid-template-columns: 1fr; }
   .facilities-grid { grid-template-columns: 1fr; }
