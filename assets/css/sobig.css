@@ -325,8 +325,10 @@ nav {
 }
 .team-card { text-align: center; }
 .team-card img {
-  width: 140px;
-  height: 140px;
+  width: 100%;
+  max-width: 190px;
+  height: auto;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
   display: block;
