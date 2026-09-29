@@ -30,51 +30,67 @@ photos:
   - file: "/assets/img/gallery/photo-01.jpg"
     width: 2699
     height: 2702
+    caption: "ESB 2024 congress, Edinburgh (July 2024)"
   - file: "/assets/img/gallery/photo-02.jpg"
     width: 1600
     height: 901
+    caption: "Talk at ESB 2024, Edinburgh (July 2024)"
   - file: "/assets/img/gallery/photo-03.jpg"
     width: 4080
     height: 3072
+    caption: "Talk at ESB 2024, Edinburgh (July 2024)"
   - file: "/assets/img/gallery/photo-04.jpg"
     width: 1536
     height: 2048
+    caption: "Award recipients at ESB 2024, Edinburgh (July 2024)"
   - file: "/assets/img/gallery/photo-05.jpg"
     width: 1200
     height: 1600
+    caption: "Poster presentation at ESB 2024, Edinburgh (July 2024)"
   - file: "/assets/img/gallery/photo-06.jpg"
     width: 4898
     height: 3265
+    caption: "SoBIG poster session, Faculty of Mechanical Engineering"
   - file: "/assets/img/gallery/photo-07.jpg"
     width: 3072
     height: 4080
+    caption: "Poster presentation (April 2024)"
   - file: "/assets/img/gallery/photo-08.jpg"
     width: 4898
     height: 3265
+    caption: "SoBIG poster session, Faculty of Mechanical Engineering"
   - file: "/assets/img/gallery/photo-09.jpg"
     width: 3265
     height: 4898
+    caption: "SoBIG poster session, Faculty of Mechanical Engineering"
   - file: "/assets/img/gallery/photo-10.jpg"
     width: 4899
     height: 3266
+    caption: "SoBIG poster session, Faculty of Mechanical Engineering"
   - file: "/assets/img/gallery/photo-11.jpg"
     width: 3072
     height: 4080
+    caption: "Undergraduate project poster day (June 2023)"
   - file: "/assets/img/gallery/photo-12.jpg"
     width: 3072
     height: 4080
+    caption: "Undergraduate project poster day (June 2023)"
   - file: "/assets/img/gallery/photo-13.jpg"
     width: 3072
     height: 4080
+    caption: "Undergraduate project poster day (June 2023)"
   - file: "/assets/img/gallery/photo-14.jpg"
     width: 3072
     height: 4080
+    caption: "Undergraduate project poster day (June 2023)"
   - file: "/assets/img/gallery/photo-15.jpg"
     width: 3072
     height: 4080
+    caption: "Evening at ESB 2023, Maastricht (July 2023)"
   - file: "/assets/img/gallery/photo-16.jpg"
     width: 1786
     height: 1201
+    caption: "ESB 2023 congress, Maastricht (July 2023)"
   - file: "/assets/img/gallery/photo-17.jpg"
     width: 3072
     height: 4080
