@@ -7,41 +7,48 @@ noindex: true
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=swap" />
 <style>
-  .olafo { direction: rtl; text-align: right; font-family: 'Assistant', system-ui, sans-serif; }
+  .olafo { direction: rtl; text-align: right; font-family: 'Assistant', system-ui, sans-serif; font-size: 1.2rem; line-height: 1.7; }
   .olafo h1, .olafo h2, .olafo h3 { font-family: 'Assistant', system-ui, sans-serif; }
+  .olafo .page-hero h1 { font-size: clamp(1.9rem, 4vw, 2.6rem); }
+  .olafo .section { padding: 36px 24px; }
+  .olafo .section-title { font-size: clamp(1.7rem, 3.4vw, 2.2rem); margin-bottom: 14px; }
   .olafo .section-title::after { margin-right: 0; margin-left: auto; }
-  .olafo-badge { display: inline-block; background: var(--sky-light); color: var(--navy); font-weight: 600; font-size: .85rem; padding: 4px 14px; border-radius: 999px; margin-bottom: 14px; }
-  .olafo-intro { display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: center; }
+  .olafo p { color: var(--text-mid); }
+  .olafo-badge { display: inline-block; background: var(--sky-light); color: var(--navy); font-weight: 600; font-size: 1rem; padding: 4px 16px; border-radius: 999px; margin-bottom: 12px; }
+  .olafo-intro { display: grid; grid-template-columns: 1.2fr 1fr; gap: 36px; align-items: center; }
   .olafo-intro img { width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--card-shadow); }
-  .olafo-intro p { color: var(--text-mid); font-size: 1.05rem; }
-  .olafo .btn { border: 0; cursor: pointer; font-family: inherit; font-size: 1rem; padding: 12px 28px; }
-  .olafo-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 24px; }
-  .olafo-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; box-shadow: var(--card-shadow); }
-  .olafo-card h3 { color: var(--navy); font-size: 1.05rem; margin-bottom: 6px; }
-  .olafo-card p { color: var(--text-mid); font-size: .95rem; }
-  .olafo-step-num { width: 34px; height: 34px; border-radius: 50%; background: var(--sky); color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
-  .olafo-trust-logo { height: 42px; width: auto; margin-bottom: 10px; display: block; }
-  .olafo-form { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; box-shadow: var(--card-shadow); max-width: 680px; }
-  .olafo-form label { display: block; font-weight: 600; color: var(--navy); margin-bottom: 4px; }
+  .olafo .btn { border: 0; cursor: pointer; font-family: inherit; font-size: 1.15rem; padding: 12px 30px; margin-top: 20px; }
+  .olafo-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-top: 18px; }
+  .olafo-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--card-shadow); }
+  .olafo-card h3 { color: var(--navy); font-size: 1.25rem; line-height: 1.3; margin-bottom: 4px; }
+  .olafo-card p { font-size: 1.1rem; line-height: 1.55; }
+  .olafo-step-num { width: 36px; height: 36px; border-radius: 50%; background: var(--sky); color: #fff; font-weight: 700; font-size: 1.1rem; display: flex; align-items: center; justify-content: center; margin-bottom: 8px; }
+  .olafo-trust { background: var(--white); border-top: 1px solid var(--border); }
+  .olafo-trust .section { padding: 28px 24px; }
+  .olafo-trust-logo { height: 42px; width: auto; margin-bottom: 8px; display: block; }
+  .olafo-form { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 26px; box-shadow: var(--card-shadow); max-width: 680px; }
+  .olafo-form label { display: block; font-weight: 600; font-size: 1.1rem; color: var(--navy); margin-bottom: 4px; }
   .olafo-form .req { color: #c62828; }
-  .olafo-field { margin-bottom: 18px; }
+  .olafo-field { margin-bottom: 16px; }
   .olafo-form input[type=text], .olafo-form input[type=email], .olafo-form input[type=tel],
   .olafo-form input[type=number], .olafo-form input[type=date], .olafo-form textarea {
-    width: 100%; padding: 10px 12px; font: inherit; border: 1px solid var(--border); border-radius: var(--radius); background: #fff; color: var(--text);
+    width: 100%; padding: 11px 12px; font: inherit; font-size: 1.1rem; border: 1px solid var(--border); border-radius: var(--radius); background: #fff; color: var(--text);
   }
   .olafo-form textarea { min-height: 90px; resize: vertical; }
   .olafo-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-  .olafo-err { display: none; color: #c62828; font-size: .85rem; margin-top: 4px; }
+  .olafo-err { display: none; color: #c62828; font-size: 1rem; margin-top: 4px; }
   .olafo-field.bad .olafo-err { display: block; }
   .olafo-field.bad input, .olafo-field.bad textarea { border-color: #c62828; }
   .olafo-consent { display: flex; gap: 10px; align-items: flex-start; }
-  .olafo-consent input { margin-top: 5px; }
-  .olafo-consent label { font-weight: 400; color: var(--text-mid); }
+  .olafo-consent input { margin-top: 8px; width: 18px; height: 18px; }
+  .olafo-consent label { font-weight: 400; color: var(--text-mid); font-size: 1.05rem; }
   .olafo-success, .olafo-fail { display: none; padding: 20px; border-radius: var(--radius); margin-top: 8px; }
   .olafo-success { background: var(--sky-light); color: var(--navy); }
+  .olafo-success p { color: var(--navy); }
   .olafo-fail { background: #fdecea; color: #7a1c14; }
-  .olafo-contact { color: var(--text-mid); margin-top: 28px; }
-  @media (max-width: 760px) { .olafo-intro, .olafo-row { grid-template-columns: 1fr; } .olafo-form { padding: 20px; } }
+  .olafo-fail p { color: #7a1c14; }
+  .olafo-contact { margin-top: 20px; }
+  @media (max-width: 760px) { .olafo-intro, .olafo-row { grid-template-columns: 1fr; } .olafo-form { padding: 18px; } .olafo { font-size: 1.1rem; } }
 </style>
 
 <div class="olafo" lang="he" dir="rtl">
@@ -57,53 +64,36 @@ noindex: true
     <div>
       <span class="olafo-badge">גיוס משתתפים פעיל</span>
       <h2 class="section-title">להחזיר את התנועה הטבעית</h2>
-      <p>אנו מגייסים משתתפים למחקר קליני שמטרתו להעריך סד המאפשר הליכה טבעית ללא העמסת כף הרגל הפגועה. המשתתפים יקבלו סד בהתאמה אישית מלאה, מבוסס סריקה תלת־ממדית, וניתוח הליכה במעבדה, ללא עלות.</p>
+      <p>אנו מגייסים משתתפים למחקר קליני שמטרתו להעריך סד המאפשר הליכה טבעית ללא העמסת כף הרגל הפגועה. המשתתפים יקבלו סד בהתאמה אישית וניתוח הליכה במעבדה, ללא עלות.</p>
       <a class="btn" href="#olafo-form">לבדיקת התאמה למחקר</a>
     </div>
     <img src="{{ '/assets/img/olafo/OLAFO.png' | relative_url }}" alt="אדם הולך בביטחון עם סד קרסול OLAFO" loading="lazy" />
   </div>
 </div>
 
-<hr class="divider" />
-
-<div class="section">
-  <h2 class="section-title">קביים ומגפי הליכה סטנדרטיים לא תוכננו עבורך</h2>
-  <p style="color:var(--text-mid); max-width:760px;">השימוש בקביים ומגפי הליכה קשיחים הוא מסורבל, מעייף ולא נוח. פתרונות אלו כופים הליכה לא טבעית המעמיסה על הירך, הברך והגב התחתון, ועלולים לגרום לכאבים חדשים ומאמץ פיזי רב בזמן ההחלמה מהפציעה המקורית.</p>
-
-  <h3 style="margin-top:36px; color:var(--navy);">הכירו את ה-Offloading Ankle-Foot Orthosis (OLAFO)</h3>
-  <p style="color:var(--text-mid); max-width:760px; margin-top:6px;">סד OLAFO מותאם אישית לרגלך בסריקה תלת-ממדית. הסד מאפשר שליטה מדויקת על כמות העומס שעוברת דרך כף הרגל הפגועה תוך שמירה על דפוס ההליכה הטבעי שלך.</p>
+<div class="section" style="padding-top:0">
+  <h2 class="section-title">למה OLAFO?</h2>
+  <p>קביים ומגפי הליכה קשיחים מסורבלים ומכריחים הליכה לא טבעית, שמעמיסה על הירך, הברך והגב. סד OLAFO נבנה לרגל שלך בסריקה תלת-ממדית.</p>
   <div class="olafo-cards">
-    <div class="olafo-card"><h3>התאמה אישית בסריקה תלת-ממדית</h3><p>נסרק ומיוצר ספציפית לרגלך.</p></div>
-    <div class="olafo-card"><h3>הפחתת עומסים הדרגתית ומבוקרת</h3><p>הצוות הקליני מכוון את הלחץ בהתאם להתקדמות ההחלמה.</p></div>
-    <div class="olafo-card"><h3>שמירה על הליכה טבעית</h3><p>מתוכנן לשמר את דפוס ההליכה הנורמלי שלך.</p></div>
+    <div class="olafo-card"><h3>מותאם אישית</h3><p>נסרק ומיוצר במיוחד לרגלך.</p></div>
+    <div class="olafo-card"><h3>הפחתת עומס מבוקרת</h3><p>הצוות מכוון את העומס לפי ההחלמה.</p></div>
+    <div class="olafo-card"><h3>הליכה טבעית</h3><p>שומר על דפוס ההליכה שלך.</p></div>
   </div>
 </div>
 
-<hr class="divider" />
-
-<div class="section">
-  <h2 class="section-title">שלבי ההשתתפות במחקר</h2>
+<div class="section" style="padding-top:0">
+  <h2 class="section-title">איך משתתפים?</h2>
   <div class="olafo-cards">
-    <div class="olafo-card"><div class="olafo-step-num">1</div><h3>שאלון התאמה קצר</h3><p>מלא/י את הטופס הקצר למטה. נבחן את הפרטים ונחזור אליך.</p></div>
-    <div class="olafo-card"><div class="olafo-step-num">2</div><h3>סריקה תלת-ממדית ללא מגע</h3><p>אם נמצאת מתאים/ה, נתאם פגישה לסריקה תלת-ממדית של הרגל לבניית הסד האישי.</p></div>
-    <div class="olafo-card"><div class="olafo-step-num">3</div><h3>קבלת הסד המותאם אישית</h3><p>סד ה-OLAFO האישי שלך מיוצר ומותאם לך.</p></div>
-    <div class="olafo-card"><div class="olafo-step-num">4</div><h3>ניתוח הליכה במעבדה מתקדמת</h3><p>תצעד/י על מסלול הליכה המשולב בחיישני דריכה ומצלמות תנועה, כדי שנמדוד במדויק את הפחתת העומס ואת התנועה שלך.</p></div>
-  </div>
-</div>
-
-<hr class="divider" />
-
-<div class="section">
-  <div class="olafo-cards" style="margin-top:0">
-    <div class="olafo-card"><h3>אושר על ידי ועדת אתיקה</h3><p>המחקר נסקר ואושר על ידי ועדת האתיקה המוסדית הלסינקי. </p></div>
-    <div class="olafo-card"><h3>הגנה על פרטיות המידע</h3><p>המידע האישי שלך נשמר בצורה מאובטחת ומשמש אך ורק לצורך סינון מועמדים למחקר. אנו עומדים בדרישות כל תקנות הגנת הפרטיות הרלוונטיות.</p></div>
-    <div class="olafo-card"><img class="olafo-trust-logo" src="{{ '/assets/img/olafo/rambam_logo.jpeg' | relative_url }}" alt="רמב״ם" width="42" height="42" /><h3>שותפים קליניים</h3><p>המחקר מתנהל על ידי הטכניון בשיתוף עם רמב"ם.</p></div>
+    <div class="olafo-card"><div class="olafo-step-num">1</div><h3>טופס קצר</h3><p>ממלאים את הטופס למטה, ואנו חוזרים אליכם.</p></div>
+    <div class="olafo-card"><div class="olafo-step-num">2</div><h3>סריקה תלת-ממדית</h3><p>אם מתאימים, נתאם סריקה של הרגל.</p></div>
+    <div class="olafo-card"><div class="olafo-step-num">3</div><h3>הסד האישי</h3><p>הסד מיוצר ומותאם עבורכם.</p></div>
+    <div class="olafo-card"><div class="olafo-step-num">4</div><h3>ניתוח הליכה</h3><p>הליכה במעבדה עם חיישנים ומצלמות.</p></div>
   </div>
 </div>
 
 <div class="section" id="olafo-form" style="padding-top:0">
-  <h2 class="section-title">טופס הרשמה ופרטי קשר</h2>
-  <p style="color:var(--text-mid); margin-bottom:20px;">נבחן את המועמדות ונחזור אליך.</p>
+  <h2 class="section-title">טופס הרשמה</h2>
+  <p style="margin-bottom:18px;">נבחן את המועמדות ונחזור אליכם.</p>
 
   <div class="olafo-success" id="olafo-ok" role="status" tabindex="-1">
     <h3>תודה רבה!</h3>
@@ -132,7 +122,17 @@ noindex: true
     <button type="submit" class="btn" id="o-submit" style="margin-top:0">שליחת הפרטים לבדיקת התאמה</button>
   </form>
 
-  <p class="olafo-contact">לשאלות ניתן לפנות לצוות המחקר: אשראק ספורי, {% include email.html address="eshraqs@campus.technion.ac.il" %}</p>
+  <p class="olafo-contact">לשאלות: אשראק ספורי, {% include email.html address="eshraqs@campus.technion.ac.il" %}</p>
+</div>
+
+<div class="olafo-trust">
+  <div class="section">
+    <div class="olafo-cards" style="margin-top:0">
+      <div class="olafo-card"><h3>אושר על ידי ועדת אתיקה</h3><p>המחקר נסקר ואושר על ידי ועדת האתיקה המוסדית הלסינקי.</p></div>
+      <div class="olafo-card"><h3>הגנה על פרטיות</h3><p>המידע שלך נשמר בצורה מאובטחת ומשמש רק לבדיקת התאמה למחקר.</p></div>
+      <div class="olafo-card"><img class="olafo-trust-logo" src="{{ '/assets/img/olafo/rambam_logo.jpeg' | relative_url }}" alt="רמב״ם" width="42" height="42" /><h3>שותפים קליניים</h3><p>המחקר מתנהל על ידי הטכניון בשיתוף רמב"ם.</p></div>
+    </div>
+  </div>
 </div>
 
 </div>
