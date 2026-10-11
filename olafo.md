@@ -95,7 +95,7 @@ noindex: true
 
 <div class="section">
   <div class="olafo-cards" style="margin-top:0">
-    <div class="olafo-card"><h3>אושר על ידי ועדת אתיקה</h3><p>המחקר נסקר ואושר על ידי ועדת האתיקה המוסדית הלסינקי. בטיחותך ורווחתך הם בראש סדר העדיפויות שלנו.</p></div>
+    <div class="olafo-card"><h3>אושר על ידי ועדת אתיקה</h3><p>המחקר נסקר ואושר על ידי ועדת האתיקה המוסדית הלסינקי. </p></div>
     <div class="olafo-card"><h3>הגנה על פרטיות המידע</h3><p>המידע האישי שלך נשמר בצורה מאובטחת ומשמש אך ורק לצורך סינון מועמדים למחקר. אנו עומדים בדרישות כל תקנות הגנת הפרטיות הרלוונטיות.</p></div>
     <div class="olafo-card"><img class="olafo-trust-logo" src="{{ '/assets/img/olafo/rambam_logo.jpeg' | relative_url }}" alt="רמב״ם" width="42" height="42" /><h3>שותפים קליניים</h3><p>המחקר מתנהל על ידי הטכניון בשיתוף עם רמב"ם.</p></div>
   </div>
