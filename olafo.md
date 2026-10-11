@@ -87,7 +87,7 @@ noindex: true
     <div class="olafo-card"><div class="olafo-step-num">1</div><h3>טופס קצר</h3><p>ממלאים את הטופס למטה, ואנו חוזרים אליכם.</p></div>
     <div class="olafo-card"><div class="olafo-step-num">2</div><h3>סריקה תלת-ממדית</h3><p>אם מתאימים, נתאם סריקה של הרגל.</p></div>
     <div class="olafo-card"><div class="olafo-step-num">3</div><h3>הסד האישי</h3><p>הסד מיוצר ומותאם עבורכם.</p></div>
-    <div class="olafo-card"><div class="olafo-step-num">4</div><h3>ניתוח הליכה</h3><p>הליכה במעבדה עם חיישנים ומצלמות.</p></div>
+    <div class="olafo-card"><div class="olafo-step-num">4</div><h3>ניתוח הליכה</h3><p>הליכה במעבדה עם חיישנים ומצלמות תנועה.</p></div>
   </div>
 </div>
 
