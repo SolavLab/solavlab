@@ -16,7 +16,10 @@ noindex: true
   .olafo p { color: var(--text-mid); }
   .olafo-badge { display: inline-block; background: var(--sky-light); color: var(--navy); font-weight: 600; font-size: 1rem; padding: 4px 16px; border-radius: 999px; margin-bottom: 12px; }
   .olafo-intro { display: grid; grid-template-columns: 1.2fr 1fr; gap: 36px; align-items: center; }
+  .olafo-figure { margin: 0; }
   .olafo-intro img { width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--card-shadow); }
+  .olafo-figure figcaption { font-size: 1rem; line-height: 1.5; margin-top: 8px; }
+  .olafo-figure figcaption a { color: var(--sky); }
   .olafo .btn { border: 0; cursor: pointer; font-family: inherit; font-size: 1.15rem; padding: 12px 30px; margin-top: 20px; }
   .olafo-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-top: 18px; }
   .olafo-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--card-shadow); }
@@ -66,13 +69,16 @@ noindex: true
       <h2 class="section-title">להחזיר את התנועה הטבעית</h2>
       <p>אנו מגייסים משתתפים למחקר קליני שמטרתו להעריך סד המאפשר הליכה טבעית ללא העמסת כף הרגל הפגועה. המשתתפים יקבלו סד בהתאמה אישית וניתוח הליכה במעבדה, ללא עלות.</p>
     </div>
-    <img src="{{ '/assets/img/olafo/OLAFO.png' | relative_url }}" alt="אדם הולך בביטחון עם סד קרסול OLAFO" loading="lazy" />
+    <figure class="olafo-figure">
+      <img src="{{ '/assets/img/olafo/OLAFO.png' | relative_url }}" alt="אדם הולך בביטחון עם סד קרסול OLAFO" loading="lazy" />
+      <figcaption><a href="{{ '/assets/img/research/afo-video.mp4' | relative_url }}" target="_blank" rel="noopener">לצפייה בסרטון (1:15): הסד בשימוש בזמן הליכה, ברמות הפחתת עומס שונות</a></figcaption>
+    </figure>
   </div>
 </div>
 
-<div class="section" style="padding-top:0">
-  <h2 class="section-title">למה OLAFO?</h2>
-  <p> קביים ומגפי הליכה קשיחים הינם מסורבלים וגורמים להליכה לא טבעית, עומס עודף על חלקים שונים בגוף, והחלשת השרירים והעצמות ברגל הפגועה.</p>
+<div class="sect  <p> קביים ומגפי הליכה קשיחים הינם מסורבלים וגורמים להליכה לא טבעית, עומס עודף על חלקים שונים בגוף, והחלשת השרירים והעצמות ברגל הפגועה.</p>
+עית, עומס עודף על חלקים שונים בגוף, והחלשת השרירים והעצמות ברגל הפגועה.
+.
   <div class="olafo-cards">
     <div class="olafo-card"><h3>מותאם אישית</h3><p>נבנה לרגל שלך מתוך סריקה תלת-ממדית.</p></div>
     <div class="olafo-card"><h3>הפחתת עומס מבוקרת</h3><p>הצוות מכוון את העומס לפי ההחלמה.</p></div>
