@@ -65,7 +65,6 @@ noindex: true
       <span class="olafo-badge">גיוס משתתפים פעיל</span>
       <h2 class="section-title">להחזיר את התנועה הטבעית</h2>
       <p>אנו מגייסים משתתפים למחקר קליני שמטרתו להעריך סד המאפשר הליכה טבעית ללא העמסת כף הרגל הפגועה. המשתתפים יקבלו סד בהתאמה אישית וניתוח הליכה במעבדה, ללא עלות.</p>
-      <a class="btn" href="#olafo-form">לבדיקת התאמה למחקר</a>
     </div>
     <img src="{{ '/assets/img/olafo/OLAFO.png' | relative_url }}" alt="אדם הולך בביטחון עם סד קרסול OLAFO" loading="lazy" />
   </div>
@@ -73,9 +72,9 @@ noindex: true
 
 <div class="section" style="padding-top:0">
   <h2 class="section-title">למה OLAFO?</h2>
-  <p>קביים ומגפי הליכה קשיחים מסורבלים ומכריחים הליכה לא טבעית, שמעמיסה על הירך, הברך והגב. סד OLAFO נבנה לרגל שלך בסריקה תלת-ממדית.</p>
+  <p> קביים ומגפי הליכה קשיחים הינם מסורבלים וגורמים להליכה לא טבעית, עומס עודף על חלקים שונים בגוף, והחלשת השרירים והעצמות ברגל הפגועה.</p>
   <div class="olafo-cards">
-    <div class="olafo-card"><h3>מותאם אישית</h3><p>נסרק ומיוצר במיוחד לרגלך.</p></div>
+    <div class="olafo-card"><h3>מותאם אישית</h3><p>נבנה לרגל שלך מתוך סריקה תלת-ממדית.</p></div>
     <div class="olafo-card"><h3>הפחתת עומס מבוקרת</h3><p>הצוות מכוון את העומס לפי ההחלמה.</p></div>
     <div class="olafo-card"><h3>הליכה טבעית</h3><p>שומר על דפוס ההליכה שלך.</p></div>
   </div>
@@ -85,15 +84,15 @@ noindex: true
   <h2 class="section-title">איך משתתפים?</h2>
   <div class="olafo-cards">
     <div class="olafo-card"><div class="olafo-step-num">1</div><h3>טופס קצר</h3><p>ממלאים את הטופס למטה, ואנו חוזרים אליכם.</p></div>
-    <div class="olafo-card"><div class="olafo-step-num">2</div><h3>סריקה תלת-ממדית</h3><p>אם מתאימים, נתאם סריקה של הרגל.</p></div>
+    <div class="olafo-card"><div class="olafo-step-num">2</div><h3>סריקה תלת-ממדית</h3><p> אם נמצאתם מתאימים למחקר, נתאם סריקה של הרגל במעבדה בטכניון.</p></div>
     <div class="olafo-card"><div class="olafo-step-num">3</div><h3>הסד האישי</h3><p>הסד מיוצר ומותאם עבורכם.</p></div>
-    <div class="olafo-card"><div class="olafo-step-num">4</div><h3>ניתוח הליכה</h3><p>הליכה במעבדה עם חיישנים ומצלמות תנועה.</p></div>
+    <div class="olafo-card"><div class="olafo-step-num">4</div><h3>ניתוח הליכה</h3><p>הליכה במעבדה בטכניון עם חיישנים ומצלמות תנועה.</p></div>
   </div>
 </div>
 
 <div class="section" id="olafo-form" style="padding-top:0">
   <h2 class="section-title">טופס הרשמה</h2>
-  <p style="margin-bottom:18px;">נבחן את המועמדות ונחזור אליכם.</p>
+  <p style="margin-bottom:18px;">אנא מלאו את פרטיכם ואנו נחזור</p>
 
   <div class="olafo-success" id="olafo-ok" role="status" tabindex="-1">
     <h3>תודה רבה!</h3>
@@ -112,7 +111,7 @@ noindex: true
     <div class="olafo-field"><label for="o-injury">סוג הפציעה (אם ידוע)</label><input type="text" id="o-injury" placeholder="לדוגמה: שבר בקרסול, החלמה מניתוח..." /></div>
     <div class="olafo-row">
       <div class="olafo-field"><label for="o-idate">תאריך הפציעה <span class="req">*</span></label><input type="date" id="o-idate" /><div class="olafo-err">יש להזין תאריך פציעה</div></div>
-      <div class="olafo-field"><label for="o-sdate">תאריך הניתוח</label><input type="date" id="o-sdate" /></div>
+      <div class="olafo-field"><label for="o-sdate">תאריך הניתוח (אופציונלי)</label><input type="date" id="o-sdate" /></div>
     </div>
     <div class="olafo-field"><label for="o-notes">הערות נוספות (אופציונלי)</label><textarea id="o-notes" placeholder="האם יש מידע נוסף שתרצה/י שנדע?"></textarea></div>
     <div class="olafo-field">
@@ -128,9 +127,9 @@ noindex: true
 <div class="olafo-trust">
   <div class="section">
     <div class="olafo-cards" style="margin-top:0">
-      <div class="olafo-card"><h3>אושר על ידי ועדת אתיקה</h3><p>המחקר נסקר ואושר על ידי ועדת האתיקה המוסדית הלסינקי.</p></div>
+      <div class="olafo-card"><h3>אושר על ידי ועדת אתיקה</h3><p>המחקר נסקר ואושר על ידי ועדת האתיקה מרכז הרפואי רמב"ם.</p></div>
       <div class="olafo-card"><h3>הגנה על פרטיות</h3><p>המידע שלך נשמר בצורה מאובטחת ומשמש רק לבדיקת התאמה למחקר.</p></div>
-      <div class="olafo-card"><img class="olafo-trust-logo" src="{{ '/assets/img/olafo/rambam_logo.jpeg' | relative_url }}" alt="רמב״ם" width="42" height="42" /><h3>שותפים קליניים</h3><p>המחקר מתנהל על ידי הטכניון בשיתוף רמב"ם.</p></div>
+      <div class="olafo-card"><img class="olafo-trust-logo" src="{{ '/assets/img/olafo/rambam_logo.jpeg' | relative_url }}" alt="רמב״ם" width="42" height="42" /><h3>שותפים קליניים</h3><p>המחקר מתנהל על ידי הטכניון בשיתוף מרכז הרפואי רמב"ם.</p></div>
     </div>
   </div>
 </div>
