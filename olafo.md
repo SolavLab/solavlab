@@ -15,11 +15,12 @@ noindex: true
   .olafo .section-title::after { margin-right: 0; margin-left: auto; }
   .olafo p { color: var(--text-mid); }
   .olafo-badge { display: inline-block; background: var(--sky-light); color: var(--navy); font-weight: 600; font-size: 1rem; padding: 4px 16px; border-radius: 999px; margin-bottom: 12px; }
-  .olafo-intro { display: grid; grid-template-columns: 1.2fr 1fr; gap: 36px; align-items: center; }
+  .olafo-intro { max-width: 760px; }
+  .olafo-media { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 22px; align-items: start; }
   .olafo-figure { margin: 0; }
-  .olafo-intro img { width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--card-shadow); }
-  .olafo-figure figcaption { font-size: 1rem; line-height: 1.5; margin-top: 8px; }
-  .olafo-figure figcaption a { color: var(--sky); }
+  .olafo-figure img, .olafo-figure video { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); box-shadow: var(--card-shadow); background: #000; }
+  .olafo-figure video { object-fit: contain; }
+  .olafo-figure figcaption { font-size: 1.1rem; line-height: 1.5; margin-top: 8px; color: var(--text-mid); }
   .olafo .btn { border: 0; cursor: pointer; font-family: inherit; font-size: 1.15rem; padding: 12px 30px; margin-top: 20px; }
   .olafo-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-top: 18px; }
   .olafo-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--card-shadow); }
@@ -51,7 +52,7 @@ noindex: true
   .olafo-fail { background: #fdecea; color: #7a1c14; }
   .olafo-fail p { color: #7a1c14; }
   .olafo-contact { margin-top: 20px; }
-  @media (max-width: 760px) { .olafo-intro, .olafo-row { grid-template-columns: 1fr; } .olafo-form { padding: 18px; } .olafo { font-size: 1.1rem; } }
+  @media (max-width: 760px) { .olafo-media, .olafo-row { grid-template-columns: 1fr; } .olafo-form { padding: 18px; } .olafo { font-size: 1.1rem; } }
 </style>
 
 <div class="olafo" lang="he" dir="rtl">
@@ -64,14 +65,17 @@ noindex: true
 
 <div class="section">
   <div class="olafo-intro">
-    <div>
-      <span class="olafo-badge">גיוס משתתפים פעיל</span>
-      <h2 class="section-title">להחזיר את התנועה הטבעית</h2>
-      <p>אנו מגייסים משתתפים למחקר קליני שמטרתו להעריך סד המאפשר הליכה טבעית ללא העמסת כף הרגל הפגועה. המשתתפים יקבלו סד בהתאמה אישית וניתוח הליכה במעבדה, ללא עלות.</p>
-    </div>
+    <span class="olafo-badge">גיוס משתתפים פעיל</span>
+    <h2 class="section-title">להחזיר את התנועה הטבעית</h2>
+    <p>אנו מגייסים משתתפים למחקר קליני שמטרתו להעריך סד המאפשר הליכה טבעית ללא העמסת כף הרגל הפגועה. המשתתפים יקבלו סד בהתאמה אישית וניתוח הליכה במעבדה, ללא עלות.</p>
+  </div>
+  <div class="olafo-media">
     <figure class="olafo-figure">
       <img src="{{ '/assets/img/olafo/OLAFO.png' | relative_url }}" alt="אדם הולך בביטחון עם סד קרסול OLAFO" loading="lazy" />
-      <figcaption><a href="{{ '/assets/img/research/afo-video.mp4' | relative_url }}" target="_blank" rel="noopener">לצפייה בסרטון (1:15): הסד בשימוש בזמן הליכה, ברמות הפחתת עומס שונות</a></figcaption>
+    </figure>
+    <figure class="olafo-figure">
+      <video aria-describedby="olafo-video-desc" src="{{ '/assets/img/research/afo-video.mp4' | relative_url }}#t=1" controls preload="metadata" playsinline></video>
+      <figcaption id="olafo-video-desc">סרטון (1:15): הסד בשימוש בזמן הליכה</figcaption>
     </figure>
   </div>
 </div>
