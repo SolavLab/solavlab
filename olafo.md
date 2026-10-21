@@ -53,6 +53,19 @@ noindex: true
   .olafo-fail p { color: #7a1c14; }
   .olafo-contact { margin-top: 20px; }
   @media (max-width: 760px) { .olafo-media, .olafo-row { grid-template-columns: 1fr; } .olafo-form { padding: 18px; } .olafo { font-size: 1.1rem; } }
+  .responsive-text {
+  font-size: 1.05rem; /* גודל במחשב */
+  line-height: 1.6;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+/* התאמה אוטומטית לטלפונים ניידים */
+@media (max-width: 768px) {
+  .responsive-text {
+    font-size: 0.92rem; /* הקטנה קלה רק בנייד כדי שלא ייחתך */
+  }
+}
 </style>
 
 <div class="olafo" lang="he" dir="rtl">
@@ -68,8 +81,8 @@ noindex: true
   <div class="olafo-intro">
     <span class="olafo-badge">גיוס משתתפים פעיל</span>
     <h2 class="section-title">להחזיר את התנועה הטבעית</h2>
-    <p style="white-space: nowrap;">אנו מגייסים משתתפים למחקר קליני שמטרתו להעריך סד המאפשר הליכה טבעית ללא העמסת כף הרגל הפגועה.</p>
-    <p> המשתתפים יקבלו סד בהתאמה אישית וניתוח הליכה במעבדה, ללא עלות.</p>
+    <p class="responsive-text">אנו מגייסים משתתפים למחקר קליני שמטרתו להעריך סד המאפשר הליכה טבעית ללא העמסת כף הרגל הפגועה.</p>
+    <p class="responsive-text">המשתתפים יקבלו סד בהתאמה אישית וניתוח הליכה במעבדה, ללא עלות.</p>
   </div>
   <div class="olafo-media">
     <figure class="olafo-figure">
