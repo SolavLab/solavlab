@@ -59,7 +59,8 @@ noindex: true
 
 <div class="page-hero">
   <div class="page-hero-inner">
-    <h1>מחקר OLAFO: סד קרסול מתקדם בהתאמה אישית</h1>
+    <h1>מחקר OLAFO (Offloading Ankle-Foot Orthosis):</h1>
+    <h1> סד קרסול מתקדם בהתאמה אישית</h1>
   </div>
 </div>
 
