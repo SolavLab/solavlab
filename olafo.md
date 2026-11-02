@@ -121,8 +121,8 @@ noindex: true
 </div>
 
 <div class="section" id="olafo-form" style="padding-top:0">
-  <h2 class="section-title">טופס הרשמה</h2>
-  <p style="margin-bottom:18px;">אנא מלאו את פרטיכם ואנו נחזור</p>
+  <h2 class="section-title">יצירת קשר</h2>
+ <!-- <p style="margin-bottom:18px;">אנא מלאו את פרטיכם ואנו נחזור</p>-->
 
   <div class="olafo-success" id="olafo-ok" role="status" tabindex="-1">
     <h3>תודה רבה!</h3>
@@ -132,11 +132,15 @@ noindex: true
     <p>אירעה שגיאה בשליחה. נסו שוב, או פנו אלינו ישירות בדוא״ל.</p>
   </div>
 
-<div class="olafo-embed">
+<!-- <div class="olafo-embed">
   <iframe src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=TCxQ8S7uHEGXFchV9nU7hGm5XGIz2y1OjNaJus3DzblURjBUVEZZN0VOTk4zSFVWWlpYOUlFUkZRNy4u&embed=true&lang=he-IL" loading="lazy" scrolling="no"></iframe>
-</div>
+</div> -->
 
-  <p class="olafo-contact">לשאלות: אשראק ספורי, {% include email.html address="eshraqs@campus.technion.ac.il" %}</p>
+<p class="olafo-contact">
+  לשאלות: אשראק ספורי,
+  {% include email.html address="eshraqs@campus.technion.ac.il" %}
+  | טלפון: <a href="tel:0544405489">0544405489</a>
+</p>
 </div>
 
 <div class="olafo-trust">
