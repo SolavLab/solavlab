@@ -113,10 +113,9 @@ noindex: true
 <div class="section" style="padding-top:0">
   <h2 class="section-title">איך משתתפים?</h2>
   <div class="olafo-cards">
-    <div class="olafo-card"><div class="olafo-step-num">1</div><h3>טופס קצר</h3><p>ממלאים את הטופס למטה, ואנו חוזרים אליכם.</p></div>
-    <div class="olafo-card"><div class="olafo-step-num">2</div><h3>סריקה תלת-ממדית</h3><p> אם נמצאתם מתאימים למחקר, נתאם סריקה של הרגל במעבדה בטכניון.</p></div>
-    <div class="olafo-card"><div class="olafo-step-num">3</div><h3>הסד האישי</h3><p>הסד מיוצר ומותאם עבורכם.</p></div>
-    <div class="olafo-card"><div class="olafo-step-num">4</div><h3>ניתוח הליכה</h3><p>הליכה במעבדה בטכניון עם חיישנים ומצלמות תנועה.</p></div>
+    <div class="olafo-card"><div class="olafo-step-num">1</div><h3>סריקה תלת-ממדית</h3><p> תיאום פגישה לסריקה של הרגל במעבדה בטכניון.</p></div>
+    <div class="olafo-card"><div class="olafo-step-num">2</div><h3>הסד האישי</h3><p>הסד מיוצר ומותאם עבורכם.</p></div>
+    <div class="olafo-card"><div class="olafo-step-num">3</div><h3>ניתוח הליכה</h3><p>הליכה במעבדה בטכניון עם חיישנים ומצלמות תנועה.</p></div>
   </div>
 </div>
 
@@ -147,7 +146,6 @@ noindex: true
   <div class="section">
     <div class="olafo-cards" style="margin-top:0">
       <div class="olafo-card"><h3>אושר על ידי ועדת אתיקה</h3><p>המחקר נסקר ואושר על ידי ועדת האתיקה מרכז הרפואי רמב"ם.</p></div>
-      <div class="olafo-card"><h3>הגנה על פרטיות</h3><p>המידע שלך נשמר בצורה מאובטחת ומשמש רק לבדיקת התאמה למחקר.</p></div>
       <div class="olafo-card"><img class="olafo-trust-logo" src="{{ '/assets/img/olafo/rambam_logo.jpeg' | relative_url }}" alt="רמב״ם" width="42" height="42" /><h3>שותפים קליניים</h3><p>המחקר מתנהל על ידי הטכניון בשיתוף מרכז הרפואי רמב"ם.</p></div>
     </div>
   </div>
