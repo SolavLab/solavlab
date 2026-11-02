@@ -141,8 +141,7 @@ noindex: true
   {% include email.html address="eshraqs@campus.technion.ac.il" %}
   </p>
 </div>
-  <!-- | נייד: <a href="tel:0544405489">0544405489</a> -- >
-
+  <!-- | נייד: <a href="tel:0544405489">0544405489</a> -->
 
 <div class="olafo-trust">
   <div class="section">
