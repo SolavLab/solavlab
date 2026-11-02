@@ -139,7 +139,7 @@ noindex: true
 <p class="olafo-contact">
   לשאלות: אשראק ספורי,
   {% include email.html address="eshraqs@campus.technion.ac.il" %}
-  | נייד: <a href="tel:0544405489">0544405489</a>
+  <!-- | נייד: <a href="tel:0544405489">0544405489</a> -- >
 </p>
 </div>
 
