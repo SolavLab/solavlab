@@ -51,9 +51,12 @@ Use the SVG files for print and posters; use PNG for Word / PowerPoint.
 
 ## Deploy
 Push to `main` → the GitHub Actions workflow (`.github/workflows/pages.yml`) builds and deploys
-→ live at https://solavlab.github.io/solavlab/ within a couple of minutes.
+→ live at https://www.solavlab.com/ within a couple of minutes.
 
-### Moving solavlab.com over (when the site is ready)
-1. Add a `CNAME` file containing `solavlab.com`.
-2. In `_config.yml`: `url: "https://www.solavlab.com"`, `baseurl: ""`.
-3. Set the custom domain in the repo's Settings → Pages, then update DNS at the registrar.
+### Domain
+- The custom domain `www.solavlab.com` is set in the repo's Settings → Pages (no `CNAME` file is
+  needed with the Actions deploy). `solavlab.com` and `solavlab.github.io/solavlab` redirect to it.
+- The domain is registered at Wix, which also hosts its DNS. The website uses four A records
+  (`185.199.108-111.153`) and CNAME `www` → `solavlab.github.io`.
+- Email (Google Workspace) depends on the MX and SPF/verification TXT records. Never remove them
+  when editing DNS.

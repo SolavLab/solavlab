@@ -5,8 +5,8 @@ description: >
   (Haifa, Israel) that studies human musculoskeletal biomechanics and develops
   innovative medical devices and research tools to improve the comfort and
   function of prosthetic and orthotic users.
-url: "https://solavlab.github.io"   # at domain cutover: "https://www.solavlab.com"
-baseurl: "/solavlab"                # at domain cutover: ""
+url: "https://www.solavlab.com"
+baseurl: ""
 timezone: Asia/Jerusalem
 
 email: sobig@technion.ac.il
