@@ -105,7 +105,9 @@ layout: default
       <h2 class="section-title" style="margin-bottom:0"><a href="{{ '/team/' | relative_url }}">Our Team</a></h2>
       <a href="{{ '/team/' | relative_url }}">Meet the team →</a>
     </div>
-    <div class="home-team">
+    {%- comment -%} Two even rows: half the team per row (the odd one out goes in the top row). {%- endcomment -%}
+    {% assign per_row = site.data.team.current.size | plus: 1 | divided_by: 2 %}
+    <div class="home-team" style="--per-row: {{ per_row }};">
       {% for member in site.data.team.current %}
       <a class="home-team-member" href="{{ '/team/' | relative_url }}" title="{{ member.name }}, {{ member.role }}">
         <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" loading="lazy" />

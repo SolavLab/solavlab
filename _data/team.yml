@@ -14,7 +14,6 @@ current:
 
   - name: Prof. Dana Solav
     role: Principal Investigator
-    dept: Faculty of Mechanical Engineering
     email: dana@solavlab.com
     photo: "/assets/img/team/dana-solav.jpg"
     linkedin: "https://www.linkedin.com/in/dana-solav-31878b41/"
@@ -31,7 +30,6 @@ current:
     role: PhD Student
     linkedin: "https://www.linkedin.com/in/zohar-oddes/"
     orcid: "https://orcid.org/0000-0002-0548-7300"
-    degree: "BSc Mechanical Engineering, Technion (2020)"
     email: zohar.oddes@campus.technion.ac.il
     photo: "/assets/img/team/zohar-oddes.jpg"
 
@@ -39,7 +37,6 @@ current:
     role: PhD Student
     linkedin: "https://www.linkedin.com/in/eshraq-saffuri-643398139/"
     orcid: "https://orcid.org/0009-0005-3621-9076"
-    degree: "BSc Mechanical Engineering, Tel-Aviv Uni. (2021)"
     email: eshraqs@campus.technion.ac.il
     photo: "/assets/img/team/eshraq-saffuri.jpg"
 
@@ -53,28 +50,24 @@ current:
     role: MSc Student
     linkedin: "https://www.linkedin.com/in/ben-sarfati/"
     orcid: "https://orcid.org/0009-0008-4259-7235"
-    degree: "BSc Mechanical Engineering, Technion (2024)"
     email: bsarfati@campus.technion.ac.il
     photo: "/assets/img/team/benjamin-sarfati.jpg"
 
   - name: Brit Rottenberg
     role: MSc Student
     linkedin: "https://www.linkedin.com/in/brit-rottenberg/"
-    degree: "BSc Mechanical Engineering, Technion (2023)"
     email: britrot@campus.technion.ac.il
     photo: "/assets/img/team/brit-rottenberg.jpg"
 
   - name: Eldad Armoza
     role: MSc Student
     linkedin: "https://www.linkedin.com/in/eldad-armoza-ba4340172/"
-    degree: "BSc Mechanical Engineering, BGU (2021)"
     email: eldad.armoza@campus.technion.ac.il
     photo: "/assets/img/team/eldad-armoza.jpg"
 
   - name: Ahuvah Liebman
     role: MSc Student
     linkedin: "https://www.linkedin.com/in/ahuvah-liebman"
-    degree: "BSc Mechanical Engineering, UCLA (2026)"
     email: ahuvah.l@campus.technion.ac.il
     photo: "/assets/img/team/ahuvah-liebman.jpg"
 

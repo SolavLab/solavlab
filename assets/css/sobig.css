@@ -899,14 +899,16 @@ nav {
 .home-band { background: var(--white); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 .home-research-grid { grid-template-columns: repeat(4, 1fr); }
 .news-card-date { font-size: 0.78rem; color: var(--text-light); margin-bottom: 6px; }
-.home-team { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 44px; }
-.home-team-member { display: flex; flex-direction: column; align-items: center; gap: 8px; text-decoration: none; width: 88px; }
-.home-team-member img { width: 88px; height: 88px; border-radius: 50%; object-fit: cover; border: 2px solid var(--border); transition: border-color 0.15s, transform 0.15s; }
+/* Team strip: --per-row (set in home.html) photos per row, rows centred, photos grow to fill the width. */
+.home-team { --gap: 24px; display: flex; flex-wrap: wrap; justify-content: center; gap: 22px var(--gap); margin-bottom: 44px; }
+.home-team-member { display: flex; flex-direction: column; align-items: center; gap: 8px; text-decoration: none;
+  flex: 0 0 calc((100% - (var(--per-row) - 1) * var(--gap)) / var(--per-row)); min-width: 0; }
+.home-team-member img { width: 100%; max-width: 140px; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; border: 2px solid var(--border); transition: border-color 0.15s, transform 0.15s; }
 .home-team-member span { font-size: 0.82rem; color: var(--text-mid); }
 .home-team-member:hover img { border-color: var(--sky); transform: translateY(-2px); }
 .home-join { margin-bottom: 0; }
 @media (max-width: 900px) { .home-research-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 560px) { .home-research-grid { grid-template-columns: 1fr; } .home-team { gap: 14px; } .home-team-member, .home-team-member img { width: 72px; } .home-team-member img { height: 72px; } }
+@media (max-width: 560px) { .home-research-grid { grid-template-columns: 1fr; } .home-team { --per-row: 4 !important; --gap: 14px; } }
 
 /* ── boxes: visible edge + soft shadow on any background ── */
 .news-card, .research-card, .facility-card, .link-card, .press-card, .topic-link {
