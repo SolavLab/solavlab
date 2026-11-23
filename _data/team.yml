@@ -71,6 +71,11 @@ current:
     email: eldad.armoza@campus.technion.ac.il
     photo: "/assets/img/team/eldad-armoza.jpg"
 
+  - name: Ahuvah Liebman
+    role: MSc Student
+    degree: "BSc Mechanical Engineering, UCLA (2026)"
+    photo: "/assets/img/team/ahuvah-liebman.jpg"
+
   - name: Yahli Mendler
     role: Undergraduate R&D Assistant
     linkedin: "https://www.linkedin.com/in/yahli-mendler-476b9b245/"
