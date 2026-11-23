@@ -73,7 +73,9 @@ current:
 
   - name: Ahuvah Liebman
     role: MSc Student
+    linkedin: "https://www.linkedin.com/in/ahuvah-liebman"
     degree: "BSc Mechanical Engineering, UCLA (2026)"
+    email: ahuvah.l@campus.technion.ac.il
     photo: "/assets/img/team/ahuvah-liebman.jpg"
 
   - name: Yahli Mendler

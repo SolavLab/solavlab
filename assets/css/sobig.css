@@ -335,7 +335,10 @@ nav {
   gap: 32px;
   margin-bottom: 56px;
 }
-.team-card { text-align: center; }
+/* Cards in a row share its height; the icons sit at the bottom so they line up
+   across the row however many text lines each card has. */
+.team-card { text-align: center; display: flex; flex-direction: column; }
+.team-card .team-social { justify-content: center; margin-top: auto; padding-top: 10px; }
 .team-card img {
   width: 100%;
   max-width: 190px;

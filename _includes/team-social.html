@@ -1,6 +1,6 @@
 {% comment %} Email / LinkedIn / Google Scholar / ORCID icons for one team member (pass member=...). {% endcomment %}
 {% if include.member.email or include.member.linkedin or include.member.scholar or include.member.orcid %}
-<div class="social-icons team-social" style="justify-content:center; margin-top:10px;">
+<div class="social-icons team-social">
   {% if include.member.email %}
   {%- capture envelope -%}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.2L4.4 7H19.6L12 12.2zM4 8.6V17h16V8.6l-7.43 5.07a1 1 0 0 1-1.14 0L4 8.6z"/></svg>{%- endcapture -%}
   {% include email.html address=include.member.email text=envelope class="team-email-icon" %}
