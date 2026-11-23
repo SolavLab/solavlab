@@ -26,6 +26,24 @@
 
 - year: 2026
   type: preprint
+  title: "PROST: An Open Toolbox, Harmonised Multi-Lab Dataset, and Meta-Analysis of Ankle-Foot Roll-Over Shape"
+  authors: "Reichsbouscher C., Solav D."
+  venue: "bioRxiv"
+  doi: "10.64898/2026.11.05.764655"
+  code: "https://github.com/SolavLab/PROST"
+  image: "/assets/img/publications/prost.jpg"
+
+- year: 2026
+  type: preprint
+  title: "Accuracy of inside-out visual-inertial tracking pipelines for freehand 3D ultrasound probe localization"
+  authors: "Oddes Z., Solav D."
+  venue: "engrXiv"
+  doi: "10.31224/8470"
+  code: "https://github.com/SolavLab/freehand-us-tracking-eval"
+  image: "/assets/img/publications/freehand-us-tracking.jpg"
+
+- year: 2026
+  type: preprint
   title: "An Adjustable Offloading Ankle-Foot Orthosis: Design and Proof-of-Concept Biomechanical Verification"
   authors: "Saffuri E., Jordan L., Solav D."
   venue: "bioRxiv"

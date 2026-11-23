@@ -11,6 +11,18 @@
 #   paper:       optional — link to the paper describing the code ("Paper" button)
 # ─────────────────────────────────────────────────────────────────────────────
 
+- name: "PROST"
+  description: "Public ROS Toolbox: standardised computation of ankle-foot roll-over shape from gait data"
+  github: "https://github.com/SolavLab/PROST"
+  paper: "https://doi.org/10.64898/2026.11.05.764655"
+  image: "/assets/img/publications/code-prost.jpg"
+
+- name: "freehand-us-tracking-eval"
+  description: "Accuracy evaluation of visual-inertial tracking pipelines for freehand 3D ultrasound probe localization"
+  github: "https://github.com/SolavLab/freehand-us-tracking-eval"
+  paper: "https://doi.org/10.31224/8470"
+  image: "/assets/img/publications/code-freehand-us-tracking.jpg"
+
 - name: "MultiDIC"
   description: "MATLAB Toolbox for Multi-View 3D Digital Image Correlation"
   github: "https://github.com/MultiDIC/MultiDIC"
